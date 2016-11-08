@@ -1,0 +1,257 @@
+body {
+	overflow-y: scroll; _overflow-y: auto;
+}
+.btn-pos {
+	height: 1px; z-index: 200;
+}
+.wrap-home {
+	margin: 0px auto; width: 860px;
+}
+.home-container {
+	padding-bottom: 20px;
+}
+.amp-process .percent {
+	border-radius: 3px; border: 1px solid rgb(229, 228, 228); width: 100%; height: 9px; font-size: 0px; float: left;
+}
+.amp-process .percent em {
+	background: rgb(30, 178, 213); margin: -1px 0px; height: 11px; display: block;
+}
+.amp-process .text {
+	line-height: 11px; padding-left: 3px; float: left;
+}
+.home-banner-1 {
+	height: 320px;
+}
+.flash {
+	margin: 0px auto; width: 100%; height: 320px; overflow: hidden; clear: both; position: relative; z-index: 500; zoom: 1;
+}
+.flash .prev {
+	width: 40px; height: 90px; color: rgb(255, 255, 255); font-size: 50px; font-weight: 700; text-decoration: none; margin-top: 115px; display: none; position: absolute; z-index: 669;
+}
+.flash .next {
+	width: 40px; height: 90px; color: rgb(255, 255, 255); font-size: 50px; font-weight: 700; text-decoration: none; margin-top: 115px; display: none; position: absolute; z-index: 669;
+}
+.flash .prev {
+	background: url("/static/images/home/home-banner1-prev-dcdae6d.png") no-repeat 0px 0px; left: -30px; _background: url(/static/images/home/home-banner1-prev-6-7dc7bda.png) no-repeat 0 0;
+}
+.flash .next {
+	background: url("/static/images/home/home-banner1-next-6e42672.png") no-repeat 0px 0px; right: -30px; _background: url(/static/images/home/home-banner1-next-6-417c52a.png) no-repeat 0 0;
+}
+.flash .items {
+	background-position: 50% 0px; left: 0px; top: 0px; width: 100%; height: 320px; text-align: center; position: absolute;
+}
+.flash .first {
+	z-index: 3;
+}
+.main-banner .first {
+	z-index: 3;
+}
+.flash_bar {
+	padding: 10px 0px; left: 50%; height: 30px; text-align: center; bottom: 0px; overflow: hidden; position: absolute; z-index: 269;
+}
+.flash_bar .dq {
+	background: url("/static/images/home/home-banner1-dot-d2d10e1.png") no-repeat 0px 0px; margin: 5px; width: 15px; height: 15px; display: inline-block; cursor: pointer; _background: 0 0;
+}
+.flash_bar .no {
+	background: url("/static/images/home/home-banner1-dot-d2d10e1.png") no-repeat 0px 0px; margin: 5px; width: 15px; height: 15px; display: inline-block; cursor: pointer; _background: 0 0;
+}
+.slide-mid-bar .no {
+	background: url("/static/images/home/home-banner1-dot-d2d10e1.png") no-repeat 0px 0px; margin: 5px; width: 15px; height: 15px; display: inline-block; cursor: pointer; _background: 0 0;
+}
+.slide-mid-bar .dq {
+	background: url("/static/images/home/home-banner1-dot-d2d10e1.png") no-repeat 0px 0px; margin: 5px; width: 15px; height: 15px; display: inline-block; cursor: pointer; _background: 0 0;
+}
+.flash_bar .no {
+	background: url("/static/images/home/home-banner1-core-7cdc32f.png") no-repeat 0px 0px; _background: 0 0;
+}
+.slide-mid-bar .no {
+	background: url("/static/images/home/home-banner1-core-7cdc32f.png") no-repeat 0px 0px; _background: 0 0;
+}
+.flashBg {
+	margin: 0px; padding: 0px; width: 100%; height: 320px; overflow: hidden; clear: both;
+}
+.home-about-top {
+	padding: 32px 0px 27px; overflow: hidden; zoom: 1;
+}
+.about-top-list {
+	margin-right: -200px; margin-left: 60px;
+}
+.about-top-list li {
+	line-height: 23px; padding-right: 188px; float: left;
+}
+.about-top-list li a {
+	text-align: center; color: rgb(86, 86, 86); font-size: 16px; float: left;
+}
+.about-top-list li a:hover {
+	color: rgb(233, 93, 1); text-decoration: none;
+}
+.about-top-list li a b {
+	background: url("/static/images/home/home-top-icons-f086ace.png") no-repeat 0px 0px; width: 148px; height: 148px; overflow: hidden; display: block;
+}
+.about-top-list li a.safe b {
+	
+}
+.about-top-list li a.income b {
+	background-position: -338px 0px;
+}
+.about-top-list li a.ensurve b {
+	background-position: -674px 0px;
+}
+.about-top-list li a p {
+	padding-top: 8px;
+}
+.home-main {
+	width: 967px;
+}
+.home-side {
+	width: 265px; float: right;
+}
+.pro-inner {
+	padding: 15px 15px 10px;
+}
+.main-items {
+	border-radius: 5px; border: 1px solid rgb(229, 229, 229); margin-bottom: 15px;
+}
+.main-pro {
+	background: rgb(255, 255, 255); border-radius: 5px;height:825px;
+}
+.main-banner {
+	line-height: 0; overflow: hidden;
+}
+.pro-items {
+	border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pro-link {
+	border: 1px solid rgb(255, 255, 255); display: block;
+}
+.out-link {
+	border: 1px solid rgb(255, 255, 255); display: block;
+}
+.pro-link:hover {
+	border: 1px solid rgb(233, 93, 1); text-decoration: none;
+}
+.out-link:hover {
+	border: 1px solid rgb(233, 93, 1); text-decoration: none;
+}
+.start-link:hover {
+	border-color: rgb(48, 205, 152);
+}
+.out-link:hover {
+	border-color: rgb(168, 168, 168);
+}
+:last-child.pro-items .pro-link {
+	border-radius: 0px 0px 5px 5px;
+}
+:last-child.pro-items .out-link {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.pro-name i {
+	font-family: arial;
+}
+
+
+.pro-handler {
+	width: 110px; float: right;
+}
+.pro-info {
+	padding-top: 15px;
+}
+.pro-info-list {
+	margin-right: -40px;
+}
+
+.pro-start {
+	color: rgb(86, 86, 86); overflow: hidden; font-size: 12px; margin-bottom: 4px; zoom: 1;
+}
+.pro-handler-btn .btn-link {
+	padding: 0px; width: 110px;
+}
+.side-items {
+	background: rgb(255, 255, 255); border-radius: 5px; border: 1px solid rgb(229, 229, 229); color: rgb(86, 86, 86); margin-bottom: 15px;
+}
+.side-title {
+	padding-top: 15px;
+}
+.side-title-inner {
+	height: 20px; line-height: 20px;
+}
+.side-title-inner h2 {
+	text-indent: 15px; font-size: 18px; float: left;
+}
+.side-count {
+	padding: 16px 0px 0px 20px;
+}
+.side-count li {
+	background: url("/static/images/home/side-count-icons-d0b9836.png") no-repeat 0px 0px; padding-left: 60px; margin-bottom: 18px;
+}
+.side-count li.sum {
+	
+}
+.side-count li.total {
+	background-position: 0px -51px;
+}
+.side-count li.create {
+	background-position: 0px -100px;
+}
+.side-count h3 {
+	font-size: 14px; font-weight: 400;
+}
+.side-info strong {
+	line-height: 24px; font-family: arial; font-size: 24px;
+}
+.state-inner {
+	padding: 10px 15px 8px;
+}
+a.side-more {
+	color: rgb(234, 107, 38); padding-right: 15px; font-size: 14px; float: right;
+}
+a.side-more i {
+	font-family: serif;
+}
+.news-list li {
+	background: url("/static/images/home/news-list-icons-8f4e534.png") no-repeat 0px 11px; width: 210px; padding-left: 14px; margin-bottom: 6px;
+}
+.news-list li:nth-child(2n) {
+	background-position: 0px -70px;
+}
+.news-list li a {
+	height: 25px; line-height: 25px; overflow: hidden; font-size: 14px;
+}
+.news-list li a:hover {
+	text-decoration: none;
+}
+.jym-house {
+	line-height: 0;
+}
+.bank-process {
+	margin-bottom: 7px;
+}
+.bank-process .percent {
+	background: rgb(242, 242, 242); border-radius: 5px; width: 70%; height: 8px; font-size: 0px; float: left;margin-top:6px;
+}
+
+.bank-process .text {
+	line-height: 8px; padding-left: 3px; float: left;
+}
+.sell-out-bar .percent em {
+	background: rgb(185, 236, 219);
+}
+.slide-mid-banner {
+	overflow: hidden; position: relative; zoom: 1;
+}
+.slide-mid-banner .items {
+	background-position: 50% 0px; left: 0px; top: 0px; width: 100%; height: 200px; text-align: center; position: absolute;
+}
+.slide-mid-banner .items img {
+	border-radius: 5px 5px 0px 0px;
+}
+.slide-mid-bar {
+	padding: 10px 0px; left: 540px; height: 30px; text-align: center; bottom: 8px; overflow: hidden; position: absolute; z-index: 369;
+}
+.home-inner-b1 {
+	background: rgb(255, 255, 255); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.main-items {
+	background: rgb(255, 255, 255); border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}

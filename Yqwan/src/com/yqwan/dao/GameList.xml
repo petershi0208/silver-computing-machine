@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IGameListDao">
+	<resultMap type="com.yqwan.domain.Gamelist" id="bontiquegame">
+		<association property="gameinfo" column="id" select="com.yqwan.dao.IGameInfoDao.findbygamenamea"></association>
+	</resultMap>
+	
+	<!-- 内购和H5游戏 -->
+	<select id="listneigouhAll" resultType="com.yqwan.domain.Gamelist">
+		 select new.*,d.* from (select gamename,gameid,gametype,descrip,mainpicture,indexpicture from gamelist where gametype='内购游戏' or gametype='H5游戏') new
+         left join gamedistrict d on d.gamename=new.gamename  AND d.id in (select max(id) from gamedistrict group by gamename) order by d.date desc limit 0,8
+    </select>
+	
+	<!-- 查询挂机类或者内购类前三记录 -->
+	<select id="listAll" resultType="com.yqwan.domain.Gamelist">
+		 select new.*,d.gameregion from (select * from gamelist where gametype=#{gametype} order by id desc limit 0,27) new
+         left join gamedistrict d on d.gamename=new.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)       
+    </select>
+    <!-- 查询单机类或者网游类所有记录（分页16） -->
+	<select id="listAllMore" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid,gametype,descrip,mainpicture,placetype,indexpicture from gamelist where gametype=#{gametype}
+         order by id desc limit #{n},16
+    </select>
+    <!-- 查询单机类或者网游类所有记录 -->
+	<select id="listAllMoreGame" resultType="com.yqwan.domain.Gamelist">
+         select gamename from gamelist where gametype=#{gametype}
+    </select>
+    
+    
+    <!-- 内购和H5游戏 -->
+	<select id="listyeyou" resultType="com.yqwan.domain.Gamelist">
+		 select new.*,d.* from (select gamename,gameid,gametype,descrip,mainpicture,indexpicture,isrecommend from gamelist where gametype='内购游戏' or gametype='H5游戏') new
+         left join gamedistrict d on d.gamename=new.gamename  AND d.id in (select max(id) from gamedistrict group by gamename) order by d.date desc limit 0,27
+    </select>
+    <!-- 内购和H5游戏(分页) -->
+	<select id="listyeyouMore" resultType="com.yqwan.domain.Gamelist">
+         select new.*,d.* from (select gamename,gameid,gametype,descrip,mainpicture,indexpicture,isrecommend from gamelist where gametype='内购游戏' or gametype='H5游戏') new
+         left join gamedistrict d on d.gamename=new.gamename  AND d.id in (select max(id) from gamedistrict group by gamename) order by d.date desc limit #{n},16
+    </select>
+    <select id="listAllyeyou" resultType="com.yqwan.domain.Gamelist">
+         select new.*,d.* from (select gamename,gameid,gametype,descrip,mainpicture,indexpicture,isrecommend from gamelist where gametype='内购游戏' or gametype='H5游戏') new
+         left join gamedistrict d on d.gamename=new.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)
+    </select>
+    
+    
+    <!-- 查询新游戏前记录 -->
+	<select id="listNewgame" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist order by date desc limit 0,27
+    </select>
+    <!-- 查询新游戏所有记录(分页) -->
+	<select id="listNewgameMore" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist order by id desc limit #{n},16
+    </select>
+    <!-- 查询新游戏所有记录 -->
+	<select id="listAllNewgameMore" resultType="com.yqwan.domain.Gamelist">
+        select id,gamename,gameid,gametype,descrip from gamelist;
+    </select>
+    
+    
+     <!-- 查询精品游戏所有记录 select list.*,info.* FROM (select * from gamelist where isboutique='是' order by id desc limit 0,12) list,gameinfo info WHERE list.gamename=info.gamename -->
+	<select id="listBoutiqueAll" resultMap="bontiquegame">
+        select * from gamelist where isboutique='是' order by id desc limit 0,12
+    </select>
+    <!-- 查询精品游戏所有记录(分页) -->
+	<select id="listBoutiqueMoreAll" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where isboutique='是' order by id desc limit #{n},16
+    </select>
+    <!-- 查询精品游戏所有记录 -->
+	<select id="listBoutiqueMoreAllGame" resultType="com.yqwan.domain.Gamelist">
+         select gamename from gamelist where isboutique='是'
+    </select>
+    
+    <!-- 查询推荐应用4个 -->
+	<select id="listrecommendAll" resultType="com.yqwan.domain.Gamelist">
+         select gamename,mainpicture from gamelist where isrecommend='是'
+         order by id desc limit 0,4
+    </select>
+    
+    <!-- 热销排行榜4个（原始sql 带最新分区的，现在不需要） -->
+	<select id="listresouAll" resultType="com.yqwan.domain.Gamelist">
+        select l.*,d.gameregion from (select * from gamelist order by score desc limit 0,27)
+ 		as l left join gamedistrict d on d.gamename=l.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)      
+    </select>
+    
+    <!-- 热销排行榜4个（原始sql 带最新分区的，现在不需要） -->
+	<select id="listhotAll" resultType="com.yqwan.domain.Gamelist">
+        select l.*,d.gameregion from (select * from gamelist order by click desc limit 0,27)
+ 		as l left join gamedistrict d on d.gamename=l.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)      
+    </select>
+    <!-- 热门所有游戏 按点击排序 -->
+	<select id="listhotAllGame" resultType="com.yqwan.domain.Gamelist">
+        select l.*,d.gameregion from (select * from gamelist order by click desc limit #{n},16)
+ 		as l left join gamedistrict d on d.gamename=l.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)
+         
+    </select>
+    
+    
+    <!-- 新游排行榜4个（原始sql 带最新分区的，现在不需要） -->
+	<select id="listnewAll" resultType="com.yqwan.domain.Gamelist">
+		select n.*,d.gameregion from (select new.* from (select * from gamelist order by id desc limit 0,27) new
+         order by click desc limit 0,27) as n left join gamedistrict d on d.gamename=n.gamename  AND d.id in (select max(id) from gamedistrict group by gamename)    
+    </select>
+    
+    <!-- 游戏详情页游戏循环-->
+	<select id="listgameinfo" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid,mainpicture,score,gametype from gamelist order by click desc limit 0,12
+    </select>
+    
+    <!-- 游戏模糊游戏循环下拉框-->
+	<select id="listselectgame" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid from gamelist where gamename LIKE CONCAT('%',#{gamename},'%') order by click desc limit 0,8
+    </select>
+     <!-- 游戏模糊查询跳更多-->
+	<select id="listselectmoregame" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid,gametype,descrip,mainpicture,indexpicture,placetype from gamelist where gamename LIKE CONCAT('%',#{gamename},'%') order by id desc limit #{n},16
+    </select>
+     <!-- 游戏模糊总共记录-->
+	<select id="listallselectmoregame" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid from gamelist where gamename LIKE CONCAT('%',#{gamename},'%')
+    </select>
+    
+    
+     <!-- 分类游戏页面条件筛选-->
+	<select id="listclassifygame" resultType="com.yqwan.domain.Gamelist">
+         select gamename from gamelist where roletype=#{roletype} AND placetype=#{placetype}
+    </select>
+    <!-- 分页-->
+	<select id="listclassifygameMore" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where roletype=#{roletype} AND placetype=#{placetype} order by id desc limit #{n},16
+    </select>
+    <select id="getgamenamebygameid" resultType="String" parameterType="int">
+         select gamename from gamelist where gameid=#{gameid};
+    </select>
+    <select id="getgameidbygamename" resultType="int" parameterType="String">
+         select gameid from gamelist where gamename=#{gamename};
+    </select>
+    
+    
+    <!-- 插入数据-->
+      <insert id="insert" parameterType="com.yqwan.domain.Gamelist">
+         insert into gamelist (gamename,gametype,descrip,placetype,roletype,mainpicture,toppicture,indexpicture,isBoutique,isrecommend,click) values(#{gamename},#{gametype},#{descrip},#{placetype},#{roletype},#{mainpicture},#{toppicture},#{indexpicture},#{isBoutique},#{isrecommend},#{click})
+     </insert>
+     
+      <!-- 查询所有角色扮演游戏 -->
+	<select id="listClassifyRole" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where roletype='角色扮演' AND placetype=#{placetype}
+         order by click desc limit 0,5
+    </select>
+    <!-- 查询所有角色扮演游戏 -->
+	<select id="listClassifyPlan" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where roletype='角色策略' AND placetype=#{placetype}
+         order by click desc limit 0,5
+    </select>
+    <!-- 查询所有角色扮演游戏 -->
+	<select id="listClassifyManage" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where roletype='角色经营' AND placetype=#{placetype}
+         order by click desc limit 0,5
+    </select>
+    <!-- 查询所有角色扮演游戏 -->
+	<select id="listClassifySpecial" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where roletype='特色类型' AND placetype=#{placetype}
+         order by click desc limit 0,5
+    </select>
+    
+    <!-- 查询专辑页游戏 -->
+	<select id="listRecord" resultType="com.yqwan.domain.Gamelist">
+         select gamename,gameid,score,mainpicture from gamelist
+         order by click desc limit 0,24
+    </select>
+    
+     
+     <!-- 查看点击量 -->
+	<select id="click" resultType="String"  parameterType="String">
+         select click from gamelist 
+         <where>
+         	gamename=#{gamename}
+         </where>
+    </select>
+    
+     <!-- 修改点击量 -->
+     <update id="modifyClick" parameterType="com.yqwan.domain.Gamelist">
+         update gamelist
+          <set>
+         	 click=#{click}
+          </set>        
+         where gamename=#{gamename}
+     </update>
+     
+     <!-- 查看所有游戏-->
+	<select id="listgamename" resultType="com.yqwan.domain.Gamelist">
+         select gamename from gamelist where gametype='内购游戏' or gametype='H5游戏' order by click desc;
+    </select>
+     <!-- 查看所有内购游戏-->
+	<select id="listneigougamename" resultType="com.yqwan.domain.Gamelist">
+         select gamename from gamelist where gametype='内购游戏' order by click desc;
+    </select>
+    
+    <!-- 按游戏名字查询 -->
+     <select id="findBygameid" parameterType="String" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist
+         <where>
+	            gamename=#{gamename}
+         </where>
+     </select>
+     
+     <!-- 分页查询所有记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Gamelist">
+          select * from gamelist
+          <where>
+          <if test="param1!=null and param1!=''">
+          	gamename like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+           order by id desc
+          limit #{param2},#{param3}
+    </select>
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" parameterType="String">
+         select count(*) from gamelist 
+         <where>
+          <if test="_parameter!=null and _parameter!=''">
+          	gamename like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where id=#{id}
+
+     </select>
+     
+     <select id="findbyname" parameterType="String" resultType="com.yqwan.domain.Gamelist">
+         select * from gamelist where gamename=#{gamename}
+
+     </select>
+     <!-- 新增 -->
+      <insert id="add" parameterType="com.yqwan.domain.Gamelist">
+         insert into gamelist(id,gamename,gameid,gametype,descrip,placetype,roletype,mainpicture,toppicture,indexpicture,isBoutique,isrecommend,click,date,score) values(#{id},#{gamename},#{gameid},#{gametype},#{descrip},#{placetype},#{roletype},#{mainpicture},#{toppicture},#{indexpicture},#{isBoutique},
+         #{isrecommend},#{click},#{date},#{score})
+     </insert>
+     
+     <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.Gamelist">
+          update gamelist
+          <set>
+              <if test="gamename!=null and gamename!=''">
+                  gamename=#{gamename},
+              </if>
+              <if test="gametype!=null and gametype!=''">
+                  gametype=#{gametype},
+              </if>
+              <if test="descrip!=null and descrip!=''">
+                  descrip=#{descrip},
+              </if>
+              <if test="placetype!=null and placetype!=''">
+                  placetype=#{placetype},
+              </if>
+              <if test="roletype!=null and roletype!=''">
+                  roletype=#{roletype},
+              </if>
+              <if test="mainpicture!=null and mainpicture!=''">
+                  mainpicture=#{mainpicture},
+              </if>
+              <if test="toppicture!=null and toppicture!=''">
+                  toppicture=#{toppicture},
+              </if>
+              <if test="indexpicture!=null and indexpicture!=''">
+                  indexpicture=#{indexpicture},
+              </if>
+              <if test="isBoutique!=null and isBoutique!=''">
+                  isBoutique=#{isBoutique},
+              </if>
+              <if test="isrecommend!=null and isrecommend!=''">
+                  isrecommend=#{isrecommend},
+              </if>
+              <if test="click!=''">
+                  click=#{click},
+              </if>
+              <if test="date!=null and date!=''">
+                  date=#{date},
+              </if>
+              gameid=#{gameid}
+          </set>
+          where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from gamelist where id=#{id}
+     </delete>
+     
+     <!-- 修改评分 -->
+     <update id="updatescore" parameterType="com.yqwan.domain.Gamelist">
+          update gamelist
+          <set>
+          	 <if test="score!=null and score!=''">
+                  score=#{score}
+              </if>
+          </set>
+          
+           where gamename=#{gamename}
+     </update>
+     
+     
+     
+      <!-- 游戏专题平台推荐应用5个 -->
+	<select id="listfiverecommend" resultType="com.yqwan.domain.Gamelist">
+         select gamename,mainpicture,gameid from gamelist
+         order by click desc limit 0,5
+    </select>
+    
+    <select id="listOpenService" resultType="com.yqwan.domain.Gamelist">
+		 select new.*,d.*,d.date ddate from (select * from gamelist where gametype='内购游戏' or gametype='H5游戏') new
+         left join gamedistrict d on d.gamename=new.gamename order by d.date desc limit 0,16
+    </select>
+    
+    
+    
+</mapper>

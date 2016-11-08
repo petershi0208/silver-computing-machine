@@ -1,0 +1,83 @@
+/* CSS Document */
+
+body{ font-family:"Microsoft YaHei";font-size:12px; margin:0 auto; padding:0 auto; background-color:#CCCCCC;}
+#nav{width:100%; height:85px; margin:0 auto;box-shadow: 2px 2px 2px #ddd; }
+.banner{z-index:-1;  background:url(/Yqwan/index/banner.png) no-repeat center; position:absolute; width:100%; height:551px;}
+#content{width:1009px; height:1600px; margin:0 auto; background-color:#fff; }
+.content_left{width:800px; height:100%; float:left;overflow:hidden;margin-left:9px;}
+
+.content{width:800px; height:426px; border:3px #ddd solid;border-top:0px #000 solid;}
+.content .top{width:798px; height:52px; border-bottom:1px #aaa solid; line-height:52px; font-size:16px;}
+.content .top img{margin-left:15px; margin-right:4px;}
+.content .centre{width:800px; height:425px; font-size:15px;}
+.content_right{width:200px; height:auto;float:left; }
+
+.center_div{
+	width:460px;
+	height:40px;
+	margin-left:20px;
+	margin-top:30px;
+}
+.center_div span{
+	color:#000;
+	font-size:14px;	
+}
+.center_div span:nth-child(3){
+	color:red;	
+	font-size:13px;	
+}
+.center_div input{
+	color:#000;
+	font-size:14px;
+	margin-left:50px;
+	width:250px;
+	height:33px;
+}
+#yesrealname input{
+	border:none;	
+}
+.center div:nth-child(1) input{
+	border:none;	
+}
+.center_confirm{
+	width:175px;
+	height:36px;
+	margin-left:160px;
+	margin-top:20px;	
+}
+.center_confirm input{
+	border:none;
+	width:70px;
+	height:36px;
+	margin-left:8px;
+	color:white;
+	font-size:10px;	
+}
+.center_confirm input:nth-child(1){
+	background:url(../images/member/qierenchengseanniu.jpg);	
+}
+.center_confirm input:nth-child(2){
+	background:url(../images/member/lanseanniu.jpg);	
+}
+.center_text{
+	border:3px solid #ddd;
+	width:255px;
+	height:118px;	
+	margin-left:500px;
+	margin-top:-175px;
+}
+.center_text span{
+	color:#3e3e3e;
+	padding-top:8px;
+	display:block;
+	text-align:center;
+	font-size:12px;	
+}
+.center_text span:nth-child(1){
+	margin-top:12px;	
+}
+/* 会员中心账号中心图片背景*/
+.content_left .nav li:nth-child(2){
+	background:#09f;
+	color:#fff;
+}

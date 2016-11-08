@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>壹管家-租客登录</title>
+    <meta name="keywords" content="壹管家-付房租登录">
+	<meta name="description" content="壹管家-付房租登录">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <link href="Css/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/login.css" type="text/css">
+    <script type="text/javascript" src="Js/jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="Js/login.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="row zktitle">
+    		<div class="col-xs-12">租客登录</div>	
+    	</div>
+    	<div class="row row1">
+    		<div class="col-xs-3">手机号:</div>
+    		<div class="col-xs-9"><input id="telephone" type="tel" placeholder="请输入手机号" maxlength="11"/></div>   		
+    	</div>
+    	<div class="teltext"><span id="teltext"></span><span id="telclose" style="font-size:18px;">&nbsp;&nbsp;&nbsp;&nbsp;×</span></div>
+    	<div class="row">
+    		<div class="col-xs-3">验证码:</div>
+    		<div class="col-xs-5"><input id="code" type="tel" placeholder="请输入验证码" maxlength="6"/></div>
+    		<div class="col-xs-4"><input id="send" type="button" value="获取验证码"/></div>
+    	</div>
+    	<div class="row queren" id="queren" unselectable="on" style="-moz-user-select:none;" onselectstart="return false;">
+    		<div class="col-xs-12">确认</div>
+    	</div>
+    </div>
+    <div class="foot">
+    	<img src="http://www.199y.com/picture/igjia/payrent/lpgo.png" width='140' height='40'/>
+    </div>
+</body>
+</html>

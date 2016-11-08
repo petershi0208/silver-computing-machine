@@ -1,0 +1,84 @@
+/* CSS Document */
+
+body{ font-family:"Microsoft YaHei";font-size:12px; margin:0 auto; padding:0 auto; background-color:#CCCCCC;color:#3e3e3e}
+#nav{width:100%; height:85px; margin:0 auto;box-shadow: 2px 2px 2px #ddd; }
+.banner{z-index:-1;  background:url(/Yqwan/index/banner.png) no-repeat center; position:absolute; width:100%; height:690px;}
+#content{width:1009px; height:1600px; margin:0 auto; background-color:#fff; }
+.content_left{width:800px; height:100%; float:left;  margin-left:9px; overflow:hidden;}
+.content{width:800px; height:750px; border:3px #ddd solid; border-top:0px #000 solid;}
+.content .top{width:798px; height:52px; border-bottom:1px #aaa solid; line-height:52px; font-size:16px;}
+.content .top img{margin-left:15px; margin-right:4px;}
+.content table{margin-left:20px;}
+.content .centre{width:800px; height:425px; font-size:15px; border-bottom:1px #aaa solid;}
+.content table .lanse{color:#0066CC;}
+.content table tr td:nth-child(2){width:300px;}
+.content .bottom{width:800px; height:490px; font-size:16px;}
+.content .bottom .address input{width:200px;}
+.content_right{width:200px; height:auto;float:left;}
+
+.changehead{
+	cursor:pointer;
+	width:70px; 
+	height:24px; 
+	line-height:24px; 
+	text-align:center; 
+	color:#fff; 
+	background:#1182e5;
+	font-size:12px;
+}
+.quickconn{
+	cursor:pointer;
+	width:70px; 
+	height:24px; 
+	line-height:24px; 
+	text-align:center; 
+	font-size:12px;
+	background:#1182e5;		
+	color:white;
+}
+.quickconn a{
+	color:#fff; 
+	text-decoration:none;
+}
+
+.phoneconn{
+	cursor:pointer;
+	width:70px; 
+	height:24px; 
+	line-height:24px; 
+	text-align:center; 
+	color:#fff; 
+	font-size:12px;
+	background:#1182e5;			
+}
+.phoneconn a{
+	color:#fff; 
+	text-decoration:none;
+}
+
+
+.charge_records{
+	z-index:-1;
+	display:none;	
+	position:fixed;
+	border:1px solid #ccc;
+	max-height:400px;
+	background:#ddd;
+	width:500px;
+	overflow:auto;
+	margin-top:-800px;
+	margin-left:150px;
+	box-shadow:0 5px 8px -2px rgba(0,0,0,.6);
+	
+}
+.charge_records tr td{
+	text-align:center;
+	height:35px;
+	width:130px;
+}
+
+/* 会员中心首页图片背景*/
+.content_left .nav li:nth-child(1){
+	background:#09f;
+	color:#fff;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.payrent.dao.IRentOrderDao"> 
+    <!-- 新增 -->
+    <insert id="add" parameterType="com.payrent.domain.RentOrder">
+         insert into rentorder(orderid,house_id,telephone,name,money,date,state) values(#{orderid},#{house_id},#{telephone},#{name},#{money},#{date},#{state})
+    </insert>
+     
+    <!-- 修改 -->
+    <update id="updateByOrderid" parameterType="String">
+          update rentorder set state=#{param2} 
+          where orderid=#{param1}
+    </update>
+    
+    <!-- 手机号号查询-->
+	<select id="findByTelephone" parameterType="String"  resultType="com.payrent.domain.RentOrder">
+		select * from rentorder where telephone=#{param1} and house_id=#{param2} and state='完成'
+	</select>
+	
+	<!-- 订单号查询-->
+	<select id="findByOrderid" parameterType="String"  resultType="com.payrent.domain.RentOrder">
+		select * from rentorder where orderid=#{orderid}
+	</select>
+</mapper>

@@ -1,0 +1,57 @@
+/* CSS Document */
+
+body{ font-family:"Microsoft YaHei";font-size:12px; margin:0 auto; padding:0 auto; background-color:#CCCCCC;}
+#nav{width:100%; height:85px; margin:0 auto;box-shadow: 2px 2px 2px #ddd; }
+.banner{z-index:-1;  background:url(/Yqwan/index/banner.png) no-repeat center; position:absolute; width:100%; height:551px;}
+#content{width:1009px; height:auto; margin:0 auto; background-color:#fff; overflow:auto;}
+.content_left{width:800px; height:100%; float:left;  margin-left:9px; overflow:hidden;}
+.content{width:800px; height:900px; border:1px #aaa solid; border-top:0px #000 solid;}
+.content .top{width:798px; height:52px; border-bottom:1px #aaa solid; line-height:52px; font-size:16px;}
+.content .top img{margin-left:15px; margin-right:4px;}
+.content table{margin-left:20px;}
+.content .centre{width:800px; height:425px; font-size:15px; border-bottom:1px #aaa solid;}
+.content table .lanse{color:#0066CC;}
+.content .bottom{width:800px; height:490px; border-bottom:1px #aaa solid; font-size:16px;}
+.content .bottom .address input{width:200px;}
+.content_right{width:200px; height:1600px;float:left; overflow:hidden;}
+
+/* �ֻ��� */
+.addemail{width:800px; height:425px; border:3px #ddd solid; border-top:0px #000 solid;}
+.addemail .marg{margin:20px; height:40px; width:780px;}
+.addemail .top{width:798px; height:52px; border-bottom:1px #aaa solid; line-height:52px; font-size:16px; cursor:pointer;}
+.addemail .top img{margin-left:15px; margin-right:10px;}
+.addemail .top .bh{margin-left:40px; font-size:13px; color:#666;}
+.addemail1{width:800px; margin-left:-1px; height:300px;border-top:0;}
+.addemail1 .sz{background:url(../images/cellphone/shezhiyouxiangyi.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; padding-left:20px; font-size:14px; color:#FFFFFF;}
+.addemail1 .sq{background:url(../images/addemail/shoujibangdingyouxiang.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; margin-left:-10px; padding-left:20px; font-size:14px; color:#333;}
+.addemail1 .bd{background:url(../images/cellphone/bangdingchenggongsande-.png) no-repeat; width:102px; height:37px; float:left; margin-left:-10px; line-height:37px; font-size:14px; text-align:center; color:#333;}
+.addemail1 .srtext{margin-left:20px; font-size:14px; height:80px; line-height:60px;}
+.addemail1 input{width:274px; height:33px; padding-left:10px; margin-left:5px;}
+.addemail1 .qr1{width:117px; height:36px; background:#1182e5; color:#fff; border-radius:3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin-left:160px; margin-top:20px; float:left;
+text-align:center; line-height:36px; font-size:15px; cursor:pointer;}
+.addemail1 .qx1{width:117px; height:36px; background:#eaeaea; color:#000; border-radius:3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin-left:30px; margin-top:20px; float:left;
+text-align:center; line-height:36px; font-size:15px; cursor:pointer;}
+
+.addemail2{width:800px; margin-left:-1px; height:300px;border-top:0;}
+.addemail2 .sz{background:url(../images/cellphone/shezhiyouxiangyi.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; padding-left:20px; font-size:14px; color:#FFFFFF;}
+.addemail2 .sq{background:url(../images/addemail/shezhiyouxianger.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; margin-left:-10px; padding-left:20px; font-size:14px; color:#FFF;}
+.addemail2 .bd{background:url(../images/cellphone/bangdingchenggongsande-.png) no-repeat; width:102px; height:37px; float:left; margin-left:-10px; line-height:37px; font-size:14px; text-align:center; color:#333;}
+.addemail2 .qrtext{width:500px; height:80px; font-size:14px; text-align:center; margin:auto;}
+.addemail2 .qr2{width:160px; height:36px; background:#ED990E; color:#fff; border-radius:3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin-left:230px;
+text-align:center; line-height:36px; font-size:15px; cursor:pointer;}
+.addemail2 .fsyz{width:400px; height:60px; margin:10px auto; line-height:36px;}
+.addemail2 .fsyz span{font-size:16px;}
+.addemail2 .fsyz input{width:150px;height:30px;}
+
+.addemail3{width:800px; margin-left:-1px; height:300px;border-top:0;}
+.addemail3 .sz{background:url(../images/cellphone/shezhiyouxiangyi.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; padding-left:20px; font-size:14px; color:#FFFFFF;}
+.addemail3 .sq{background:url(../images/addemail/shezhiyouxianger.png) no-repeat; width:119px; height:37px; float:left; line-height:37px; margin-left:-10px; padding-left:20px; font-size:14px; color:#FFF;}
+.addemail3 .bd{background:url(../images/modifyemail/xiugaiyouxiangsanbu.png) no-repeat; width:102px; height:37px; float:left; margin-left:-10px; line-height:37px; font-size:14px; text-align:center; color:#FFF;}
+.addemail3 .succ{margin:80px 240px; font-size:14px;}
+.addemail3 .succ img{margin-right:20px;}
+/* 会员中心安全中心图片背景*/
+.content_left .nav li:nth-child(3){
+	background:#09f;
+	color:#fff;
+}
+

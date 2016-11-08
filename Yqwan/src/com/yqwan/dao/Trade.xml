@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.ITradeDao">
+     
+  	  <!-- 插入充值记录 -->
+      <insert id="insert" parameterType="com.yqwan.domain.Trade">
+         insert into trade (userid,openuserid,trade_no,money,gamename,gameregion,serverid,date,state,account,pay_method,gameid,goodsName,gameOrderId,ext,gameUrl) 
+          values (#{userid},#{openuserid},#{trade_no},#{money},#{gamename},#{gameregion},#{serverid},#{date},#{state},#{account},#{pay_method},#{gameid},#{goodsName},#{gameOrderId},#{ext},#{gameUrl})
+     </insert>
+     
+     <!-- 按订单号查询 -->
+     <select id="findbytrade_no" parameterType="String" resultType="com.yqwan.domain.Trade">
+         select * from trade
+         where trade_no=#{trade_no}
+     </select>
+     
+      <!-- 修改状态 -->
+     <update id="updateState" parameterType="com.yqwan.domain.Trade">
+         update trade
+          <set>
+         	 state=#{state},date=#{date}
+          </set>        
+         where trade_no=#{trade_no}
+     </update>
+     
+     <!-- 修改有无到账 -->
+     <update id="updateAccount" parameterType="com.yqwan.domain.Trade">
+         update trade
+          <set>
+         	 account=#{account}
+          </set>
+         where trade_no=#{trade_no}
+     </update>
+
+
+	<!-- 分页查询 -->
+	<select id="paging" resultType="com.yqwan.domain.Trade" >
+         select * from trade 
+          <where>
+          <if test="param1!=null and param1!=''">
+          	userid like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+          order by date desc
+          limit #{param2},#{param3}
+    </select>
+    <!-- 分页查询显示条数 -->
+	<select id="count" resultType="int" >
+         select count(*) from trade 
+          <where>
+           <if test="_parameter!=null and _parameter!=''">
+          	userid like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>
+    
+    <!-- 玩家最近充值的游戏 -->
+	<select id="findByUserid" resultType="String" parameterType="String">
+         select gamename from trade where userid =#{userid} AND state='完成' limit 0,1
+    </select>
+    
+     <!-- 玩家所有充值的游戏 -->
+	<select id="findAllByUserid" resultType="com.yqwan.domain.Trade" parameterType="String">
+         select * from trade where userid =#{userid} AND state='完成' order by id desc
+    </select>
+     <!-- 充值记录分页 -->
+	<select id="listpagetrade" resultType="com.yqwan.domain.Trade" parameterType="com.yqwan.domain.Trade">
+         select * from trade where userid =#{userid} AND state='完成' order by id desc limit #{n},8
+    </select>
+    
+    
+    <!-- 通过userid查询 -->
+     <select id="ifCount" parameterType="String"  resultType="int">
+         select count(*) from trade
+         where userid=#{_parameter} and state='完成'
+     </select>
+    
+    <!-- 游戏消费金额 -->
+    <select id="gamemoney" resultType="com.yqwan.domain.Trade" parameterType="com.yqwan.domain.Trade">
+    	select COALESCE(SUM(money),0) count,gamename,gameregion from trade 
+    	<where>1=1
+    		<if test="date!=null and date!=''">
+    			and date_format(date,'%Y-%m')=#{date}
+    		</if>
+    		<if test="gamename!=null and gamename!=''">
+    			 and gamename=#{gamename}
+    		</if>
+    		and state='完成'
+    	</where>
+    	group by gamename,gameregion
+    </select>
+    <!-- 游戏消费金额 -->
+    <select id="regionmoney" resultType="com.yqwan.domain.Trade" parameterType="String">
+    	select COALESCE(SUM(money),0) count,userid,gamename,gameregion from trade
+    	<where>
+    		<if test="_parameter!=null and _parameter!=''">
+    			userid like CONCAT('%',#{_parameter},'%') and
+    		</if>
+    		 state='完成'
+    	</where>
+    	GROUP BY gamename,gameregion,userid
+    </select>
+    
+</mapper>

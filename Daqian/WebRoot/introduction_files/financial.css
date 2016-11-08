@@ -1,0 +1,339 @@
+@CHARSET "UTF-8";
+/* 理财页面 */
+.financial{width:100%;height:2275px;margin:0 auto;margin-top:-17px;}
+.financial_frist{padding-top: 10px;text-align: left;width: 967px;}
+.financial_two{background: url(fin_three.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0); background-size: 100% 100%; width:967px;height:434px;margin:0 auto;margin-top:10px;border-radius: 5px;}
+.financial_name{background: url("../image/financial/fin_photo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); background-size: 100% 100%; width:56px;height:55px;float: left;}
+.financial_top{background: url(fin_top.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0); background-size: 100% 100%; width:32px;height:25px;margin-top: 45px;float: left;}
+.financial_xian{background: url("../image/prompt/foot_index.png") repeat scroll 0 0 rgba(0, 0, 0, 0);height: 7px;margin: 10px auto 0;overflow: hidden;width: 967px;}
+.fin1{background: #FFFFFF; repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 32%;float: left;}
+.fin2{background: #FFFFFF ; repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 99%;float: left;}
+.fin3{background:  #FFFFFF; repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 32%;float: right;}
+
+.fin4{background:  #FFFFFF;repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 32%;float: left;}
+.fin5{background:   #CCCCCC; repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 99%;float: left;}
+.fin6{background:   #CCCCCC; repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;height: 310px;border-radius:6px;margin: 10px auto 0;overflow: hidden;width: 32%;float: right;}
+.financial_four{margin:0 auto;width:967px;height:295px;}
+.bg-color-steal {background: rgb(82, 195, 197);}
+.mt30 {margin-top: 100px;}
+.container_12 {width: 967px; margin-right: auto; margin-left: auto;}
+.pt30 {padding-top: 30px;}
+.pg-uplan-performace {background: url("../image/financial/fin_back.png?v=55bfb") no-repeat bottom; height: 345px;}
+.ui-box-title {padding: 0px 20px; height: 58px; line-height: 58px; overflow: hidden; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;}
+.fn-clear::after {height: 0px; clear: both; font-size: 0px; display: block; visibility: hidden; content: " ";}
+.fn-clear {zoom: 1;}
+.fn-text-overflow {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;float:left;color:#666666;}
+.mt40 {margin-top: 40px;}
+.fn-left {display: inline;}
+.icon-uplan {background: url(performace.png) no-repeat; margin: 0px auto; width: 123px; height: 126px; display: block;}
+.icon-uplan-user {background: url(performacea.png) no-repeat; margin: 0px auto; width: 123px; height: 126px; display: block;}
+.icon-uplan-invest {background: url(performaceb.png) no-repeat; margin: 0px auto; width: 123px; height: 126px; display: block;}
+.icon-uplan-earn {background: url(performacec.png) no-repeat; margin: 0px auto; width: 123px; height: 126px; display: block;}
+.bg-color-yellow {background: none repeat scroll 0 0  #FFFFFF;height: 514px;}
+.bg-color-yellow dd {border-top-color: rgb(255, 225, 133); border-top-width: 1px; border-top-style: solid;}
+.pg-uplan-flow h3 {color: #1b1464;}
+.pg-uplan-flow .ui-box-title {border-color: #0066FF;opacity:0.3}
+img {border: 0px currentColor;margin-top:30px;}
+.pg-uplan-performace h3 {color: #045f68;}
+.fn-lefts {	float: left;color: #1b1464;font-size:22px;margin-left: 53px;margin-top: -65px;}
+.fn-left1 {color: #1b1464;font-size: 22px;margin-left: -173px;margin-top: -315px;width:300px;}
+.fn-left2 {color: #1b1464;font-size: 22px;margin-left: 270px;margin-top: 190px;}
+.fn-left3 {color: #1b1464;font-size: 22px;margin-left: 673px;margin-top: -285px;}
+
+.fn-yue { color: #006837;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+.fn-ji { color: #c63806;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+.fn-shuang { color: #c18b06;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+
+.fn-fu { color: #346094;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+.fn-feng { color: #077066;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+.fn-sheng { color: #a00510;float: left;font-family: 微软雅黑;font-size: 33px;margin-left: 20px;text-align: left;margin-top: 7px;}
+.fn_dd{font-family: 微软雅黑;font-size: 16px;color: #000000;margin-right: 20px; line-height: 63px;}
+
+.ui-button{background: url(tab.png) repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;
+color:#ffffff;border:0px;margin: 0px auto; width: 100px; height: 30px; display: inline; margin-left: -446px;font-family: Microsoft YaHei;
+margin-top: 320px;text-align: center;}
+
+
+.financial_bg{float:right;width:500px;height:430px; margin-top:-10px}
+.financial_bg1{width:480px;}
+.fin_you{background: url(you.png) repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;width: 96px; height: 103px;float:left;margin-left: 77px;margin-top: 32px}
+.fin_you1{background: url(you1.png) repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;width: 96px; height: 103px;float:right;margin-right: 77px;margin-top: 32px;}
+
+.fin_you2{background: url(you2.png) repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;width: 96px; height: 103px;float:left;margin-left: 77px;margin-top: 97px}
+.fin_you3{background: url(you3.png) repeat scroll 0 0 rgba(0, 0, 0, 0);background-size: 100% 100%;width: 96px; height: 103px;float:right;margin-right: 77px;margin-top: 97px;}
+.fin_zi{font-size: 16px;margin-top: 118px;width: 107px;}
+
+.financial_xiangxi{float: left;line-height: 33px; margin-left: -308px;margin-top: 100px;text-align: left; width: 410px;}
+.fin_url{font-family: 微软雅黑;font-size: 20px;margin-top: 262px;text-align: center; width: 100px;}
+.pg-uplan-product-item dl {
+	border-radius: 3px 3px 0px 0px;
+}
+.pg-uplan-product-item dt {
+	padding: 0px 20px; height: 74px; line-height: 74px;
+}
+.pg-uplan-product-item dd {
+	padding: 0px 20px; height: 74px; line-height: 74px;
+}
+.pg-uplan-product-item dt {
+	color: rgb(100, 122, 55); font-size: 28px;
+}
+.pg-uplan-product-item dt.ub {
+	color: rgb(122, 73, 55);
+}
+.pg-uplan-product-item dt.uc {
+	color: rgb(122, 117, 55);
+}
+.pg-uplan-product-item dt span {
+	font-size: 56px;
+}
+.pg-uplan-product-item dd {
+	color: rgb(255, 255, 255); line-height: 54px;
+}
+.pg-uplan-product-item dd em {
+	top: 5px; font-size: 48px; position: relative;
+}
+.pg-uplan-product-item p {
+	height: 74px; text-align: center; line-height: 74px; font-size: 24px;
+}
+
+.pg-uplan-performace .ui-box-title {
+	border-color: rgb(134, 213, 215);
+}
+
+.pg-uplan-performace dl {
+	width: 240px; text-align: center;
+}
+.pg-uplan-performace dl dt {
+	margin: 5px 0px 0px; color: rgb(255, 255, 255);
+}
+.pg-uplan-performace dl dd {
+	color: rgb(32, 87, 88);
+}
+.pg-uplan-performace dl dd em {
+	font-size: 32px;
+}
+
+.pg-uplan-qa .ui-box-title {
+	border-color: rgb(215, 242, 255);
+}
+.pg-uplan-qa-content ul li {
+	line-height: 32px;
+}
+
+
+.bg-color-green {
+	background: rgb(172, 197, 70);
+}
+.bg-color-green dd {
+	border-top-color: rgb(205, 220, 144); border-top-width: 1px; border-top-style: solid;
+}
+.bg-color-orange {
+	background: rgb(244, 122, 45);
+}
+.bg-color-orange dd {
+	border-top-color: rgb(248, 175, 129); border-top-width: 1px; border-top-style: solid;
+}
+
+
+.bg-color-blue {
+	background: rgb(198, 236, 255);height: 430px;
+}
+html {
+	background: rgb(255, 255, 255); color: rgb(102, 102, 102); -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;text-align: left;width:100%;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 14px/1.5 "微软雅黑", YaHei, tahoma, arial, "Hiragino Sans GB", 宋体; font-size-adjust: none; font-stretch: normal;
+}
+th {
+	text-align: inherit;
+}
+.table-tr-color {
+	background: rgb(240, 240, 240);
+}
+fieldset {
+	border: 0px currentColor;
+}
+
+em {
+	font-style: normal; font-weight: 500;
+}
+th {
+	font-style: normal; font-weight: 500;
+}
+var {
+	font-style: normal; font-weight: 500;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+caption {
+	text-align: left;
+}
+th {
+	text-align: left;
+}
+h1 {
+	font-size: 100%; font-weight: 500;
+}
+h2 {
+	font-size: 100%; font-weight: 500;
+}
+h3 {
+	font-size: 100%; font-weight: 500;
+}
+h4 {
+	font-size: 100%; font-weight: 500;
+}
+h5 {
+	font-size: 100%; font-weight: 500;float:left
+}
+h6 {
+	font-size: 100%; font-weight: 500;
+}
+q::before {
+	content: "";
+}
+q::after {
+	content: "";
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+a:hover {
+	color: rgb(0, 136, 204); text-decoration: none;
+}
+ins {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+body {
+	min-width: 967px;
+}
+
+body .fn-hide {
+	display: none;
+}
+
+.fn-right {
+	display: inline;
+}
+.fn-left {
+	float: left;
+}
+.fn-right {
+	float: right;
+}
+
+html {
+	overflow-y: scroll;
+}
+html {
+	background: rgb(242, 242, 242); height: 100%;
+}
+body {
+	background: rgb(242, 242, 242); height: 100%;
+}
+
+h1 {
+	font-size: 35px;
+}
+.h1 {
+	font-size: 35px;
+}
+h2 {
+	font-size: 30px;
+}
+.h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 24px;
+}
+.h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+.h4 {
+	font-size: 18px;
+}
+h5 {
+	font-size: 14px;
+}
+.h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+
+

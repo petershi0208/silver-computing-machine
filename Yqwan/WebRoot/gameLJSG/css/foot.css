@@ -1,0 +1,7 @@
+.footer{width: 750px; padding:0; height:52px;line-height: 52px;*position: relative;text-align: center; color: #FFF;}
+.footer > span{display: inline-block;text-indent: -9999px;background: url("/Yqwan/gameSGZN/images/imgs.png") no-repeat;width: 54px;height: 54px;position: absolute;*left: 30px;}
+.footer > p{display: inline-block;text-align: left;font-size: 12px;margin-left: 65px;line-height:18px;*margin-left: 90px;}
+.white, .white:link, .white:visited, .white a:link, .white a:visited {color: #FFF;}
+.width{margin:0 auto;}
+.tac{text-align: center;}
+img {border: 0;vertical-align: middle;}

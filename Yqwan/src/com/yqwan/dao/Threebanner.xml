@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IThreeBannerDao">
+
+	<!-- 查询所有记录 -->
+	<select id="listAll" resultType="com.yqwan.domain.Threebanner">
+         select list.date ddate,banner.* from threebanner banner,gamelist list WHERE banner.gamename=list.gamename order by id desc limit 0,6
+    </select>
+    
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Threebanner">
+         select * from threebanner where id=#{id}
+     </select>
+     
+     <!-- 新增 -->
+     <insert id="insert" parameterType="com.yqwan.domain.Threebanner">
+     	insert into threebanner (gamename,gameid,gamepicture,largegamepicture,bannerdate) values(#{gamename},#{gameid},#{gamepicture},#{largegamepicture},#{bannerdate})
+     </insert>
+     
+     <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.Threebanner">
+          update threebanner
+          <set>
+              <if test="gamename!=null">
+                  gamename=#{gamename},
+              </if>
+              <if test="gameid!=null">
+                  gameid=#{gameid},
+              </if>
+              <if test="gamepicture!=null">
+                  gamepicture=#{gamepicture},
+              </if>
+              <if test="largegamepicture!=null">
+                  largegamepicture=#{largegamepicture},
+              </if>
+              <if test="bannerdate!=null">
+                  bannerdate=#{bannerdate}
+              </if>
+          </set>
+          where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from threebanner where id=#{id}
+     </delete>
+     
+      <!-- 新区banner -->
+	<select id="newserverbanner" resultType="com.yqwan.domain.Threebanner">
+		 select max(d.serverid) maxserverid,new.*,d.*,max(d.date) ddate from (select * from threebanner) new
+		left join gamedistrict d on d.gamename=new.gamename GROUP BY d.gameid order by d.date desc limit 0,6
+    </select>
+</mapper>

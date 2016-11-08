@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*index CSS Document */
+body{font-family:'微软雅黑'; }
+img{ border:none}
+#flash { width:100%; height:390; overflow:hidden; margin:0 auto; clear:both; position:relative;/*--*/ padding:0px 0px;}
+#flash a {width:100%; height:350px; display:none;}
+#flash img {width:100%; height:350px;/* display:none;*/}
+.flash_bar { width:100%; z-index:69; height:30px; overflow:hidden; position:absolute; padding-top:13px!important; padding-top:12px; bottom:0px;  text-align:center;}
+.flash_bar .dq { display:block; float:left; width:14px; height:11px; margin:5px 5px; /* background: url(tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background: no-repeat 0px 0px; _background:none;  }
+.flash_bar .no { display:block; float:left; width:14px; height:11px; margin:5px 5px; /* background: url(tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background: no-repeat 0px 0px; _background:none;  }
+
+#flashBg { height:390px; overflow:hidden; width:100%; clear:both; margin:0; padding:0; background-color: #f3f4f8;}
+#flashLine {height:350px; width:100%; clear:both;}
+
+#index_background{ width: 100%; height: 350px; background-color: #0b0b0b;}
+
+/*background:url(tg_flashbar.png) no-repeat 10px 0px;*/
+
+
+#flash_min { width:705px; height:204px; overflow:hidden; margin:0 auto; clear:both; position:relative;/*--*/ padding:0px 0px;}
+#flash_min a {width:705px; height:204px; display:none;}
+#flash_min img {width:705px; height:204px;/* display:none;*/}
+.flash_bar_min { width:520px; padding-left:600px; z-index:69; height:30px; overflow:hidden; position:absolute; padding-top:13px!important; padding-top:12px; bottom:0px; left:0px;  text-align:center;}
+.flash_bar_min .dq_min { display:block; float:left; width:8px; height:8px; margin:5px 5px; /* background: url(tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background: no-repeat 0px 0px; _background:none;  }
+.flash_bar_min .no_min { display:block; float:left; width:8px; height:8px; margin:5px 5px; /* background: url(tg_flash_p.png) no-repeat 0px 0px;*/ cursor:pointer;
+background: no-repeat 0px 0px; _background:none;  }
+
+#flashBg_min { height:204px; overflow:hidden; width:100%; clear:both; margin:0; padding:0;}
+#flashLine_min {height:204px; width:100%; clear:both;}
+
+#index_background_min{ width: 100%; height: 204px; background-color: #0b0b0b;}

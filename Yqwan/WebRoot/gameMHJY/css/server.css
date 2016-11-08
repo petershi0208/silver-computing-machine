@@ -1,0 +1,45 @@
+body{background:url("../images/ztbg.jpg") no-repeat;background-position:center top; font-family: "Microsoft YaHei"; font: 14px "Microsoft YaHei", Arial; background-color:#000;height:1070px;}
+img{ border:none; border:0; vertical-align:middle;}
+.main{width:1100px;height:780px;margin:320px auto 10px auto;background:url("../images/serverbg.png") center;overflow:hidden;}
+.top{width:1100px;height:40px;background:url("../images/tbg.png") center;}
+.content{width:1094px;height:733px;border:solid 3px ##2b2219;border-radius:0 0 6px 6px;}
+/* 登出 */
+.content .dc{width:720px; height:100px;color:#fff;margin:0 auto; font-size:16px; line-height:100px;  display:none;}
+.dc .dcleft{float:left;}
+.dc .dcright{float:right;cursor:pointer;}
+/* 登录注册 */
+.content .dlzc{width:800px; height:100px;color:#ffffff; margin:0 auto; font-size:16px; line-height:100px; font-weight:bold;}
+.dlzc input{border:0px;height:24px;margin:0;padding:0;background:rgb(180,174,174); border-radius: 5px;}
+.dlzc .dcleft{}
+.dlzc .dcright{margin-left:50px;}
+.dlzc .dl{margin-left:50px;position:relative; top:12px; background:url("../images/dlm.png") no-repeat; padding: 14px 60px; color:#564230;cursor:pointer;}
+.dlzc .dl:hover{background:url("../images/dlm.png") no-repeat;text-shadow: 1px 1px 1px #000;}
+.dlzc .zc{margin-left:20px;font-size:15px;}
+.zc a{color:#fff;}
+		
+		
+/* 登录过的 */
+.content .dlg{width:1030px; height:120px;background-color:rgb(2,96,179);margin:0 auto;}
+.dlg .dlgtxt{height:60px;text-align:center;background:url("../images/yx3.png") center no-repeat;}
+.dlg .wdl{display:none;width:218px;height:43px;margin:0 auto;color:#fff;text-align:center;line-height:43px;}
+.dlg .ydl{width:218px;height:43px;background:url("../images/fb.png") center no-repeat;margin:0 auto;}
+.dlg .ydl:hover{background:url("../images/dianji.png") center no-repeat;}
+.qm{height:43px;text-align:center;line-height:40px;color:#FFF;display:block; background: url("../images/abg.png") center no-repeat; background-repeat: no-repeat; background-size: cover;  border-radius: 5px;}
+		
+/* 推荐服务器 */
+.content .recommend{width:1030px; height:160px;background-color:rgb(2,96,179);margin:10px auto;}
+.recommend .tuijian{height:70px;text-align: center;background:url("../images/yx4.png") center no-repeat;}
+.recommend .server{width:auto;height:45px; margin:0 auto;}
+.recommend .server3{width:218px;height:43px;background:url("../images/fb.png") center no-repeat;float:left;margin:0px 29px;}
+.recommend .server3:hover{background:url("../images/dianji.png") center no-repeat;}
+		
+/* 所有服务器 */
+.content .allserver{width:1030px; height:290px; background-color:rgb(2,96,179); margin:10px auto;}
+.allserver .tuijian{height:70px;text-align: center;background:url("../images/yx5.png") center no-repeat;}
+.allserver .server{width:auto;height:180px; margin:0 auto;  overflow-y:auto; white-space:nowrap;}
+.allserver .server3{width:218px;height:43px;background:url("../images/abg.png") center no-repeat;float:left;margin:7px 1px 10px 29px;}
+.allserver .server3:hover{background:url("../images/dianji.png") center no-repeat;}
+		
+.h16b{font-size:16px;font-weight:bold;color:#ffd14f;padding:5px 0px;}
+.hot{background:url("../images/re.png");height:19px;width:19px;position:relative; left:202px; top:-47px;}
+.huo{background:url("../images/huo.png");height:29px;width:34px;position:relative; left:192px; top:-53px;}

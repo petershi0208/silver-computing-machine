@@ -1,0 +1,28 @@
+﻿body 
+{
+    font-size:12px;
+    margin:0px;
+    padding:0px;
+    background-color: Black;
+    color: White;
+}
+img
+{
+    border-width:0px;
+}
+.kefu
+{
+    color:Red
+}
+.bottom
+{
+ width: 800px; height: 85px;background-color:Black;text-align:center;line-height:20px;margin-top:10px;
+}
+.weihu
+{
+    width:800px;height:600px;position:relative;
+}
+.weihu div
+{
+    position:absolute;top:400px;left:200px;width:430px;text-align:center;
+}

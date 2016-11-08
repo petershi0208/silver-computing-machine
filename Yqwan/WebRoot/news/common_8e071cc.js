@@ -1,0 +1,1 @@
+define("con_common",["jquery"],function(require){function n(){var n=r("#search").attr("action");r("#search").submit(function(){var t=r.trim(r("#topSearch").val());if(""==t)return!1;var e=n.replace(/\*+/gi,function(){return encodeURIComponent(t)});r(this).attr("action",e)})}var r=require("jquery");n()}),seajs.use(["con_common"]);

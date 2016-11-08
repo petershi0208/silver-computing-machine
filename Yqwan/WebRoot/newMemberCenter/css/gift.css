@@ -1,0 +1,89 @@
+.body{font-family:微软雅黑}
+.center{
+	background:#eee;
+	width:1075px;
+	height:auto;
+	margin:0 auto;
+	margin-top:15px;	
+}
+.center_right{
+	background:#fff;
+	height:1226px;
+	margin-left:275px;
+	border:1px solid #ccc;
+	width:800px;
+}
+.center_right_info{
+	width:750px;
+	height:40px;
+	margin:0 auto;
+	color:#09f;
+	font-size:14px;
+	line-height:40px;
+}
+
+.center_right_detail{
+	width:750px;
+	height:585px;
+	margin:0 auto;
+}
+.center_right_detail_head{
+	margin:10px;
+	height:50px;
+	width:750px;
+	line-height:50px;
+	font-size:14px;
+	color:#000;
+}
+.center_right_detail_head span{
+	display:block;
+	float:left;
+}
+.center_right_detail_head span:nth-child(2){
+	color:#f90;
+	width:100px;
+}
+.center_right_detail_head span:nth-child(3){
+	margin-left:150px;
+}
+.center_right_detail_head span:nth-child(4){
+	color:#f90;
+	width:150px;
+	overflow:hidden;
+}
+
+.center_right_detail_list{
+	width:750px;
+	height:535px;
+}
+.center_right_detail_list_table{
+	height:450px;
+	width:750px;
+}
+.center_right_detail_list_page{
+	height:65px;
+}
+table td{
+	font-size:14px;
+	text-align:center;
+	border:1px solid #ccc;
+	color:#757575;
+}
+table tr:nth-child(1) td{
+	color:#555;
+	background:#eee;
+}
+
+.pageTest{ width:auto; height: 50px;margin-top:15px;font-family:微软雅黑}
+	    .activP{
+	      background-color: #09f!important;
+	      color: #fff!important;
+	    }
+
+
+.center_right_recommendgame{
+	width:800px;
+	height:270px;
+	margin-top:320px;
+}
+

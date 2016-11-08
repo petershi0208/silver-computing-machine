@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+
+
+/*中间整体层样式*/
+#about_content{height: 890px;width:970px;margin: 0 auto;}
+
+/*中间层最上面样式*/
+.about_top {margin-top: 15px;margin-bottom: 15px;}
+.about_top_shouye{font-family: Microsoft YaHei; font-size: 16px;color: #666666; margin-left:5px;}
+.about_top_myAccount{font-family: Microsoft YaHei; font-size: 16px;color: #ca141d; margin-left:5px}
+
+/*关于我们页面中左边菜单样式*/
+.about_left {float: left;}
+.about_right{float: left;}
+.nav{width: 144px;height: 28px;background-color: white;margin-top: 1px;padding-top: 15px;text-align: center;}
+
+.about_left a{font-family: Microsoft YaHei; font-size: 14px;}
+.about_left a:link{text-decoration: none; color: #666666;font-family: Microsoft YaHei;}
+.about_left a:visited{text-decoration: none; color: #666666;font-family: Microsoft YaHei;}
+.about_left a:hover{text-decoration: none; color: #666666;font-family: Microsoft YaHei;}
+.about_left a:active{text-decoration: none; csolor: #666666;font-family: Microsoft YaHei;}
+
+#about_left div:HOVER{width: 144px;height: 28px;background-color: #e74c3c;margin-top: 1px;padding-top: 15px;text-align: center;}
+#about_left a:HOVER{text-decoration: none; color: white;}
+.changenavcolor{float: left;width: 144px;height: 28px;background-color: #e74c3c;margin-top: 1px;padding-top: 15px;text-align: center;}
+
+
+/*关于我们页面中合作伙伴图片margin-left: 83px;margin-top: 55px;float: left;background-color: gray样式*/
+.about_right_hezuo {width: 799px;height: 500px;background-color: white;margin-left: 25px;border-radius:2px;border: 1px solid #e6e6e6;}
+#dianxin {margin-left: 83px;margin-top: 55px;float: left;}
+#youdao {margin-left: 82px;float: left;margin-top: 55px;}
+#fuyou{margin-right: 66px;float: right;margin-top: 55px;}
+#jiucheng{margin-left: 69px;float: left;clear: right;margin-top: 55px;}
+#zixin{margin-left: 70px;float: left;margin-top: 55px;}
+#luosheng{margin-right: 76px;float: right;margin-top: 55px;}
+#gonghang{margin-left: 85px;float: left;clear: right;margin-top: 55px;}
+#pingan{margin-right: 66px;float: right;margin-top: 55px;}
+#yongyou {margin-left: 71px;float: left;margin-top: 55px;}
+#jianhang{margin-left: 85px;float: left;clear: right;margin-top: 55px;}
+#nonghang {margin-right: 90px;float: right;margin-top: 55px;}
+
+
+/*关于我们页面 重信大事件中间部分样式credit.html */
+.about_right_pic{width: 790px;height: 280px;background-color: blue;margin-top: 1px;margin-left: 25px;}
+.about_creditleft{float: left;}
+.about_creditright{float: left;height: 2200px;width: 100px;background-color: black;}
+.about_right_eventtxt{width: 790px;height: 1270px;background-color: white;margin-top: 25px;margin-left: 25px;}
+.about_creditcontent{width:970px;height: 1463px;;margin: 0 auto;}
+.about_eventContent_right_txt{border-radius:3px;}
+
+#about_right_txt_title{font-family:Microsoft YaHei; font-size: 24px;color: #ca141d;padding-left: 25px;padding-top: 25px;}
+#about_right_txt_txt{padding-left: 25px;margin-top: 20px;}
+.about_right_txt_date{margin-left: 24px;float: left;color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+.about_right_txt_content{margin-left: 27px;float: left; width: 600px;}
+.about_right_txt_pic{float: left;margin-top: 5px;}
+#about_right_divborder{width: 742px;border-bottom:solid 1px #e6e6e6;border-color: #e6e6e6;clear: both;height: 21px;margin: 0 auto;}
+
+#about_right_txt_txt a{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+#about_right_txt_txt a:link{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+#about_right_txt_txt a:visited{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+#about_right_txt_txt a:hover{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+#about_right_txt_txt a:active{text-decoration: none; csolor: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+
+#about_eventContent{height: 1645px;width: 970px;margin-left: 190px;margin: 0 auto;}
+.about_eventContent_top{margin: 15px 0px;}
+.about_eventContent_right{margin-left: 25px;width: 788px;height: 1570px;float: left;}
+.about_eventContent_right_pic{width: 788px;height: 280px;background-color: white;text-align: right;color: #fc817c;border: 1px solid #e6e6e6;font-family: Microsoft YaHei;font-size: 24px; }
+.about_eventContent_right_txt{width: 788px;height:auto;margin-top: 22px;background-color: white;border: 1px solid #e6e6e6;overflow:hidden;padding-bottom:20px;}
+
+
+/*关于我们页面    联系我们部分样式companyCallMe.html */
+.about_callMeContentMain{width: 100%;margin: 0 auto;}
+#about_callMeContent{height: 1770px;width: 970px;margin-top: 125px;}
+.about_callMeContent_center_about_right_adress{text-align: left; margin-left: 20px;width: 100%;height: auto;margin-bottom: 24px;}
+.about_callMeContent_center_about_right_pic{width: 788px;height: 304px;font-family: Microsoft YaHei;font-size: 24px;color:RED;text-align: right;}
+.about_callMeContent_top{margin-left: 25px;text-align: left;}
+.about_callMeContent_center_about_right{margin-left: 25px;float: left;}
+.about_callMeContent_center_about_right_adressdiv{margin: 5px 0px;width: 100%;height: 8px;}
+.about_callMeContent_center_about_right_adress_foot{text-align: left; margin-left: 25px;width: 100%;height: auto;margin-top: 70px}
+.about_callMeContent_center_about_right_adress li{color: #e74c3c;list-style:disc;font-family: Microsoft YaHei;font-size: 14px; margin-left: 25px;}
+.about_callMeContent_center_about_right_blackadress{color: #666666;font-family: Microsoft YaHei;font-size: 14px;margin-left: 25px;margin-top: 3px;margin-bottom: 3px}
+.about_callMeContent_center_about_right_phone{color: #666666;font-family: Microsoft YaHei;font-size: 14px;margin-left: 25px;}
+.about_callMeContentTop{text-align: left;margin-bottom: 15px;}
+.about_callMeContent_center_about_right_adress_title{color: #ca141d;font-family: Microsoft YaHei;font-size: 24px;margin-left: 25px;text-align: left;margin-bottom: 18px}
+.about_callMeContent_center_about_right_adress_bgc{width:100%;border: 1px solid #e6e6e6;height:1360px;background-color: white;margin-top: 25px;padding-top: 28px;border-radius:2px;}
+.about_callMeContent_city{font-family: Microsoft YaHei;font-size: 18px;color: #e74c3c;text-align: left;margin-left: 25px;margin-bottom: 19px}
+/* 关于我们页面 招贤纳士部分样式companyRecruit.html */
+.about_recruitContentMain{width: 100%;height: 2344px;}
+#about_recruitContent{height: 2304px;width: 970px;margin-top: 125px;}
+.about_recruitContentTop{text-align: left;margin-bottom: 15px;}
+.about_recruitContent_center_right{text-align: left;border: 1px solid #e6e6e6;float: left;margin-top: 1px;margin-left: 25px;background-color: white;height: 2280px;width: 799px;border-radius:2px;}
+.about_recruitContent_center_right_txt{margin-bottom: 27px;margin-left: 40px;}
+.about_recruitContent_center_right_title{font-family: Microsoft YaHei;font-size: 24px;color:#ca141d;margin-top: 29px;margin-left: 25px;margin-bottom: 18px}
+.about_recruitContent_center_right_li{font-family: Microsoft YaHei;font-size: 14px;color:#3598d8}
+.about_recruitContent_center_right_lili{font-family: Microsoft YaHei;font-size: 18px;color:#e74c3c}
+.about_recruitContent_center_right_com{font-family: Microsoft YaHei;font-size: 14px;color:#666666;}
+.about_recruitContent_center_right_txt div{margin: 5px; 0 px;}
+/*招商加盟*/
+.about_recruitContent_center_right .zhao_shang{border-bottom:#DADADA 1px solid;margin-right:40px;padding-bottom:20px;font-family: Microsoft YaHei;font-size:14px}
+.about_recruitContent_center_right .zhao_shang strong{font-size:15px; color:#475058}
+.about_recruitContent_center_right .zhao_shang p{line-height:35px}
+.about_recruitContent_center_right .zhao_shang .te_st{margin-bottom:10px;display:block;font-size:18px}
+/* 关于我们页面about。html */
+.aboutindex_contentMain{height: 1340px;width: 970px;}
+.aboutindex_top{text-align: left;margin-top: 15px;margin-bottom: 15px;}
+.aboutindex_content_right{width: 788px;height: auto;float: left;margin-top: 5px;margin-left: 26px}
+.aboutindex_content_right_pic{width: 787px;height: auto;background-color: silver;border: 1px solid #e6e6e6;}
+.aboutindex_content_right_txt{width: 100%;height: 978px;background-color: white;margin-top: 5px;border-radius:2px;border: 1px solid #e6e6e6;}
+.aboutindex_content_right_txtbody{margin-left: 0px;width: 734px;height: 800px;padding-top: 5px;text-align: left;}
+.aboutindex_content_right_txt_title{font-family: Microsoft YaHei;font-size: 24px;color:#ca141d;margin-bottom:10px}
+.aboutindex_content_right_txt_txt{font-family: Microsoft YaHei;font-size: 14px;color:#666666;margin-bottom:10px}
+.aboutindex_content_right_txt_subtitle{font-family: Microsoft YaHei;font-size: 18px;color:#ca141d;margin-bottom: 5px}
+.aboutindex_content_right_txtbody div{line-height: 23px}
+
+/* 关于我们页面——媒体报道界面mediaReport.html */
+.about_mediaReportcontent{height: 880px;width: 970px; border-radius:3px;}
+.about_mediaReportcontent_top{text-align: left;margin-top: 15px;margin-bottom: 15px;}
+.about_mediaReportcontent_center_right{float: left;border: 1px solid #e6e6e6;background-color: white;width: 799px;height: 560px;margin-left: 25px;padding-top: 20px;border-radius:2px;margin-top: 1px;}
+.about_mediaReportcontent_center_right_title{font-family: Microsoft YaHei;font-size: 24px;color:#ca141d;text-align: left;margin-left: 25px;margin-bottom: 25px}
+.about_mediaReportcontent_center_right_txt_frame{width: 750px;height: 196px;background-color: #F8F8F8;text-align: left;padding-top: 15px;margin-bottom: 10px;}
+.about_mediaReportcontent_center_right_txt_frame_left{width: 265px;height: 180px;margin-left: 15px;float: left;margin-right: 15px}
+.about_mediaReportcontent_center_right_txt_frame_right{width: 440px;height: 180px;float: left;}
+.about_mediaReportcontent_center_right_txt_frame_right_pic{float: right;}
+.about_mediaReportcontent_center_right_txt_frame_right_title{float: left;font-family: Microsoft YaHei;font-size: 16px;color:#ca141d;}
+.about_mediaReportcontent_center_right_txt_frame_right_inside{width: 415px;height: 28px;border-bottom:1px solid #ca141d;}
+.about_mediaReportcontent_center_right_txt_frame_right_con{width: 415px;font-family: Microsoft YaHei;font-size: 14px;color:#666666;margin-top: 10px;margin-bottom: 10px}
+.about_mediaReportcontent_center_right_txt_frame_right_link a{text-decoration: none; color: white;font-family: Microsoft YaHei;font-size: 14px;}
+ 
+/*关于我们页面——重信动态界面companyIntroduce.html页面的样式 */
+.about_introducecontent{height: 670px;width: 970px; }
+.about_introducecontentt{height: 1570px;width: 970px; }
+.about_introducecontent_top{text-align: left;margin-top: 15px;margin-bottom: 15px;}
+.about_introducecontent_center_right{float: left;width: 799px;height: 560px;background-color: white;border: 1px solid #e6e6e6;margin-top: 1px;margin-left: 25px;padding-top:20px;}
+.about_introducecontent_center_rightt{float: left;width: 799px;height: 1490px;background-color: white;border: 1px solid #e6e6e6;margin-top: 1px;margin-left: 25px;padding-top:20px;}
+.about_introducecontent_center_right_title{font-family: Microsoft YaHei;font-size: 24px;color:#ca141d;text-align: left;margin-left: 25px;margin-bottom: 18px}
+.about_introducecontent_center_right_title2{font-family: Microsoft YaHei;font-size: 28px;color:#666;text-align: center;margin-left: 30px;margin-bottom: 20px}
+.about_introducecontent_center_right_title3{font-family: Microsoft YaHei;font-size: 14px;color:#666;text-align: center;margin-bottom: 35px}
+.txtp{font-family: Microsoft YaHei;font-size: 14px;color:black;margin-bottom: 15px;margin-left: 10px;width: 700px;text-indent: 2em;line-height:25px}
+.about_introducecontent_center_right_con{width: 750px;height: 400px;}
+.about_introducecontent_center_right_txt{width: 750px;height: 34px;margin-bottom:13px;border-bottom:1px solid #e6e6e6;}
+.about_introducecontent_center_right_con a{text-decoration: none;font-family: Microsoft YaHei;font-size: 14px;color:#666666;}
+.about_introducecontent_center_right_con div{font-family: Microsoft YaHei;font-size: 14px;color:#666666;}
+.about_introducecontent_center_right_con a:link{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+.about_introducecontent_center_right_con a:visited{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+.about_introducecontent_center_right_con a:hover{text-decoration: none; color: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+.about_introducecontent_center_right_con a:active{text-decoration: none; csolor: #666666;font-family: Microsoft YaHei;font-size: 14px;}
+.about_introducecontent_center_right_con li{list-style: disc; color:#ca141d;margin-left: 20px;margin-right: 25px;}

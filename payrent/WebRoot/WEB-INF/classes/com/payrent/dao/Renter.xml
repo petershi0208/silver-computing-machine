@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.payrent.dao.IRenterDao"> 
+    <!-- 新增 -->
+    <insert id="add" parameterType="com.payrent.domain.Renter">
+         insert into renter(telephone,vxin,headimgurl,nickname,country,province,city,registdate,logindate,state) values(#{telephone},#{vxin},#{headimgurl},#{nickname},#{country},#{province},#{city},#{registdate},#{logindate},#{state})
+    </insert>
+     
+    <!-- 修改 -->
+    <update id="updateByVxin" parameterType="com.payrent.domain.Renter">
+          update renter
+          <set>
+              <if test="logindate!=null and logindate!=''">
+                  logindate=#{logindate},
+              </if>
+              <if test="telephone!=null and telephone!=''">
+                  telephone=#{telephone},
+              </if>
+              <if test="headimgurl!=null and headimgurl!=''">
+                  headimgurl=#{headimgurl},
+              </if>
+              <if test="nickname!=null and nickname!=''">
+                  nickname=#{nickname},
+              </if>
+              <if test="country!=null and country!=''">
+                  country=#{country},
+              </if>
+              <if test="province!=null and province!=''">
+                  province=#{province},
+              </if>             
+              <if test="city!=null and city!=''">
+                  city=#{city},
+              </if>
+              <if test="state!=null and state!=''">
+                  state=#{state}
+              </if>
+          </set>
+          where vxin=#{vxin}
+    </update>
+    
+    <!-- vxin号查询-->
+	<select id="findByVxin" parameterType="String"  resultType="com.payrent.domain.Renter">
+		select * from renter where vxin=#{vxin}
+	</select>
+</mapper>

@@ -1,0 +1,27 @@
+.borrowdetail{
+	width:955px;
+	height:200px;
+	border:1px solid #d9d9d9;
+	display:none;	
+}
+
+.detailp{
+	font-size:20px;
+	width:70px;
+	height:20px;
+	margin:20px 0px 20px -830px;
+}
+.detailp2{
+	font-size:15px;
+	width:70px;
+	height:20px;
+	margin-left:-830px;
+	margin-top:13px;
+}
+
+.borrowdetail img{
+	position:relative;
+	left:360px;
+	bottom:30px;
+	cursor:pointer;
+}

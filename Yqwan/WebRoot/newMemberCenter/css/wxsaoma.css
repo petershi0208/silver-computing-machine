@@ -1,0 +1,88 @@
+.body{font-family:微软雅黑}
+.center{
+	background:#eee;
+	width:1075px;
+	height:auto;
+	margin:0 auto;
+	margin-top:15px;	
+}
+.center_right{
+	background:#fff;
+	height:1226px;
+	margin-left:275px;
+	border:1px solid #ccc;
+	width:800px;
+}
+
+.center_right .logo{
+	height:45px;
+}
+.logo p{
+	font-size:30px;
+	padding-left:50px;	
+}
+.trade{
+	height:80px;
+	background-color:#eee;	
+}
+.trade p{
+	padding-left:50px;
+	padding-top:10px;	
+}
+.trade h{
+	margin-left:450px;	
+	position:relative;
+	top:-40px;
+}
+
+.wxpay{
+	width:700px;
+	height:50px;
+	margin:20px; auto;	
+	border:2px solid #ddd;
+}
+.wxpay img{
+	width:120px;
+	height:30px;
+	margin-left:20px;
+	margin-top:10px;
+}
+.ptext{
+	font-size:10px;
+	color:#ccc;
+	position:relative;
+	top:8px;
+}
+.pmoney{
+	position:relative;
+	right:-250px;
+	top:8px;	
+}
+
+.qrcode{
+	width:200px;
+	height:200px;
+	margin:10px auto;	
+}
+.qrcode>div>img{
+	width:180px;
+	height:180px;
+}
+.pic{
+	width:160px;
+	height:55px;	  
+	position:relative;
+	left:308px;
+	top:-44px;
+}
+
+
+.center_right_recommendgame{
+	width:800px;
+	height:270px;
+	margin-top:475px;
+}
+
+
+
+

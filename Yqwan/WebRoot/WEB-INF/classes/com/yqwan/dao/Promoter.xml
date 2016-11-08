@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IPromoterDao">
+	
+	<!-- 推广码查询 -->
+	<select id="findBynumber" parameterType="String"  resultType="com.yqwan.domain.Promoter">
+		select * from promoter where recommendcode=#{recommendcode} AND state='正常'
+	</select>
+	
+	<!-- 新增推广用户 -->
+	 <insert id="addNewPromoter" parameterType="com.yqwan.domain.Promoter">
+         insert into promoter (userid,name,aliaccount,telephone,qq,recommendcode,date,state) values(#{userid},#{name},#{aliaccount},#{telephone},#{qq},#{recommendcode},#{date},#{state})
+     </insert>
+     
+     <!-- 通过用户名查询 -->
+	<select id="findByUserid" parameterType="String"  resultType="com.yqwan.domain.Promoter">
+		select * from promoter where userid=#{userid}
+	</select>
+	
+</mapper>

@@ -1,0 +1,77 @@
+body{background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/banner.jpg") no-repeat;padding:0;margin:0;background-position:center top #000; font-family: "Microsoft YaHei"; font: 14px "Microsoft YaHei", Arial; background-color:#000;height:1070px;}
+img{ border:none; border:0; vertical-align:middle;}
+.main{width:1100px;height:999px;margin:270px auto 10px auto;background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fudi.png") center;overflow:hidden;}
+.content{width:760px;height:733px;border:solid 3px ##2b2219;border-radius:0 0 6px 6px;}
+/* 登出 */
+.content .dc{width:760px; height:100px;color:#888;margin:0 auto; font-size:16px; line-height:100px;  display:none;}
+.dc{width: 300px;height: 50px; color: #FFF;}
+.dc .dcleft{float:left; margin-left: 15px;}
+.dc .dcright{float:right;cursor:pointer;}
+/* 登录注册 */
+
+.main .malf{width: 310px;height: 800px;float: left;border-right: 1px solid #FFF;margin-top:100px;}
+.main .mamr{width: 760px;height: 800px;float: left;margin-top:100px;margin-left: 20px;}
+
+.malf .lgtxt{height: 60px;font-size: 22px;color: #eee;text-align:center;line-height:60px; text-shadow: 1px 1px 0 #555, -1px -1px 0 #555,1px -1px 0 #555,-1px 1px 0 #555;}
+
+.malf .dlzc > span{display: block;}	
+.malf .dlzc > span{height:40px;font-size:14px;color:#6c6c6c;margin-left:20px;}
+
+.malf .dlzc > span > input{width:190px;height:30px;padding:0;padding-left:10px;font-size:16px;color:#fff;background:#999;border: none;}
+.malf .dlzc > span.dl{width:150px;height:43px;cursor:pointer;background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/denglu1.png") center no-repeat;text-align: center;line-height: 43px;font-size: 14px;margin: 6px auto;color:#FFF;} 
+.malf .dlzc > span.zc{width: 200px; margin-left: 62px;}
+.malf .dlzc > span.zc a{color: #FFF;font-size: 12px;}
+.malf .dlzc > span.zc a:nth-child(1){float: left;}
+.malf .dlzc > span.zc a:nth-child(2){float: right;}
+
+.malf > .mc3{width: 260px;height:308px;margin-top:10px;background-color: #FFF;margin-left: 25px;}
+.malf > .mc3 > div:nth-child(1){width: 250px;height: 36px;line-height:36px;margin: 0 auto;border-bottom: 1px solid #ddd;font-size: 18px;color:#666;}
+.malf > .mc3 > div:nth-child(1) span{margin-left: 10px;}
+.malf > .mc3 > div:nth-child(2){width: 250px;height: 130px;margin: 0 auto;text-align: center;}
+.malf > .mc3 > div:nth-child(3){width: 250px;height: 26px;margin: 0 auto;color: #666;text-align: center;font-size: 18px;}
+.malf > .mc3 > div:nth-child(4){width: 198px;height: 32px;margin: 0 auto;}
+.malf > .mc3 > div:nth-child(5){width: 173px;height: 32px;margin: 5px auto;text-align:center;padding-left:25px;color:#FFF;font-size:12px;line-height:32px;background: url("http://www.199y.com/picture/yqwan/game/jdzsseed/qqq.png") no-repeat;}
+.malf > .mc3 > div:nth-child(6){width: 173px;height: 32px;margin: 0 auto;text-align:center;padding-left:25px;color:#FFF;font-size:12px;line-height:32px;background: url("http://www.199y.com/picture/yqwan/game/jdzsseed/kfdh.png") no-repeat;}
+
+.wlg .ac{height:40px;font-size:14px;color:#6c6c6c;margin-left:20px;}
+.wlg .pw{height:40px;font-size:14px;color:#6c6c6c;margin-left:20px;}
+.wlg .yz{height:40px;font-size:14px;color:#6c6c6c;margin-left:20px;}
+.wlg .yz .yztxt{display: inline-block;height:34px;width:80px;}
+.wlg .ac input{width:190px;height:30px;padding:0;padding-left:10px;font-size:16px;color:#fff;background:#999;border: none;}
+.wlg .pw input{width:190px;height:30px;padding:0;padding-left:10px;font-size:16px;color:#fff;background:#999;border: none;}
+.wlg .yz input{width:100px;height:35px;padding:0;padding-left:10px;font-size:16px;color:#fff;background:#999;border: none;}
+.wlg .rg{float:right;color:#6c6c6c;font-weight:bold;font-size:18px;margin-right:50px;margin-top:20px;}
+.wlg .rg:hover{text-decoration:underline;}
+
+
+.divnews{height: 216px; width: 310px;margin-top: 30px;}
+.divnews .divtit{background: url("http://www.199y.com/picture/yqwan/game/jdzsseed/xindi01.png") center no-repeat;height: 38px;color:#FFF;text-align: center;line-height: 38px;}
+.divnews div:nth-child(2){margin-top: 20px;}
+.divnews .newscon{width: 300px;padding-left: 10px;height: 25px; font-size: 14px;}
+.divnews .newscon a{color: #FFF;text-decoration: none;}
+.divnews .newscon span{float: right;color: #FFF;margin-right: 10px;}		
+/* 登录过的 */
+.content .dlg{width:760px; height:120px;margin:0 auto;}
+.dlg .dlgtxt{height:60px;color:}
+.dlg .wdl{display:none;width:218px;height:55px;margin:0 auto;color:#888;text-align:center;line-height:43px;}
+.dlg .ydl{cursor:pointer;width:218px;height:52px;text-align:center;line-height:52px;font-size:18px;background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqilan.png") center no-repeat;margin:0 auto;}
+.dlg .ydl:hover{background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqihui.png") center no-repeat;}
+.qm{height:52px;text-align:center;line-height:52px;color:#FFF;display:block;}
+		
+/* 推荐服务器 */
+.content .recommend{width:760px; height:160px;margin:10px auto;}
+.recommend .tuijian{height:70px;}
+.recommend .server{width:auto;height:55px; margin:0 auto;}
+.recommend .server3{cursor:pointer;width:218px;height:52px;text-align:center;line-height:52px;font-size:18px;background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqilan.png") center no-repeat;float:left;margin:0px 29px;}
+.recommend .server3:hover{background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqihui.png") center no-repeat;}
+		
+/* 所有服务器 */
+.content .allserver{width:760px; height:490px; margin:10px auto;}
+.allserver .tuijian{height:70px;}
+.allserver .server{width:auto;height:380px; margin:0 auto;  overflow-y:auto; white-space:nowrap;}
+.allserver .server3{cursor:pointer;width:218px;height:52px;text-align:center;line-height:52px;font-size:18px;background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqilan.png") center no-repeat;float:left;margin:7px 1px 10px 20px;}
+.allserver .server3:hover{background:url("http://www.199y.com/picture/yqwan/game/jdzsseed/fuwuqihui.png") center no-repeat;}
+		
+.h16b{font-size:20px;font-weight:bold;color:#FFF;padding:5px 0px;line-height: 70px;}
+.hot{background:url("/Yqwan/gameXSQST/images/re.png");height:19px;width:19px;position:relative; left:202px; top:-47px;}
+.huo{background:url("/Yqwan/gameXSQST/images/huo.png");height:29px;width:34px;position:relative; left:192px; top:-53px;}

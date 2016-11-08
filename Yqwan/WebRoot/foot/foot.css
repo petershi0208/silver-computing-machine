@@ -1,0 +1,118 @@
+.foot li{padding:0; margin:0;}
+.footauto{
+	width:100%;
+	height:200px;
+	background-color:#fbfbfb;
+	text-align:center;
+}
+.foot{
+	width:1200px;
+	margin:0 auto;	
+	height:200px;
+	overflow:hidden;
+}
+.foot>span{
+	font-family: "Microsoft YaHei";
+	position: relative;
+    top: -20px;
+    color: #666;
+    font-size: 13px;
+    display:block;
+}
+ul.footulpic{
+	float:left;
+	cursor:pointer;
+	list-style:none;
+}
+.footulpic li{
+	margin:0px;
+	float:left;	
+	margin-top:28px;
+	margin-left:30px;	
+}
+.footultext{
+	width:1200px;
+	padding-top:50px;
+}
+ul#footultext{
+	display:block;
+	width:650px;
+	height:50px;
+	margin:0 auto;
+	list-style:none;
+	padding:0;
+}
+.footultext li{
+	margin:0 36px;
+	cursor:pointer;
+	float:left;			
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#8d8f8f;
+}
+.footqrcode{
+	background-image:url(../index/saomaxiakuang.jpg);
+	width:135px;
+	height:135px;	
+	margin-left:800px;
+	position:relative;
+	top:50px;
+}
+.footinfo{	
+	width:1200px;
+	height:80px;
+}
+.footinfo span{
+	margin:0;	
+	display:block;
+	text-align:center;
+	font-size:12px;
+	color:#8d8f8f;	
+	font-family:微软雅黑;
+}
+.footinfo a{
+	color:#8d8f8f;
+	text-decoration:none;
+}
+.footinfo a:hover{
+	color:mintcream;
+	cursor:pointer;	
+}
+
+/*
+.footauto{
+	width:100%;
+	background-image:url(../foot/NEIYEDIBU-.jpg);	
+}
+
+.foot{
+	overflow:hidden;
+	width:1000px;
+	height:	120px;
+	margin:0 auto;
+}
+.footultext{
+	list-style:none;
+}
+.footultext li{
+	cursor:pointer;
+	float:left;		
+	margin-right:40px;	
+	position:relative;
+	left:120px;
+	top:20px;
+	font-size:14px;
+	font-family:微软雅黑;
+	color:#8d8f8f;
+}
+.footinfo{
+	margin-top:85px;	
+	text-align:center;
+}
+.footinfo span{
+	margin:0;	
+	font-size:12px;
+	color:#8d8f8f;	
+	font-family:微软雅黑;
+}
+*/

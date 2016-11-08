@@ -1,0 +1,80 @@
+@CHARSET "UTF-8";
+
+
+
+.registerVrify_phoneHint{width: 450px;
+						height: 45px; 
+						float: left; 
+						background-image: url('../../web_image/register/register_note.png'); 
+						background-repeat: no-repeat; 
+						color: #666; 
+						font-family:Microsoft YaHei; 
+						font-size: 14px; 
+						padding-top: 10px;}
+
+
+.registerVrify_phoneText{float:left; font-family:Microsoft YaHei; font-size: 16px; color: #555555; margin-top: 25px; width: 120px; text-align: left;}
+
+.registerVrify_phoneDiv{float:left; width: 150px; height: 36px; text-align: right; margin-top: 18px;}
+
+.registerVrify_phoneNumber{height: 28px;  width: 178px; outline:none;  margin-top: 1px; border: 0px; padding:2px 0 0 2px; height:32px; line-height:20px;  margin-right: 2px; color: red; font-size: 18px;}
+
+.registerVrify_vrifyText{float:left; font-family:Microsoft YaHei; font-size: 16px; color: #555555; margin-top: 25px; width: 120px; text-align: left;}
+
+.registerVrify_vrifyDiv{float:left; width: 120px; height: 36px; text-align: right; margin-top: 18px;}
+
+.registerVrify_vrifyNumber{height: 28px;   width: 120px;  margin-top: 1px; border: 1px solid #ccc; padding:2px 0 0 2px; height:32px; line-height:15px;  margin-right: 2px; font-size: 13px; color: #a2a2a2;}
+
+.registerVrify_vrifyHint{float:left; width: 300px; text-align:left;  margin-left:20px; height: 25px; margin-top: 28px; font-family: Microsoft YaHei; font-size: 14px; color: red;}
+
+.registerVrify_vrifybtnDiv{float:left; width: 139px; height: 35px; background-color:#FF0000; background-repeat: no-repeat;}
+
+.registerVrify_vrifyBTN{font-family: Microsoft YaHei; font-size: 16px; color: white;  width: 139px; height: 35px;  background-color: transparent; cursor:pointer; border: none;}
+
+
+.registerVrify_sendHint{width:690px; height: 30px; float: right;  margin-top: -30px; font-size: 14px; font-family: Microsoft YaHei; color: gray; text-align: left;}
+
+
+
+
+
+.registerVrify_pojoDiv_01{width:700px; height: 70px;}
+
+.registerVrify_pojoDiv_02{width:700px; height: 400px;}
+
+.registerVrify_pojoDiv_03{clear:left; float:left; background-image:url('../../web_image/register/register_pojo_01.png'); width: 20px; height: 8px; background-repeat: no-repeat; margin-top: 30px;}
+
+.registerVrify_pojoDiv_04{clear:left; width: 700px; height: 30px;}
+
+.registerVrify_pojoDiv_05{float:left;  margin-top: 7px; width: 140px; text-align: left;}
+
+.registerVrify_pojoDiv_06{color: #FF8409; font-size: 14px; display: none; font-family:Microsoft YaHei; }
+
+.registerVrify_pojoDiv_07{color: #666; cursor: pointer;}
+
+.registerVrify_pojoDiv_08{color: #e73c1f; font-family:Microsoft YaHei; font-size: 14px;}
+
+.registerVrify_pojoDiv_09{border:1px dashed #cacaca; height:0px}
+
+.registerVrify_pojoDiv_10{width:700px; height: 70px;}
+
+.msg_hint_DIV {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: #FFF;
+	filter: alpha(opacity =   70);
+	-moz-opacity: 0.7;
+	opacity: 0.8;
+	display: none;
+	z-index: 100;
+}
+
+
+
+.a {background-color: #F3F3F3; border-color: #FBFBFB; width:350px; border-width: 1px; border-style: solid; padding: 1px;}
+.b {background-color: #D8D8D8; border-color: #E8E8E8; border-width: 1px; border-style: solid; padding: 1px;} 
+.c {background-color: #FFF; border-color: #BBB; height: 160px;color:#ff0000; border-width: 1px; border-style: solid; padding: 1px;}
+
+

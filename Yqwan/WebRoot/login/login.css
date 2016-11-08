@@ -1,0 +1,151 @@
+.center{
+	width:600px;
+	height:750px;
+	margin:0 auto;	
+}
+.center_logo{
+	margin:0 auto;
+	margin-top:50px;
+	margin-left:150px;
+	width:261px;
+	height:62px;
+	background:url(../login/yiqiwanguajilogo.png) no-repeat;	
+}
+.center_btn{
+	margin:0 auto;
+	margin-top:35px;
+	width:292px;
+	height:50px;
+}
+.center_btn span{
+	cursor:pointer;
+	font-size:20px;
+	color:#000;
+	margin-left:35px;
+}
+.center_btn span:nth-child(2){
+	margin-left:60px;
+}
+.center_btn img{
+	margin-top:9px;	
+}
+.center_user{
+	margin:0 auto;
+	width:530px;
+	height:35px;
+	margin-top:22px;
+	margin-left:90px;
+}
+.center_user span{
+	position:relative;
+	top:3px;
+	color:#000;
+	font-size:16px;	
+}
+.namepwd .center_user input{
+	 margin-left:10px;
+	 width:290px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+.namepwd1 div:nth-child(1) input{
+	 margin-left:10px;
+	 width:290px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+.namepwd1 div:nth-child(2) input:nth-child(2){
+	 margin-left:10px;
+	 width:180px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+
+.namepwd1 div:nth-child(3) input:nth-child(2){
+	 margin-left:10px;
+	 width:180px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+.namepwd1 div:nth-child(3) input:nth-child(3){
+	width:100px;	
+	height:33px;
+	font-size:12px;
+	margin-left:5px;
+}
+.namepwd1{
+	display:none;	
+}
+.center_user span:nth-child(3) {
+	font-size:13px;
+	color:red;	
+}
+.center_user span:nth-child(4){
+	font-size:13px;
+	color:red;	
+}
+.namepwd div:nth-child(2){
+	margin-left:73px;	
+}
+.a{
+	width:180px;	
+}
+.center_bottom{
+	width:300px;
+	height:150px;	
+	margin:0 auto;
+	margin-top:20px;
+}
+.center_bottom input:nth-child(1){
+	position:relative;
+	left:5px;
+	width:14px;
+	height:14px;		
+}
+.center_bottom span:nth-child(2){
+	position:relative;
+	left:3px;
+	font-size:14px;	
+	position:relative;
+	top:3px;	
+}
+.center_bottom span:nth-child(3) a{
+	font-size:12px;	
+	position:relative;
+	left:180px;	
+	color:#09f;
+	cursor:pointer;
+}
+.center_bottom input:nth-child(4){
+	width:293px;
+	height:38px;
+	background-color:#09f;
+	color:#fff;
+	border:none;
+	font-size:14px;	
+	margin-top:12px;
+	font-family:微软雅黑;	
+}
+.center_bottom span:nth-child(5) a{
+	font-size:12px;	
+	position:relative;
+	left:242px;	
+	top:20px;
+	color:#444;
+	cursor:pointer;
+}
+.phone_code{
+	width:100px;
+}
+.loginbanner{
+	height:296px;
+	background:url(/Yqwan/images/fenleiyebannerbackground.jpg) center no-repeat;	
+	margin:0 auto;
+	position:relative;
+	margin-top:-85px;
+	z-index:-1;
+}

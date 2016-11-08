@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IRecordDao">
+	
+	<!-- 所有游戏专辑 -->
+	<select id="listRecordnum" resultType="com.yqwan.domain.Record">
+		select * from record order by id desc limit #{n},8;
+	</select>
+	
+	<!-- 游戏专辑 -->
+	<select id="getrecordbyid" resultType="com.yqwan.domain.Record">
+		select * from record where id=#{id}
+	</select>
+	
+	<!-- 后台 -->
+	<!-- 所有游戏专辑 -->
+	<select id="listRecord"  resultType="com.yqwan.domain.Record">
+		select * from record
+	</select>
+	<!-- 根据id查询 -->
+	 <select id="findById" resultType="com.yqwan.domain.Record" parameterType="int">
+    	select * from record where id=#{id}
+    </select>
+	<!-- 添加 -->
+	<insert id="add" parameterType="com.yqwan.domain.Record">
+		insert into record(name,record.describe,gameid,banner,picture,click,score,date) 
+		values(#{name},#{describe},#{gameid},#{banner},#{picture},#{click},#{score},#{date})
+	</insert>
+	<!-- 修改 -->
+	<update id="update"  parameterType="com.yqwan.domain.Record">
+		update record
+		<set>
+			<if test="name!=null and name!=''">
+				name=#{name},
+			</if>
+			<if test="describe!=null and describe!=''">
+				record.describe=#{describe},
+			</if>
+			<if test="gameid!=null and gameid!=''">
+				gameid=#{gameid},
+			</if>
+			<if test="banner!=null and banner!=''">
+				banner=#{banner},
+			</if>
+			<if test="picture!=null and picture!=''">
+				picture=#{picture},
+			</if>
+			<if test="click!=null and click!=''">
+				click=#{click},
+			</if>
+			<if test="score!=null and score!=''">
+				score=#{score}
+			</if>
+		</set>
+		<where>
+			id=#{id}
+		</where>
+	</update>
+</mapper>

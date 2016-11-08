@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gamelists>
+	<game>
+		<gamename>梦幻家园</gamename>
+		<login_path>http://mhjy.layabox.com/index.html?relatedId=657</login_path>
+		<pay_path>http://paycenter.layabox.com/Pay/180/deliver</pay_path>
+		<check_path>http://mhjy.layabox.com/index.html</check_path>
+		<key>ds3d3e9b7930098ue83ffb6b3388383f</key>
+	</game>
+</gamelists>

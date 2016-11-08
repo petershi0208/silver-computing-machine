@@ -1,0 +1,396 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#top {
+	display: block;
+	z-index: 100;
+	top: 0px;
+	position: fixed;
+	background-repeat: repeat-x;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link .head_navigation {
+	color: #666;
+}
+
+a:active .head_navigation {
+	color: #666;
+}
+
+a:visited .head_navigation {
+	color: #666;
+}
+
+a:hover .head_navigation {
+	color: #F93;
+}
+
+a:link #head_01 {
+	color: #3598d8;
+}
+
+a:active #head_01 {
+	color: #3598d8;
+}
+
+a:visited #head_01 {
+	color: #3598d8;
+}
+
+a:hover #head_01 {
+	color: #FFF;
+}
+
+a:link #head_02 {
+	color: #3C3;
+}
+
+a:active #head_02 {
+	color: #3C3;
+}
+
+a:visited #head_02 {
+	color: #3C3;
+}
+
+a:hover #head_02 {
+	color: #FFF;
+}
+
+a:link #head_03 {
+	color: #999;
+}
+
+a:active #head_03 {
+	color: #999;
+}
+
+a:visited #head_03 {
+	color: #999;
+}
+
+a:hover #head_03 {
+	color: #FFF;
+}
+
+a:link #head_phone {
+	color: #999;
+}
+
+a:active #head_phone {
+	color: #999;
+}
+
+a:visited #head_phone {
+	color: #999;
+}
+
+a:hover #head_phone {
+	color: #FFF;
+}
+
+a:link #head_con {
+	color: #999;
+}
+
+a:active #head_con {
+	color: #999;
+}
+
+a:visited #head_con {
+	color: #999;
+}
+
+a:hover #head_con {
+	color: #FFF;
+}
+
+a:link #head_phone #imgs {
+	background-image: url(../../web_image/head/head_phone_back.png);
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 21px;
+}
+
+a:active #head_phone #imgs {
+	background-image: url(../../web_image/head/head_phone_back.png);
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 21px;
+}
+
+a:visited #head_phone #imgs {
+	background-image: url(../../web_image/head/head_phone_back.png);
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 21px;
+}
+
+a:hover #head_phone #imgs {
+	background-image: url(../../web_image/head/head_phone_white.png);
+	background-repeat: no-repeat;
+	width: 21px;
+	height: 21px;
+}
+
+a:link #head_con #imgs {
+	background-image: url(../../web_image/head/weibo.png);
+	background-repeat: no-repeat;
+	float:left;
+	width: 21px;
+	height: 21px;
+}
+
+a:hover #head_con  #imgs:before {
+	display:block;
+}
+a #head_con #imgs:before {
+	background-image: url(../../web_image/head/lingyongdai_weibo.png);
+	content:"";
+	background-repeat: no-repeat;
+	position:absolute;
+	top:20px;
+	left:310px;
+	margin-top:20px;
+	width: 430px;
+	height: 430px;
+	display:none;
+}
+
+a:link #head_weixin  #imgs {
+	background-image: url(../../web_image/head/weixin.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	width: 21px;
+	height: 21px;
+}
+
+a:hover #head_weixin  #imgs:before {
+	display:block;
+}
+
+
+
+
+a #head_weixin #imgs:before {
+	background-image: url(../../web_image/head/lingyongdai_weixin.png);
+	content:"";
+	background-repeat: no-repeat;
+	position:absolute;
+	left:-50px;
+	top:15px;
+	margin-top:20px;
+	width: 256px;
+	height: 256px;
+	display:none;
+}
+a:link #head_mobile  {
+	background-image: url(../../web_image/head/mobile.png);
+	background-repeat: no-repeat;
+	position:fixed;
+	margin-left:2.2%;
+	width: 21px;
+	height: 21px;
+}
+
+/* 
+a #head_mobile #imgs:before{
+	content:"";
+	background: url(../../web_image/head/android.png)  no-repeat;	
+	position:absolute;
+	left:5px;
+	top:30px;	
+	width: 258px;
+	height: 258px;
+	display:none;
+}
+
+a #head_mobile #imgs1:before{
+	content:"";
+	background: url(../../web_image/head/ios.png)  no-repeat;	
+	position:absolute;
+	left:250px;
+	top:35px;	
+	width: 258px;
+	height: 258px;
+	display:none;
+}
+a:hover #head_mobile  #imgs:before {
+	display:block;
+}
+
+a:hover #head_mobile  #imgs1:before {
+	display:block;
+}
+
+ */
+
+
+
+/* common styling */
+/* set up the overall width of the menu div, the font and the margins */
+.menu {
+font-family: arial, sans-serif; 
+width:540px;
+height:24px;
+margin:0 50px;
+
+
+}
+/* remove the bullets and set the margin and padding to zero for the unordered list */
+.menu ul {
+padding:0; 
+margin:0;
+list-style-type: none;
+}
+/* float the list so that the items are in a line and their position relative so that the drop down list will appear in the right place underneath each list item */
+.menu ul li {
+float:left;
+postion:absolute;
+}
+
+/* style the links to be 104px wide by 30px high with a top and right border 1px solid white. Set the background color and the font size. */
+
+
+
+.menu ul li a, .menu ul li a:visited {
+display:block; 
+text-align:center; 
+text-decoration:none; 
+width:89px; 
+height:30px; 
+color:#666; 
+border:1px solid #f9f9f9;
+border-width:1px 1px 0 0;
+font-size:18px;
+font-family:Microsoft YaHei;
+}
+.menu ul li a:hover{
+	display:block; 
+	text-align:center; 
+	text-decoration:none; 
+	width:89px; 
+	height:30px; 
+	color:#F60; 
+	border:1px solid #f9f9f9;
+	border-width:1px 1px 0 0;
+	font-size:18px;
+	font-family:Microsoft YaHei;
+	
+}
+
+.menu ul li ul {
+	display: none;
+}
+
+.menu ul li:hover ul {
+	display:block; 
+	position:absolute; 
+	top:31px; 
+	left:0; 
+	width:105px;
+}
+
+/* style the background and foreground color of the submenu links */
+.menu ul li:hover ul li a {
+	display:block;
+	background-color:#f9f9f9;
+	color:#666;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	padding-top:6px;
+	border:1px solid #f9f9f9;
+
+}
+/* style the background and forground colors of the links on hover */
+.menu ul li:hover ul li a:hover {
+
+	background-color:#f0f0f0;
+	font-family:Microsoft YaHei;
+	font-size:16px;
+	color:#F60;
+	padding-top:6px;
+	border:1px solid #f0f0f0;
+
+}
+
+
+.head_leftService_DIV{height:26px; width:240px; padding-top:8px; text-align:left; margin-left:-130px;float:left;}
+.head_concern{width:200px;height:26px;padding-top:8px;text-align:left;float:left;}
+.head_weixin_div{width:200px;height:26px;padding-top:8px;text-align:left;float:left;margin-left:-100px;}
+
+
+.head_heatRay{display:block; width:70px; height:30px; float:left; font-family: Microsoft YaHei; font-size:15px;}
+.concern_we{display:block; width:70px; height:30px; float:left; font-family: Microsoft YaHei; font-size:15px;}
+.head_heatRay_PojoSpan{display:block; background-size:auto; width:30px; height:30px; float:left;}
+
+.head_heatRay_phone{display:block; height:30px; float:left; font-family: Microsoft YaHei; font-size:15px;}
+
+#head_phone{height:26px; width:220px;}
+#head_con{height:26px;width:100px;color:#FFF;}
+
+.head_right_Div{height:35px; width:550px; text-align:right; float:left; color:#FFF; padding-top:7px;}
+
+.head_right_Div #username{display: none;}
+
+.head_right_Font{font-family:Microsoft YaHei; font-size:15px; margin-right:20px;}
+
+.head_right_Font02{font-family: Microsoft YaHei; font-size:15px;}
+.head_right_Font03{font-family: Microsoft YaHei; font-size:15px; color: #999;}
+
+.head_tow_div{width:100%; background-color:#f9f9f9; box-shadow:2px 2px 5px #ccc; height:75px; background-repeat:no-repeat;}
+.head_tow_div_02{width:967px;; height:75px;}
+.head_tow_div_03{width:967px;; height:59px;}
+
+.head_logoImg{width:139px; height:44px; float:left; background-image:url(../../web_image/guide/head/head-logo1.png); background-repeat:no-repeat; margin-left:-80px;}
+
+.head_title02Img{width:1px; height:34px;  float:left; background-image:url(../../web_image/guide/head/head_title02.png); background-repeat:no-repeat; margin-top:7px; margin-left:16px;}
+
+.head_title03Img{width:218px; height:24px; float:left; background-image:url(../../web_image/guide/head/head_title03.png);  background-repeat:no-repeat; margin-top:12px; margin-left:30px;}
+
+.head_menuRight_Div{width:540px; height:24px; float:left; margin-top:12px; margin-left:38px; text-align:right;}
+
+
+.head_pojoDiv_01{height: 35px; width:100%; background-color:#555;}
+
+.head_pojoDiv_02{height: 35px; width:967px;}
+
+.head_pojoDiv_03{height:35px; width:150px; float:left;}
+
+.head_pojoDiv_04{width:967px; height:15px;}
+
+.head_pojoDiv_05{width:100%; height:110px;background-color: #f3f4f8;}
+
+#imgs_ios{
+	position: absolute;
+	border: 1px solid #AAACAB;
+	background: #fff;
+	z-index: 2;
+	padding: 7px 9px;
+	left: -130px;
+	top: 31px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	color:black;
+	width:290px;
+}
+
+#up{
+	position: absolute;
+	background: url(../../web_image/home_page/up.png) no-repeat;
+	width:15px;
+	height:12px;
+	top:-9px;
+	right:160px;
+}
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IGameDistrictDao">
+	
+    
+    <!-- 按条件查询 -->
+     <select id="listgameregion" parameterType="String" resultType="com.yqwan.domain.Gamedistrict">
+         select gameregion from gamedistrict
+         <where>
+	          gamename=#{gamename}
+         </where>
+          order by id desc
+     </select>
+     
+     <!-- 新增插数据 -->
+      <insert id="insert" parameterType="com.yqwan.domain.Gamedistrict">
+         insert into gamedistrict (gamename,gameregion,date) values(#{gamename},#{gameregion},#{date})
+     </insert>
+     
+     <!-- 查询所有记录 -->
+	<select id="listAll" resultType="com.yqwan.domain.Gamedistrict">
+         select * from gamedistrict
+    </select>
+    <!-- 分页记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Gamedistrict">
+         select * from gamedistrict
+          <where>
+          <if test="param1!=null and param1!=''">
+          	gamename like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+          limit #{param2},#{param3}
+    </select>
+     <!-- 条件查询总条数 -->
+	<select id="count" resultType="int">
+         select count(*) from gamedistrict
+          <where>
+          <if test="_parameter!=null and _parameter!=''">
+          	gamename like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>
+    
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Gamedistrict">
+         select * from gamedistrict 
+         <where>
+	            id=#{id}
+         </where>
+     </select>
+     
+     <!-- 新增 -->
+      <insert id="add" parameterType="com.yqwan.domain.Gamedistrict">
+         insert into gamedistrict (gamename,gameid,gameregion,serverid,click,date) values(#{gamename},#{gameid},#{gameregion},#{serverid},#{click},#{date})
+     </insert>
+     
+      <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.Gamedistrict">
+         update gamedistrict
+          <set>
+              <if test="gamename!=null and gamename!=''">
+                  gamename=#{gamename},
+              </if>
+              <if test="gameregion!=null and gameregion!=''">
+                  gameregion=#{gameregion},
+              </if>
+             
+                  serverid=#{serverid},
+             
+              <if test="click!=null and click!=''">
+                  click=#{click}
+              </if>
+          </set>
+         where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from gamedistrict where id=#{id}
+     </delete>
+     
+     <!-- 获取游戏最新区 -->
+      <select id="findNewDistrict" parameterType="String" resultType="com.yqwan.domain.Gamedistrict">
+         select gameregion,serverid,date from gamedistrict 
+         <where>
+	            gamename=#{gamename}
+         </where>
+         order by id desc limit 0,3
+     </select>
+     
+     <!-- 获取游戏所有分区 -->
+      <select id="listallregion" parameterType="String" resultType="com.yqwan.domain.Gamedistrict">
+         select gameregion,serverid,gameid,date from gamedistrict 
+         <where>
+	            gamename=#{gamename}
+         </where>
+     </select>
+     
+     
+      <!-- 获得serverid -->
+      <select id="getserveridByregion" parameterType="com.yqwan.domain.Gamedistrict" resultType="int">
+         select serverid from gamedistrict 
+         <where>
+	            gamename=#{gamename} AND gameregion=#{gameregion}
+         </where>
+     </select>
+      <!-- 获得region -->
+      <select id="getregionByserverid" parameterType="com.yqwan.domain.Gamedistrict" resultType="String">
+         select gameregion from gamedistrict 
+         <where>
+	            gamename=#{gamename} AND serverid=#{serverid}
+         </where>
+     </select>
+     
+     <!-- 获得region -->
+      <select id="getnamebyid" resultType="com.yqwan.domain.Gamedistrict">
+         select * from gamedistrict 
+         <where>
+	            gameid=#{param1} AND serverid=#{param2}
+         </where>
+     </select>
+     
+     <!-- 修改根据游戏名 -->
+     <update id="updateByName" parameterType="com.yqwan.domain.Gamedistrict">
+         update gamedistrict
+          <set>
+              <if test="gameid!=null">
+                  gameid=#{gameid}
+              </if>
+          </set>
+         where gamename=#{gamename}
+     </update>
+     
+</mapper>

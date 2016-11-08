@@ -1,0 +1,762 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>站点地图-199y游戏</title>
+
+		<meta name="keywords" content="199y游戏,站点地图,游戏平台">
+		<meta name="description" content="站点地图-199y游戏">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+
+	</head>
+
+	<body>
+		<div>
+			<div>头部导航</div>
+			<a href="http://www.199y.com/toindex.do">首页</a>
+			<a href="http://www.199y.com/classify.jsp">分类</a>
+			<a href="http://www.199y.com/toNews.do">新闻</a>
+			<a href="http://www.199y.com/record.jsp">专辑</a>
+			<a href="http://www.199y.com/codecentre.do?giftname=&page=1">发号中心</a>
+		</div>
+		<div>
+			<div>关于我们</div>
+			<a href="http://www.199y.com/synopsis/synopsis.jsp">关于我们</a>
+			<a href="http://www.199y.com/synopsis/join.jsp">诚聘英才</a>
+			<a href="http://www.199y.com/synopsis/friendlink.jsp">友情链接</a>
+			<a href="http://www.199y.com/synopsis/statement.jsp">法律声明</a>
+		</div>
+		<div>
+			<div>游戏</div>
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E7%259A%2584%25E4%25B8%2596%25E7%2595%258C%25E7%2582%25B9%25E5%2587%25BB%25E4%25B8%25AD%25E6%2596%2587%25E7%2589%2588" >我的世界点击中文版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B7%25B7%25E4%25B9%25B1%25E4%25B9%258B%25E7%258E%258B2" >混乱之王2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25A0%25B9%25E6%259C%25AC%25E5%2581%259C%25E4%25B8%258D%25E4%25B8%258B%25E6%259D%25A5" >根本停不下来</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A2%25A8%25E5%25A5%2587%25E8%25BF%25B9" >墨奇迹</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2580%25AA%25E5%2585%25BD%25E7%2582%25B9%25E5%2587%25BB" >怪兽点击</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2582%2589%25E7%259F%25B3%25E6%258C%2582%25E6%259C%25BA" >炉石挂机</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=mirror%25E4%25BC%25A0%25E5%25A5%2587" >mirror传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%25A5%259E%25E5%25B9%25BB%25E6%25AD%25A6%25E5%25BA%2593" >神幻武库</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E5%258F%25B2%25E8%258E%25B1%25E5%25A7%2586" >放置史莱姆</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E4%25B8%2589%25E5%259B%25BD" >挂三国</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=Farland%2520Final%2520Fire" >Farland Final Fire</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E8%2581%258A%25E7%259A%2584%25E6%25B8%25B8%25E6%2588%258F" >无聊的游戏</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2598%25E6%2596%2597%25E6%2597%25A0%25E6%25AD%25A2%25E5%25A2%2583" >战斗无止境</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%2589%25BE%25E5%25BE%25B7%25E5%25B0%2594%25E5%2586%2592%25E9%2599%25A9" >艾德尔冒险</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25BE%25BF%25E4%25BE%25BF%25E7%2582%25B9%25E5%2587%25BB" >便便点击</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A7%25E5%25B0%258F%25E5%25A7%2590%25E9%2583%258A%25E6%25B8%25B8" >大小姐郊游</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2582%25B9%25E5%2587%25BB%25E8%258B%25B1%25E9%259B%2584" >点击英雄</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E6%259D%2580%25E6%2589%258B" >放置杀手</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E5%2595%2586%25E5%25BA%2597" >放置商店</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E7%259F%25BF%25E6%25B4%259E" >挂机矿洞</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2587%2592%25E7%25A5%259E3" >懒神3</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2590%258D%25E5%25AD%2597%25E5%25A4%25A7%25E4%25B9%25B1%25E6%2596%2597" >名字大乱斗</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2589%25E5%259B%25BD%25E8%25BF%259B%25E5%25BA%25A6%25E6%259D%25A1" >三国进度条</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2586%2592%25E9%2599%25A9%25E8%25BF%25B7%25E5%25AE%25AB%25E6%259D%2591" >冒险迷宫村</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2592%2596%25E5%2595%25A1%25E7%2582%25B9%25E5%2587%25BB" >咖啡点击</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E4%25B8%2596%25E7%2595%258C" >放置世界</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2589%2591%25E5%2589%2591%25E5%2589%2591%25E5%259C%25A3%25E4%25BA%258C" >剑剑剑圣二</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25BF%25B7%25E4%25BD%25A0%25E4%25BC%25A0%25E5%25A5%2587" >迷你传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2589%25E5%259B%25BD%25E4%25BC%25A0%25E5%25A5%2587" >三国传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2594%259F%25E4%25B9%258B%25E8%25BD%25AE%25E5%259B%259E" >生之轮回</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258E%25A2%25E7%25B4%25A2%25E8%258B%25B1%25E9%259B%2584" >探索英雄</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E7%259A%2584%25E5%258F%25A3%25E8%25A2%258B%25E5%25A6%2596%25E6%2580%25AA" >我的口袋妖怪</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E6%2583%25B3%25E6%25B4%25BB%25E4%25B8%258B%25E5%258E%25BB" >我想活下去</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E7%259A%2584%25E7%25A7%2592%25E4%25BC%25A4" >无尽的秒伤</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%259F%25AE%25E4%25BA%25BA%25E9%2595%2587%25E6%258C%2582%25E6%259C%25BA" >矮人镇挂机</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E8%258B%25B1%25E9%259B%2584" >挂机英雄</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2583%25B5%25E5%25B0%25B8%25E7%2582%25B9%25E5%2587%25BB%25E4%25B8%25AD%25E6%2596%2587%25E7%2589%2588" >僵尸点击中文版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%25AD%2594%25E6%25B3%2595%25E4%25B8%2596%25E7%2595%258C" >魔法世界</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259C%25AB%25E6%2597%25A5%25E5%258D%25B1%25E6%259C%25BA" >末日危机</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2599%25BA%25E5%258B%2587%25E4%25B8%2589%25E5%259B%25BD" >智勇三国</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E5%2586%259C%25E5%25BA%2584" >放置农庄</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%25AD%2594%25E7%2590%2586%25E6%25B2%2599%25E4%25B8%258E%25E7%2588%25B1%25E4%25B8%25BD%25E4%25B8%259D%25E7%259A%2584%25E9%25A5%25BC%25E5%25B9%25B2collection" >魔理沙与爱丽丝的饼干collection</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2588%25B6%25E9%2580%25A0%25E4%25B8%259A" >制造业</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E6%258B%259B%25E5%25B7%25A5" >无尽招工</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25AD%25BB%25E4%25BA%25A1%25E4%25B9%258B%25E8%25B0%25B7" >死亡之谷</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B5%25B7%25E8%25B4%25BC%25E7%258E%258B" >海贼王</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%259F%25BF%25E7%2589%25A9" >矿物</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E7%259F%25BF%25E4%25B8%259A%25E5%2585%25AC%25E5%258F%25B8" >放置矿业公司</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2582%25B9%25E5%2587%25BB%25E9%2598%25B2%25E5%25BE%25A1%25E8%2580%25852" >点击防御者2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2595%2586%25E4%25B8%259A%25E5%25B8%259D%25E5%259B%25BD3" >商业帝国3</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E5%2586%2592%25E9%2599%25A9%25E4%25B9%258B%25E6%2597%25852" >无尽冒险之旅2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E7%25BD%25AE%25E7%258E%258B%25E5%259B%25BD%25E6%2588%2598%25E4%25BA%2589" >放置王国战争</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E5%25B0%258F%25E4%25BC%25A0%25E5%25A5%2587" >挂机小传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259C%25BA%25E5%2599%25A8%25E5%25AE%25A0%25E7%2589%25A9" >机器宠物</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2587%2592%25E4%25BA%25BARPG2" >懒人RPG2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B9%25B1%25E6%25A2%25A6%25E4%25B8%2589%25E7%2595%258C" >乱梦三界</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E5%2586%2592%25E9%2599%25A9%25E4%25B9%258B%25E6%2597%2585" >无尽冒险之旅</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25BE%2581%25E6%259C%258D%25E8%2580%2585%25E5%25A8%2581%25E5%25BB%2589" >征服者威廉</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2588%2598%25E5%25A4%2587%25E7%25A3%2595%25E5%25A4%25B4" >刘备磕头</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%258C%25AB%25E7%2588%25B6%25E7%259A%2584%25E6%2597%25A5%25E5%25B8%25B8" >猫父的日常</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2589%2593%25E5%25B7%25A5%25E6%2588%2598%25E5%25A3%25AB%25E7%2589%25A9%25E8%25AF%25AD" >打工战士物语</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%259D%259E%25E7%258E%25B0%25E5%2585%2585%25E7%259A%2584%25E5%2586%2592%25E9%2599%25A9" >非现充的冒险</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A7%25E5%258F%2594%25E7%259A%25AE%25E5%258D%25A1%25E4%25B8%2598" >大叔皮卡丘</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A7%25E7%2594%259F%25E5%25AD%2590%25E7%258E%258B%25E5%259B%25BD" >大生子王国</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2596%2587%25E6%2598%258E%25E5%2588%259B%25E4%25B8%2596%25E8%2580%2585" >文明创世者</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E7%259F%25B3%25E6%25B2%25B9%25E5%25A4%25A7%25E4%25BA%25A8" >挂机石油大亨</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25BC%25A0%25E5%25A5%2587%25E8%25BF%259B%25E5%258C%2596%25E5%258F%25B2" >传奇进化史</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E8%25A5%25BF%25E6%25B8%25B8" >挂机西游</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2596%25E7%2595%258C%25E5%25BE%2581%25E6%259C%258D%25E4%25B8%258D%25E8%2583%25BD" >世界征服不能</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2590%259E%25E9%25A3%259F%25E5%258B%2587%25E8%2580%2585" >吞食勇者</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25BC%2582%25E7%2595%258C%25E4%25B8%25B9%25E8%258D%25AF%25E5%258F%25AC%25E5%2594%25A4" >异界丹药召唤</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25AD%25BB%25E5%25AE%2585%25E5%25A4%25A7%25E5%2586%2592%25E9%2599%25A9" >死宅大冒险</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2581%25B5%25E9%25AD%2582%25E5%25B0%258F%25E4%25BC%2599%25E4%25BC%25B4" >灵魂小伙伴</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25B6%2585%25E5%25B9%25BB%25E8%25A5%25BF%25E6%25B8%25B8" >超幻西游</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25B0%2581%25E5%25B0%2586%25E5%25A6%25B9%25E5%25A6%25B9%25E5%258F%2598%25E6%2588%2590%25E8%25BF%2599%25E6%25A0%25B7" >谁将妹妹变成这样</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%258E%258B%25E5%259B%25BD%25E9%2581%2593%25E5%2585%25B7%25E5%25B1%258B" >王国道具屋</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%2596%25E6%2598%259F%25E4%25BA%25BABig%2520Shot" >外星人Big Shot</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A9%25E5%25A4%25A9%25E5%2586%2592%25E9%2599%25A9" >天天冒险</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25AE%25AD%25E5%25B1%258D%25E5%25B7%25A2%25E7%25A9%25B4" >殭屍巢穴</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25B6%25E9%259B%2586%25E7%258C%25AB%25E8%2588%25B0" >收集猫舰</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2596%2597%25E7%25A5%259E%25E4%25B9%258B%25E5%25A1%2594" >斗神之塔</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25BA%25BA%25E7%2594%259F%25E6%25A8%25A1%25E6%258B%259F%25E5%2599%25A8" >人生模拟器</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2598%259F%25E9%2599%2585%25E8%25BF%259C%25E5%25BE%2581" >星际远征</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25B6%2585%25E8%25BD%25AF%25E9%25A5%25AD%25E7%2590%2586%25E8%25AE%25BA%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >超软饭理论汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%258B%2587%25E8%2580%2585%25E4%25B9%258B%25E5%25A1%2594" >勇者之塔</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2598%259F%25E9%2599%2585%25E8%25BF%259C%25E5%25BE%2581%25E5%258B%2587%25E8%2580%2585%25E7%2599%25BE%25E8%25B4%25A7%25E5%2595%2586%25E5%25BA%2597" >星际远征勇者百货商店</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2589%25E5%259B%25BD%25E5%25BF%2597%25E3%2582%25BF%25E3%2583%2583%25E3%2583%2597!" >三国志タップ!</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25BC%25A0%25E5%25A5%25872%25E8%25BF%259B%25E5%25BA%25A6%25E6%259D%25A1" >传奇2进度条</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259D%2580%25E6%2584%258F%25E4%25B9%258B%25E5%259B%25BD%25E7%259A%2584%25E7%2588%25B1%25E4%25B8%25BD%25E4%25B8%259D" >杀意之国的爱丽丝</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E3%2581%259A%25E3%2581%25A3%25E3%2581%25A8%25E5%258B%2587%25E8%2580%2585" >ずっと勇者</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%259C%25B0%25E7%2589%25A2999%25E5%25B1%2582" >地牢999层</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E4%25B8%2589%25E5%259B%25BD" >无尽三国</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25B9%25BB%25E6%2583%25B3%25E6%258C%2582%25E6%259C%25BA" >幻想挂机</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%25AA%2581%25E5%2587%25BB%25E5%259C%25B0%25E4%25B8%258B%25E5%259F%258E" >突击地下城</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25AF%25BB%25E6%2589%25BE%25E9%25BE%2599%25E7%25B1%25B3%25E5%258D%25A1" >寻找龙米卡</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2589%25E5%259B%25BD%25E5%25BF%2597%25E4%25B9%25B1%25E6%258C%2582" >三国志乱挂</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%2589%25E5%259B%25BD%25E5%25A4%25A9%25E4%25B8%258B%25E5%25BD%2595" >三国天下录</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2585%25B6%25E5%25AE%259E%25E4%25B8%258D%25E6%2598%25AF%25E5%258B%2587%25E8%2580%2585" >其实不是勇者</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25BC%2580%25E5%25A7%258B%25E7%2582%25BC%25E9%2587%2591" >开始炼金</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2584%259F%25E6%259F%2593" >感染</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%2589%25BE%25E4%25B8%25BD%25E8%258E%258E%25E5%25B7%25B4%25E7%2589%25B9%25E5%2588%25A9%25E7%259A%2584%25E5%2590%25B8%25E8%25A1%2580%25E8%25AE%25B0" >艾丽莎巴特利的吸血记</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259C%2589%25E7%25A7%258D%25E4%25BD%25A0%25E7%25AC%25AC%25E4%25B8%2580" >有种你第一</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E4%25BB%25AC%25E7%259A%2584%25E8%25A1%2597%25E9%2581%2593" >我们的街道</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=BattleDNA" >BattleDNA</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2590%2591%25E5%259C%25B0%25E5%25BF%2583%25E5%25BC%2580%25E6%258C%2596Must%2520a%2520Mine" >向地心开挖Must a Mine</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A9%25E4%25BD%25BF%25E4%25B8%258E%25E6%2581%25B6%25E9%25AD%2594%25E5%25AE%2589%25E5%258D%2593%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >天使与恶魔安卓汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25A2%25A6%25E5%25B9%25BB%25E6%258C%2582%25E6%259C%25BA" >梦幻挂机</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%259C%25B0%25E4%25B8%258B%25E5%259F%258E%25E5%25A0%25A1" >地下城堡</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%25A5%259E%25E5%2589%2591%25E4%25BC%25A0%25E8%25AF%25B4" >神剑传说</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2594%25BE%25E4%25B8%2589%25E5%259B%25BD" >放三国</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E7%259A%2584%25E7%2599%25BE%25E4%25BA%25BF%25E6%2596%25B0%25E5%25A8%2598" >我的百亿新娘</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2585%25A8%25E6%25B0%2591%25E5%25B1%25A0%25E9%25BE%2599" >全民屠龙</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2598%25E6%2596%2597%25E4%25B9%258B%25E9%25AD%2582%2520%25E4%25B8%25AD%25E6%2596%2587%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >战斗之魂 中文汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2598%25AD%25E5%2592%258C%25E9%259B%25B6%25E9%25A3%259F%25E5%25BA%2597%25E7%259A%2584%25E6%2595%2585%25E4%25BA%258B%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >昭和零食店的故事汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2598%25AD%25E5%2592%258C%25E8%258C%25B6%25E9%25A6%2586%25E6%2595%2585%25E4%25BA%258B%25E6%25B1%2589%25E5%258C%2596%25E7%25A0%25B4%25E8%25A7%25A3%25E7%2589%2588" >昭和茶馆故事汉化破解版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%258D%25AF%25E6%25B0%25B4%25E5%2588%25B6%25E4%25BD%259C%25E5%25B8%2588%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >药水制作师汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B6%2588%25E7%2581%25AD%25E9%2582%25A3%25E5%25A6%2596%25E7%25B2%25BE" >消灭那妖精</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25AD%25BB%25E5%25AE%2585%25E5%25A4%25A7%25E5%2586%2592%25E9%2599%25A9%25E4%25B8%25AD%25E6%2596%2587%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >死宅大冒险中文汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%258D%25E6%25AD%25BB%25E8%25BA%25AB%25E4%25B9%258B%25E5%259B%25BD%25E7%259A%2584%25E7%2588%25B1%25E4%25B8%25BD%25E4%25B8%259D" >不死身之国的爱丽丝</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%259A%25AE%25E5%2585%258B%25E6%2596%25AF%25E6%2588%2598%25E8%25AE%25B0" >皮克斯战记</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%25AD%2594%25E7%258E%258B%25E7%2588%2586%25E5%25BC%25BA%25EF%25BC%259A%25E8%258B%25B1%25E9%259B%2584%25E7%25BB%259D%25E6%259C%259B" >魔王爆强：英雄绝望</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25BC%2580%25E5%25BF%2583%25E5%2595%2586%25E5%25BA%2597" >开心商店</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B1%259F%25E6%25B9%2596%25E4%25B9%258B%25E5%25B0%2581%25E9%25AD%2594%25E4%25BC%25A02.11.26" >江湖之封魔传2.11.26</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25B4%25B1%25E4%25BE%25A0%25E5%25A5%2587%25E7%25BC%2598" >贱侠奇缘</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25B0%2581%25E7%25A5%259E%25E6%258C%2582%25E6%259C%25BAv3.00" >封神挂机v3.00</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A5%258B%25E6%2596%2597%25E5%2590%25A7%25EF%25BC%2581%25E6%25B3%25A5%25E6%25B5%2586%25E6%2580%25AA%25EF%25BC%2581" >奋斗吧！泥浆怪！</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%2594%25BB%25E5%2586%25B6%25E5%25B1%258B%25E8%258B%25B1%25E9%259B%2584%25E8%25B0%25AD" >锻冶屋英雄谭</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%259C%25B0%25E4%25B8%258B%25E5%259F%258E%25E7%25AA%2581%25E8%25A2%25AD2" >地下城突袭2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2589%2593%25E6%2580%25AA%25E7%25BB%2583%25E5%258A%259F%25E5%2586%25B2%25E8%25A3%2585%25E5%25A4%25872" >打怪练功冲装备2</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%258D%25E5%258F%25AF%25E6%2580%259D%25E8%25AE%25AE%25E4%25B9%258B%25E5%259B%25BD%25E7%259A%2584%25E5%2586%2592%25E9%2599%25A9%25E9%2585%2592%25E5%259C%25BA%25E6%25B1%2589%25E5%258C%2596" >不可思议之国的冒险酒场汉化</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E5%25A4%25A7%25E5%2586%2592%25E9%2599%25A9" >无尽大冒险</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2582%25B9%25E6%259D%2580%25E9%25AB%2598%25E6%2589%258B%25E5%25AE%2588%25E5%258D%25AB%25E8%2580%2585%25E6%2597%25A0%25E9%2599%2590%25E9%2592%25BB%25E7%259F%25B3%25E7%2589%2588" >点杀高手守卫者无限钻石版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B3%2595%25E5%25BC%258F%25E6%2596%2599%25E7%2590%2586%25E8%25BE%25BE%25E4%25BA%25BA" >法式料理达人</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%259B%25B8%25E7%25BA%25A6%25E6%259A%2591%25E5%2581%2587%25E6%2588%2591%25E7%259A%2584%25E7%2599%25BE%25E5%258F%2598%25E7%2594%25B7%25E7%25A5%259E" >相约暑假我的百变男神</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2584%259A%25E5%2585%25AC%25E7%25A7%25BB%25E5%25B1%25B1" >愚公移山</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25AD%25B5%25E5%258C%2596%25E7%25BE%258E%25E5%25B0%2591%25E5%25A5%25B3%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >孵化美少女汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25B0%25B8%25E6%2581%2592%25E7%259A%2584%25E7%2582%25BC%25E9%2587%2591%25E6%259C%25AF%25E5%25B8%2588" >永恒的炼金术师</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2587%2592%25E4%25BA%25BA%25E7%259F%25B3%25E5%2599%25A8" >懒人石器</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258E%25A2%25E9%2599%25A9%25E6%2597%25A5%25E5%25BF%2597" >探险日志</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259A%25B4%25E8%25B5%25B0%25E5%25A4%25A7%25E5%2586%2592%25E9%2599%25A9%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >暴走大冒险汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25B0%258F%25E9%25BB%2591%25E5%25B1%258B%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >小黑屋汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%259B%258B%25E5%25AE%259D%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >蛋宝汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2586%25B2%25E5%2590%2591%25E5%25A4%25AA%25E7%25A9%25BA3%2520%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >冲向太空3 汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%2589%2591%25E4%25B8%258E%25E7%259F%25AE%25E4%25BA%25BA%25E7%258E%258B%25E5%259B%25BD%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >剑与矮人王国汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25B6%2585%25E8%258B%25A6%25E9%2580%25BC%25E5%2586%2592%25E9%2599%25A9%25E8%2580%2585%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >超苦逼冒险者汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%259C%259F%25E9%25BE%2599%25E5%25A4%25A7%25E5%258F%2591%25E7%258E%25B0" >土龙大发现</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E4%25B8%25AD%25E5%259C%259F%25E4%25BC%25A0%25E5%25A5%2587" >中土传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2589%25A7%25E5%259C%25BA%25E7%2589%25A9%25E8%25AF%25AD" >牧场物语</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E7%2581%25B5%25E9%25AD%2582%25E6%2588%2598%25E5%25A3%25AB" >灵魂战士</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%2593%2581%25E5%258C%25A0%25E6%258C%2582%25E6%259C%25BA%25E5%25AE%259E%25E9%25AA%258C%25E5%25AE%25A4" >铁匠挂机实验室</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E4%25BC%25A0%25E5%25A5%2587" >挂机传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E5%25B0%25BD%25E7%259A%2584%25E6%2580%25AA%25E7%2589%25A9%25E7%258C%258E%25E4%25BA%25BA" >无尽的怪物猎人</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2597%25A0%25E9%2599%2590%25E6%258C%2596%25E7%259F%25BF" >无限挖矿</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%2595%259C%25E5%2583%258F%25E4%25BC%25A0%25E5%25A5%2587" >镜像传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E8%25BF%259B%25E5%2587%25BB%25E7%259A%2584%25E9%25BD%2590%25E5%25A4%25A9%25E5%25A4%25A7%25E5%259C%25A3" >进击的齐天大圣</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%259C%25AB%25E6%2597%25A5%25E5%258D%25B1%25E6%259C%25BA2%25E5%258D%2587%25E7%25BA%25A7%25E6%25B1%2589%25E5%258C%2596%25E7%2589%2588" >末日危机2升级汉化版</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%25AF%259B%25E5%258F%2591%25E8%2582%25B2%25E6%2588%2590" >毛发育成</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%258C%2582%25E6%259C%25BA%25E6%258C%2596%25E9%2587%2591%25E7%259F%25BF" >挂机挖金矿</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E6%2588%2591%25E7%259A%2584%25E5%2585%25AC%25E4%25B8%25BB%25E7%258E%258B%25E5%259B%25BD1" >我的公主王国1</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E5%25A4%25A7%25E5%258F%2594%25E4%25BC%25A0%25E5%25A5%2587" >大叔传奇</a>
+	    
+	    	<a href="http://www.199y.com/gameinfo.do?gamename=%25E9%25AA%2591%25E5%25A3%25AB%25E4%25BE%258D%25E4%25BB%258E" >骑士侍从</a>
+	    
+	    	<a href="http://qst.199y.com/" >像素骑士团</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/startgame.do?region=1&userid=&serverid=1&gamename=%25E5%2588%2580%25E5%2589%2591%25E9%25AD%2594%25E8%258D%25AF2&originalpage=gameDJMY" >刀剑魔药2</a>
+	    </div>
+	    <div>
+	     	<div>新闻</div>
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623730">动作冒险系列大作《阿尔隆：炉火》降价促销</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623726">球王来了！《贝利足球传奇》现已登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623729">全新像素游戏《远离杀戮营地》正式公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623926">休闲风猜拳游戏《东方猜拳录》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623953">全新益智游戏《泡泡火箭救援》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623975">恋爱冒险游戏 《怪盗夜想曲》 开启预注册</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623980">《天使之石》5月更新前瞻 公会系统即将开放</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623982">《DEEMO》更新2.3版本 官方小说月底推中文版</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623987">RPG游戏《Erakis 》官网更新 公布全新情报</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=624089">冒险游戏《伦敦陷落》新版上线 服务器改善</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623111">任天堂《Miitomo》成日本最火社交游戏软件</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623113">King RPG新作《英雄》安卓平台开启测试</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623175">RPG游戏《野兽》职业情报公布 下周预注册</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623187">冒险大作《神秘海域：宝藏猎人》登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623323">动作冒险游戏《不休骑士》6月登陆全球市场</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623524">全新的音乐游戏《拉诺塔》夏季登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623534">益智消除游戏《樱桃小丸子梦想舞台》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623569">乙女向三消游戏《爱的争夺》上架iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623686">《奥兹时空战记》预注册破5万 特典礼物加码</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623725">动作RPG《刺客信条：本色》下周推出安卓版</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622492">维京人怒抢洗发水  《火箭野兽》登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622543">多人生存游戏《谁在潜伏》下周上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619415">育碧新作《饥饿鲨：世界》今日正式登陆iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622844">闯关游戏《乐高电影视频游戏》登陆安卓平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622759">恋爱ADV游戏《来恋爱吧女孩》推出中文版</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622842">动作冒险游戏《佐敦》现已登陆安卓平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622821">RPG游戏新作《天军：无限争夺战》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622885">Gameloft射击大作《现代战争5》新版上线</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623051">狩猎猛犸象主题手游《大猎人》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=623106">偶像养成游戏《我们事务所的偶像新人》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622081">复古红白机风格手游《围困恶徒》全球已上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622105">《铁娘子：野兽遗产》开测 即将登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622108">挑战双手协调能力 《Perchang》即将上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622242">爆笑动漫改编手游《在下坂本》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622278">回合制策略游戏《决斗英雄》即将登陆移动端</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622269">乐园骑士改编游戏《阿瓦隆Ω》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622287">休闲游戏《Pinball Breaker Forever》月内上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622352">人气漫画改编 《外貌至上主义》将推出手游</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622392">《替代少女》预注册开启 于今夏上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622487">多人竞技游戏《为战而生》正式上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621654">休闲手游《贪吃毛毛虫》5月12日iOS上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621723">北欧神话冒险游戏《巨人约顿》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621722">史诗RPG系列新作《阿瓦登3：开战》秋季发售</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621724">任天堂新游：《动物之森》与《火焰之纹章》</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621853">动漫改编《苍之彼方的四重奏》登陆安卓平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621906">横版过关游戏《逃跑的蟾蜍》登陆iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621934">系列续作《太空刑警2》6月先行登陆iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622004">画面酷炫 射击游戏《鱿鱼公司》即将到来</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622053">创意益智游戏《无尽六边形》登录iPad平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=622076">专注文字游戏30年 《无尽之枪》带你做将军</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620244">经典移植卡牌游戏《开拓者冒险》再次跳票</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620477">女性向RPG游戏《玩具的游行》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620530">女性向恋爱游戏《光与影的王子》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620746">经典系列续作《暗影格斗3》公布 今秋发售</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620760">梦幻童趣风《午餐时间2》完工 即将开启测试</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620888">女性向恋爱游戏《水垢王子》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620945">休闲类收集游戏《收集!轻松熊》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621295">日式RPG游戏《女神侧身像：起源》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621348">中二病RPG游戏《式神物语》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=621649">雷亚音乐游戏新作《VOEZ》5月26日登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619658">射击游戏《亚特兰蒂斯之地》6月份前后上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619699">竞速射击游戏《重型火箭》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619742">万代RPG游戏《海贼王：千风暴》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619919">《玩具熊的五夜后宫》开发者神秘新作曝光</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619921">《狼人侦探和披萨男孩的冒险》28日上架iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619924">策略塔防游戏《Spellbinders》4月28日到来</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620085">本格动作RPG游戏《灵魂历险》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620109">弹射游戏《就算你死了也不原谅你》上架iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620135">《恐怖！废弃医院逃脱：无影灯》惊悚上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=620143">奇幻色彩游戏《龙翅汤》年内登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619153">弹射型射击动作新作《武士之剑》将于本月推</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619154">人气动漫改编《JOJO的奇妙冒险》即将上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619155">3D横向卷轴新作《暗黑英雄》已上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619192">动作冒险游戏《星之骑士》上架App Store</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619264">RPG游戏《东京地下城RPG》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619316">《皇室战争》官方Twitter证实迫击炮将消弱</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619321">日本《舰队collection》安卓先行版5月推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619492">趣味游戏《恐龙保卫战》4月28日正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619561">《梦幻西游》手游App零售店美术分享会回顾</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619656">休闲游戏《Outdodge》曝光 新西兰区已上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618724">不良少年RPG大乱斗《不良道:最凶之绊》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618727">动作益智新作《毛玉忍者》开始事前登录活动</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618728">暗黑风来袭 《迷幻追踪:黑暗之伤》现已上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618729">SE神秘新作RPG游戏 《武士崛起》揭露真面目</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618789">SEEC消除类新作《梅亚的泡泡》上架iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618824">奇葩游戏《抱紧萝卜的女高中生》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618865">3D物理感应休闲游戏《崩溃季节》5月正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618937">《爷爷的城市》开发商新作《INKS》5月上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619096">《拉力竞速2》制作完成 或将在5月正式推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=619151">动作RPG新作《深渊君主》月底上架韩国平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618021">《天天过马路》多人模式现已实装安卓平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618100">微软公布《我的世界：教育版》将于6月推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618115">策略RPG《恶魔的崛起：地狱之路》新截图公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618203">互联网攻防大战 策略游戏《黑客》公布开测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618257">SE公开《女武神剖析：起源》超华丽声优阵容</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618292">艺术创作主题冒险游戏《狮子之歌》近日公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618341">人气育成游戏《口袋女孩：魔王狩猎者》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618379">放置型游戏《无家可归的男人》将于下月推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618504">《行尸走肉：米琼恩》最终章26日正式开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=618508">《晶体管》开发商第三款作品《Pyre》公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617277">《皇室战争》充值收入破亿 中国玩家贡献大</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617278">横板闯关游戏《黏球传说》下周登陆iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617281">奇葩游戏《曲奇饼的太空冒险》下周三上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617285">RPG拼字游戏《拼写之魂》正式登陆iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617284">战锤40K新作《哥特舰队:利维亚坦》即将来袭</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617449">不再是一个人战斗 《饥荒》将推出多人模式</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617586">恐怖病院逃脱游戏《无影灯》事前登录开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617633">美少女射击游戏《女神强袭》上架iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617955">动作RPG游戏《欧西利亚幻想》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617996">飞行射击类游戏《编队少女》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616290">《圣斗士星矢 小宇宙幻想传》iOS上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616372">外媒报道《我的世界移动版》将加入全新内容</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616444">模拟经营游戏《平衡城市》亲手打造奇葩城镇</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616473">系列新作《逃离方块：剧院》本周正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616652">黑白棋益智游戏《怪物三明治》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616689">策略类游戏《棒球魂 九人武士》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616934">《我的世界移动版》领域服务器开放测试</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616942">病毒即将爆发 FPS新作《Hidden Force》公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617056">韩式FPS新作手游《最后一枪》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=617100">模拟散财游戏《秒速一亿元 贡献男》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615697">《口袋妖怪GO》澳洲即将开测 何时到中国？</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615804">《行尸走肉》衍生剧《行尸之惧》手游将公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615845">精品手游《僵尸榨汁机》近期安卓平台登陆</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615934">日式RPG手游《忍者噩梦》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615988">探索RPG游戏《记忆追寻者》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615987">回合策略游戏《哥特舰队：利维亚坦》曝光</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615991">冒险潜行游戏《未来忍者》公布 或今秋发售</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616028">策略游戏《热带战争》将于4月21日正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616141">无尽奔跑类新作《行尸之惧：亡命狂奔》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=616247">解谜冒险游戏《名侦探柯南》安卓版上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615296">妖怪题材塔防新作《妖怪大合战》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615282">《我的世界移动版》推“故事模式”角色皮肤</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615319">飞行射击游戏《重型火箭》4月21日上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615416">全新规则《脑部锻炼的数字游戏》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615435">养成型策略模拟游戏《幻想的黄金国》已上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615448">《万智对决》新版上线 加入300张新卡牌</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615638">绘本风益智手游《太空漫游者》上架iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615668">《炉石传说》再度跳票？新版本上线时间成迷</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615678">探索解谜游戏《巴哥的探险》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615701">垂直视角射击游戏《野性狂暴》近日曝光</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614889">植物大战僵尸版音游《喧嚣星球X》将上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614969">故事驱动型游戏《Scéal》公布 将登陆双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615130">幻想RPG手游《结集的水晶》已登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615131">原创RPG《心铠回忆》讲述盔甲与猫的故事</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615133">暗黑风RPG《命运之跃》宣布将在年内上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615137">三消益智新作《气泡幽灵》爆笑登录iOS平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615180">充满魔性的休闲游戏《足妖》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615205">4月8日手游开测表：《热血传奇手机版》公测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615217">《黑白小姐GO!GO!超级偶像》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=615280">《托比：神秘的矿山》14日登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614422">4月6日手游开测表：《魂之幻影》公测开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614501">玩法类似大富翁《迪士尼奇妙掷骰》事前登陆</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614512">养成收集游戏《真空管娃娃》创造完美机械姬</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614643">动作闯关游戏《暗影之虫》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614670">屏幕坏了吗？古怪风跑酷《不存在》本周上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614702">过马路新玩法 《盒子王国》带你征战地下城</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614791">幻想RPG手游《结集的水晶》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614829">4月7日手游开测表：《心之城堡》iOS内测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614968">《部落冲突：皇室战争》即将加入实时观战功</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614854">无赖情人养成游戏《垃圾男友》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614152">《MyNBA 2K16》再现NBA热血 论RP获取的几种姿势</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614161">《救世之树》正式进军台湾市场 预计16年推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614274">蠢萌寿司达人《恐怖!僵尸猫》系列新作上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614281">危险关系《我的黑手党男神》手游推出中文版</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614319">拼凑碎片解谜类游戏《Zenge》4月即将来袭</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614321">爽快刺激 动作手游《黑暗之剑EX》已上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614323">追击敌寇冒险类新作《四杰跑酷》正式公布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614327">向奥托的冒险全面致敬《Go Surf》周四上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614397">横版过关游戏《拯救露娜塔》登陆移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614418">人偶自作自订游戏《真空管人偶》预注册开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613453">乙女恋爱游戏《废柴王子》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613464">4月1日手游开测表：《东方不败》iOS内测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613504">像素风格游戏《跳跃僵尸：战争英雄》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613531">趣味性暴增 《我的世界移动版》将支持Mod</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613584">向奥托的冒险全面致敬 《Go Surf》下周上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613658">边炸边跑 《Boombot》将移植移动平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613693"> 最终幻想15关联手游《Justice Monster Five》发布</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613981">休闲类棋盘游戏《迪士尼奇妙掷骰》预约开启</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614018">节奏益智动作游戏《同韵节奏》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=614139">《炉石传说》新情报:新模式将于4月26日推出</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613004">卡牌游戏《上古卷轴：传奇》年内发布登陆iOS</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613083">多人即时RPG游戏《魔术连接》iOS上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613098">3月31日手游开测表：《山口山战记》安卓内测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613120">重力动作益智手游《重力管道》双平台上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613118">《我的世界：故事模式》第5章节如约更新</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613123">战锤系列新作《圣符国度：荷鲁斯异端》上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613306">专精经营游戏 开罗游戏又添两部新作！</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613332">童话般的天空大冒险 动作RPG《冒险队》曝光</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613403">益智冒险游戏《地牢掠夺》4月7日正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=613408">科学家格斗脑洞成真?《科学格斗》技能首曝</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612450">女性向恋爱手游《禁断之恋2》上架双平台</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612454">《部落冲突》续作《皇室战争》在豌豆荚首发</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612654">回合制大战即将上演 《战争满天飞》4月登场</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612687">3月30日手游开测表：《无尽大冒险》安卓公测</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612684">本格动作RPG游戏《天堂X地狱》iOS上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612733">育成游戏《松野家抚养家庭选拔会》安卓上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612812">益智解谜游戏《帕格的探险》下周正式上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612814">策略战棋游戏《Ortus Arena》近期上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612838">边跑边变色 《变色狂奔》4月14日上架</a>
+	    
+	    	<a href="http://www.199y.com/Yqwan/newsinfo.do?newsid=612946">全新MOBA手游新作《爆炸猪》即将上架</a>
+    
+    </div>
+	</body>
+</html>

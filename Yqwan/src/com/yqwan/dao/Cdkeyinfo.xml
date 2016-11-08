@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.ICdkeyInfoDao">
+ <!--	<resultMap type="com.yqwan.domain.Giftinfo" id="gift_cdkey">
+		<association property="gift"  column="giftid" select="com.yqwan.dao.IGiftInfoDao.findbyid"></association>
+	</resultMap>-->
+	
+	
+    <!-- 分页查询记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Cdkeyinfo" >
+         select * from cdkeyinfo inner join giftinfo on giftinfo.id = cdkeyinfo.giftid
+          <where>
+          <if test="param1!=null and param1!=''">
+          	giftname like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+          limit #{param2},#{param3}
+    </select>
+    
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" >
+         select count(*) from cdkeyinfo 
+    </select>
+     <!-- 根据条件查询总条数 -->
+	<select id="countpag" resultType="int" parameterType="String">
+         select count(*) from cdkeyinfo inner join giftinfo on giftinfo.id = cdkeyinfo.giftid
+          <where>
+          <if test="_parameter!=null and _parameter!=''">
+          	giftname like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>  
+    <!-- 查询当前礼包总条数 -->
+	<select id="countByGiftid" resultType="int"  parameterType="int">
+         select count(*) from cdkeyinfo where giftid=#{giftid}
+    </select>
+     <!-- 查询当前礼包剩余可用条数 -->
+	<select id="restCount" resultType="int"  parameterType="int">
+         select count(*) from cdkeyinfo where isreceive=0 and giftid=#{giftid}
+    </select>
+    
+    <!-- 按条件查询随机一条数据-->
+    <select id="randomcdkey" parameterType="int" resultType="com.yqwan.domain.Cdkeyinfo">
+         select cdkey from cdkeyinfo where isreceive=0 and giftid=#{giftid} order by rand() limit 1;
+    </select>
+    
+    <!-- 查询用户是否领过该礼包-->
+    <select id="isreceive"  resultType="int">
+         select count(*) from cdkeyinfo where receiptor=#{param1} and giftid=#{param2};
+    </select>
+    
+    <!-- 按条件查询 单个信息-->
+    <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Cdkeyinfo">
+         select * from cdkeyinfo where id=#{id}
+    </select>
+    <!-- 查询礼包-->
+    <select id="findbyrepeitor" resultType="com.yqwan.domain.Cdkeyinfo">
+         select * from cdkeyinfo where receiptor=#{param1} and giftid=#{param2};
+    </select>
+    
+    <!-- 查询用户领取过什么礼包-->
+    <select id="findAllbyrepeitor" parameterType="String" resultType="com.yqwan.domain.Cdkeyinfo">
+         select * from cdkeyinfo inner join giftinfo on cdkeyinfo.giftid = giftinfo.id  
+         where receiptor=#{receiptor} order by cdkeyinfo.id desc;
+    </select>
+    
+    <!-- 查询用户领取过什么礼包(分页)-->
+    <select id="findPagebyrepeitor" parameterType="com.yqwan.domain.Cdkeyinfo" resultType="com.yqwan.domain.Cdkeyinfo">
+         select * from cdkeyinfo inner join giftinfo on cdkeyinfo.giftid = giftinfo.id  
+         where receiptor=#{receiptor} order by cdkeyinfo.id desc limit #{n},8;
+    </select>
+    
+    <!-- 新增 -->
+    <insert id="add" parameterType="com.yqwan.domain.Cdkeyinfo">
+         insert into cdkeyinfo(giftid,cdkey,isreceive) values(#{giftid},#{cdkey},#{isreceive})
+    </insert>
+     
+    <!-- 修改 -->
+    <update id="update" parameterType="com.yqwan.domain.Cdkeyinfo">
+          update cdkeyinfo
+          <set>
+              <if test="giftid!=null and giftid!=''">
+                  giftid=#{giftid},
+              </if>
+              <if test="cdkey!=null and cdkey!=''">
+                  cdkey=#{cdkey},
+              </if>
+              <if test="isreceive!=null and isreceive!=''">
+                  isreceive=#{isreceive},
+              </if>
+               <if test="receiptor!=null and receiptor!=''">
+                  receiptor=#{receiptor}
+              </if>
+          </set>          
+          where id=#{id}
+    </update>
+     
+     <!-- 已领取 -->
+    <update id="updatebyCdkey" parameterType="com.yqwan.domain.Cdkeyinfo">
+          update cdkeyinfo set isreceive=1,receiptor=#{receiptor} where cdkey=#{cdkey} and giftid=#{giftid}
+    </update>
+    <!-- 删除 -->
+    <delete id="delete" parameterType="int">
+        delete from cdkeyinfo where id=#{id}
+    </delete>
+</mapper>

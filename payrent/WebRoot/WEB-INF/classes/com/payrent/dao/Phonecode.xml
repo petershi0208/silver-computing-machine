@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.payrent.dao.IPhonecodeDao">
+	
+    
+      <!-- 按手机号查询 -->
+     <select id="findByphone" parameterType="String" resultType="com.payrent.domain.Phonecode">
+         select * from phonecode
+         where phone=#{phone}
+     </select>
+     
+     <!-- 新增 -->
+      <insert id="add" parameterType="String">
+         insert into phonecode (phone,code) values(#{param1},#{param2})
+     </insert>
+     
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="String">
+         delete from phonecode where phone=#{phone}
+     </delete>
+     
+     <!-- 修改 -->
+    <update id="updatecode" parameterType="String">
+          update phonecode set code=#{param2} where phone=#{param1}
+    </update>
+</mapper>

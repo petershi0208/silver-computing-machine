@@ -1,0 +1,76 @@
+
+//修改支付密码属性
+.changepwd{
+	 width:740px;
+	 border:1px solid #d9d9d9; 	
+}
+.changepwd p{
+	margin:10px auto;
+	font-size:15px;
+	text-align:center;	
+}
+.changepwd p input{
+	width:225px;
+	height:34px;	
+}
+
+.p4{
+	position:relative;
+	left:-10px;	
+}
+
+
+.btn{
+	width:118px;
+	height:35px;
+	background-color:#0D83CF;
+	font-size:20px;
+	color:white;
+	margin:20px 300px;
+	border:0px;
+}
+
+//实名认证属性
+.checkname{
+	width:740px;
+	border:1px solid #d9d9d9;	
+}
+
+.checkname p{
+	margin:10px auto;
+	font-size:15px;
+	text-align:center;
+}
+
+.checkname p input{
+	width:225px;
+	height:34px;	
+}
+
+#comfirm{
+	width:118px;
+	height:35px;
+	font-size:20px;
+	color:white;	
+	text-align:center;
+	margin:10px 300px;	
+	background-color:#0D83CF;
+	border:0px;
+}
+.read{
+	width:740px;
+	border:1px solid #d9d9d9;	
+}
+
+.read p{
+	margin:10px auto;
+	font-size:15px;
+	text-align:center;
+}
+
+.read p input{
+	border:0px;
+	width:225px;
+	height:34px;
+}
+

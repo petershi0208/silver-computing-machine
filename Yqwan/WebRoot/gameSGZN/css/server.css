@@ -1,0 +1,144 @@
+@CHARSET "UTF-8";
+body{background:url("/Yqwan/gameSGZN/images/serverimage/bannerdeng.png") no-repeat center top #000;background-color:#000;font-family: "Microsoft YaHei";margin:0;padding:0;}
+.serverDiv{
+    width: 823px;
+    height: 885px;
+    background-image: url("../images/serverimage/fudi01.png");
+    margin-left: 5px;
+    float: left;
+}
+.wdl{
+	text-align: center;
+	font-size: 16px;
+	color: #FFF;
+	line-height: 104px;
+}
+.maleft {
+    width: 272px;
+    height: 670px;
+    float: left;
+}
+.topDiv{
+    width: 825px;
+    height: 35px;
+}
+.noWord{
+    width: 184px;
+    height: 34px;
+    margin:auto;
+    display: block;
+    position: relative;
+    top: 35px;
+   
+}
+
+.hasWord,.noFireW{
+    width: 180px;
+    height: 36px;
+    background: url("../images/serverimage/fuan001.png");
+    line-height: 35px;
+}
+.topDiv h3 {
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+}
+.loginDiv{
+    width: 825px;
+    height: 104px;
+
+}
+.serverName{
+
+}
+.loginDiv .serverName a{
+    background: url("../images/serverimage/fuan01.png");
+    cursor:inherit;
+}
+.loginShow{
+    width: 805px;
+    height: 104px;
+    margin-left: 10px;
+    background: url("../images/serverimage/fuwu02.png");
+    text-align: center;
+}
+.recommendShow a,.loginShow  a{
+    display: inline-block;
+}
+.recommendDiv{
+    width: 825px;
+    height: 104px;
+}
+.recommendDiv .serverName a {
+    background: url("../images/serverimage/fuan02.png");
+
+}
+.recommendShow{
+    width: 805px;
+    height: 120px;
+    margin-left: 10px;
+    text-align: center;
+    background: url("../images/serverimage/fuwu03.png");
+}
+.recommendShow a{
+    position: relative;
+    top: 40px;
+}
+.loginShow a{
+    position: relative;
+    top: 35px;
+}
+.allServerDiv{
+    width: 825px;
+    height: 104px;
+}
+.allServerDiv .serverName a {
+    background: url("../images/serverimage/fuan03.png");
+
+}
+.allServerShow{
+    width: 805px;
+    height: 280px;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-top: 20px;
+    background: url("../images/serverimage/fuwu04.png") no-repeat;
+
+}
+.allServerShow a{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.hasWord .firstW{
+    font-size: 15px;
+    color: #ffffff;
+    margin-left: 5px;
+
+
+}
+.hasWord .secondW{
+    font-size: 15px;
+    color: rgb(192,125,87);
+    margin-left: 5px;
+
+}
+.noFireW .firstW{
+    font-size: 15px;
+    color: #ffffff;
+    
+}
+.noFireW .secondW{
+    font-size: 15px;
+    color: rgb(192,125,87);
+    margin-left: 5px;
+
+}
+.noFirew{
+	text-align: center;
+}
+.fireLogo{
+    margin-left: 5px;
+    position: relative;
+    top:-3px;
+}

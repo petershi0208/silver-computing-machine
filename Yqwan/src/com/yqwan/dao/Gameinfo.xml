@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IGameInfoDao">
+	
+	<!-- 查询游戏详情picture-->
+	<select id="listpicAll" parameterType="String" resultType="String">
+         select picture from gameinfo
+         <where>
+	            gamename=#{gamename}
+         </where>
+    </select> 
+    
+    <!-- 查询游戏-->
+	<select id="findbygamenamea" parameterType="int" resultType="com.yqwan.domain.Gameinfo">
+         select detaildescripe,gamename from gameinfo
+         <where>
+	            id=#{id}
+         </where>
+    </select>
+     
+  	 <!-- 按游戏名字查询 -->
+     <select id="findBygameid" parameterType="String" resultType="com.yqwan.domain.Gameinfo">
+         select * from (select info.*,list.click,list.roletype,list.gametype,list.placetype,list.isBoutique,list.score from gameinfo info,gamelist list where info.gamename=list.gamename) new
+         
+         where gamename=#{gamename}
+     </select>
+     
+     <!-- 按游戏名字查询 -->
+     <select id="findBynameid" parameterType="String" resultType="com.yqwan.domain.Gameinfo">
+         select * from (select info.*,list.click,list.indexpicture,list.roletype,list.gametype,list.placetype,list.isBoutique,list.score from gameinfo info,gamelist list where info.gamename=list.gamename) new
+         
+         where gameid=#{gameid}
+     </select>
+     
+     
+     <!-- 插入数据-->
+      <insert id="insert" parameterType="com.yqwan.domain.Gameinfo">
+         insert into gameinfo (gamename,detaildescripe,picture,gamesize,commentnum,howstart,gamegoal,gameurl) values(#{gamename},#{detaildescripe},#{picture},#{gamesize},#{commentnum},#{howstart},#{gamegoal},#{gameurl})
+     </insert>
+     
+     <!-- 查询所有 -->
+	<select id="all" resultType="com.yqwan.domain.Gameinfo" >
+         select gamename from gameinfo;
+    </select>
+
+
+	<!-- 分页查询所有记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Gameinfo" >
+         select * from gameinfo
+          <where>
+          <if test="param1!=null and param1!=''">
+          	gamename like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+            order by id desc
+          limit #{param2},#{param3}
+    </select>
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" parameterType="String">
+         select count(*) from gameinfo 
+          <where>
+          <if test="_parameter!=null and _parameter!=''">
+          	gamename like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>
+   
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Gameinfo">
+         select * from gameinfo where id=#{id}
+     </select>
+      <select id="findbyname" parameterType="String" resultType="com.yqwan.domain.Gameinfo">
+         select picture from gameinfo where gamename=#{gamename}
+     </select>
+     <!-- 新增 -->
+     <insert id="add" parameterType="com.yqwan.domain.Gameinfo">
+         insert into gameinfo(gamename,gameid,detaildescripe,picture,gamesize,commentnum,howstart,gamegoal,gameurl,code) values(#{gamename},#{gameid},#{detaildescripe},#{picture},#{gamesize},#{commentnum},#{howstart},#{gamegoal},#{gameurl},#{code})
+     </insert>
+     
+      <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.Gameinfo">
+          update gameinfo
+          <set>
+              <if test="gamename!=null and gamename!=''">
+                  gamename=#{gamename},
+              </if>
+              <if test="detaildescripe!=null and detaildescripe!=''">
+                  detaildescripe=#{detaildescripe},
+              </if>
+              <if test="picture!=null and picture!=''">
+                  picture=#{picture},
+              </if>
+               <if test="gamesize!=null and gamesize!=''">
+                  gamesize=#{gamesize},
+              </if>
+              <if test="howstart!=null and howstart!=''">
+                  howstart=#{howstart},
+              </if>
+              <if test="gamegoal!=null and gamegoal!=''">
+                  gamegoal=#{gamegoal},
+              </if>
+              <if test="gameurl!=null and gameurl!=''">
+                  gameurl=#{gameurl},
+              </if>
+                <if test="code!=null and code!=''">
+                  code=#{code},
+              </if>
+               gameid=#{gameid}
+          </set>
+          where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from gameinfo where id=#{id}
+     </delete>
+     
+     <!-- 修改 -->
+     <update id="updatecomment" parameterType="com.yqwan.domain.Gameinfo">
+          update gameinfo
+          <set>
+             commentnum = #{commentnum}
+          </set>
+          where gamename=#{gamename}
+     </update>
+     
+     <select id="listByComment" parameterType="String" resultType="com.yqwan.domain.Gameinfo">
+         select info.gamename,info.gameid,list.indexpicture from gameinfo info,gamelist list 
+         WHERE info.gamename=list.gamename order by info.commentnum desc limit 0,3
+     </select>
+     
+      <select id="getlastgameid"  resultType="int">
+         select max(gameid) from gameinfo;
+     </select>
+     
+</mapper>

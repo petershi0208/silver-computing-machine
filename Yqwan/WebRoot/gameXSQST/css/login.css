@@ -1,0 +1,27 @@
+body{background:url("/Yqwan/gameXSQST/images/bg.png") no-repeat center top;background-color:#000;font-family: "Microsoft YaHei";margin:0;padding:0;}
+img{ border:none; border:0; vertical-align:middle;}
+input{border:0px;margin:0;padding:0;font-family: "Microsoft YaHei";}
+.main{width:940px;height:500px;margin:175px auto 50px auto;background:url("/Yqwan/gameXSQST/images/XIAOREN.png") no-repeat;overflow:hidden;}
+.h40{width:940px;height:40px;}
+.mainleft{float:left;height:436px;width:457px;background:url("/Yqwan/gameXSQST/images/tuhuang.jpg");border:solid 3px #55432f;}
+.mainright{float:right;height:436px;width:457px;background:url("/Yqwan/gameXSQST/images/guangtu.jpg") no-repeat;border:solid 3px #55432f;}
+.login{width:239px;height:49px;background:url("/Yqwan/gameXSQST/images/deng.png") no-repeat;margin:0 auto;cursor:pointer;}
+/* δ��¼ */
+.wlg{}
+.lgtxt{width:457px;height:100px;line-height:100px;text-align:center;font-size:36px;color:#621d03;}
+.wlg .ac{height:72px;font-size:22px;color:#621d03;margin-left:50px;}
+.wlg .pw{height:72px;font-size:22px;color:#621d03;margin-left:50px;}
+.wlg .yz{height:72px;font-size:22px;color:#621d03;margin-left:50px;}
+.wlg .yz .yztxt{float:right;margin-right:50px;height:34px;width:106px;}
+.wlg .ac input{width:270px;height:35px;padding-left:10px;font-size:16px;color:#666;}
+.wlg .pw input{width:270px;height:35px;padding-left:10px;font-size:16px;color:#666;}
+.wlg .yz input{width:150px;height:35px;padding-left:10px;font-size:16px;color:#666;}
+.wlg .rg{float:right;color:#621d03;font-weight:bold;font-size:18px;margin-right:50px;margin-top:20px;text-decoration:underline;}
+/* �ѵ�¼ */
+.ylg{display:none;}
+.ylg table{margin-left:100px;margin-bottom:30px;}
+.z22{font-size:22px;color:#621d03;}
+.e316{font-size:16px;color:#3e3e3e;font-weight:bold;}
+.gd a{color:#621d03;}
+
+.wdl{}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IPhonecodeDao">
+	
+    
+      <!-- 按手机号查询 -->
+     <select id="findByphone" parameterType="String" resultType="com.yqwan.domain.Phonecode">
+         select * from phonecode
+         where phone=#{phone}
+     </select>
+     
+     <!-- 新增 -->
+      <insert id="add" parameterType="com.yqwan.domain.Phonecode">
+         insert into phonecode (phone,code) values(#{phone},#{code})
+     </insert>
+     
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="String">
+         delete from phonecode where phone=#{phone}
+     </delete>
+</mapper>

@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+#li-ul li a{font-size:15px;height:22px;line-height: 22px}
+*{margin:0;padding:0;list-style:none;}
+body{font-family:'MicroSoft Yahei'}
+#rightButton{position:fixed; _position:absolute; top:600px; right:0; z-index:999999; display:block;}
+#right_ul{position:relative;}
+#right_qq{background:url(../totop/qq.png) no-repeat; width:68px; height:74px; }
+#right_tel{background: url(../totop/02.png) no-repeat; width:68px; height:77px; }
+#right_tip{background:url(../totop/flag_right.png) no-repeat; width:252px; height:91px; position:absolute; right:70px; top:-10px; display:none; z-index:999999; }
+.flagShow_p1{float:left; margin-left:15px; _margin-left:5px; font-size:15px; line-height:25px;}
+.flagShow_p2{float:left; margin-left:70px; _margin-left:5px; font-size:18px;  color:#FA7C00;}
+.flagShow_p2 a{display:block; margin: 20px 0 5px 12px; line-height:0;}
+.flagShow_p2 span{margin: 0 0 0 14px; }
+.flag_qq{display:none;}
+#backToTop{z-index:999999; display:none;}
+a.backToTop_a{background: url(../totop/01.png) no-repeat; width:68px; height:79px; display:block; }
+a.backToTop_a:active{background:url(../totop/01.png) no-repeat; }
+.line91{line-height:91px; }

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.INewsDao">
+	
+	<!-- 插入新闻 -->
+	<insert id="insert" parameterType="com.yqwan.domain.News">
+         insert into news (newsid,indexpicture,title,content,author,date,origin,description,type,gamename,state) 
+         values(#{newsid},#{indexpicture},#{title},#{content},#{author},#{date},#{origin},#{description},#{type},#{gamename},#{state})
+     </insert>
+     
+     <!-- 获得新闻 -->
+	<select id="getnews" resultType="com.yqwan.domain.News">
+         select newsid,indexpicture,title,description,author,date from news where type=#{param2} order by id desc limit #{param1},10
+    </select>
+    
+     <!-- 获得新闻详情-->
+	<select id="getnewsinfo" resultType="com.yqwan.domain.News" parameterType="String">
+         select * from news where newsid=#{newsid}
+    </select>
+    
+    <!-- 获得新闻 -->
+	<select id="listNews" resultType="com.yqwan.domain.News">
+         select * from news where type="新闻" order by id desc limit 0,20
+    </select>
+    
+    <!-- 新闻分页 -->
+    <select id="paging" resultType="com.yqwan.domain.News">
+    	select * from news 
+    	<where>
+    		<if test="param1!=null and param1!=''">
+    			title like CONCAT('%',#{param1},'%')
+    		</if>
+    	</where>
+    	order by id desc
+    	limit #{param2},#{param3}
+    </select>
+    <!-- 数量 -->
+    <select id="newscount" resultType="int" parameterType="String">
+    	select count(*) from news
+    	<where>
+    		<if test="_parameter!=null and _parameter!=''">
+    			title like CONCAT('%',#{_parameter},'%')
+    		</if>
+    	</where>
+    </select>
+    <!-- 根据id查询 -->
+    <select id="findById" resultType="com.yqwan.domain.News" parameterType="int">
+    	select * from news where id=#{id}
+    </select>
+    <!-- 查询 -->
+    <select id="newsid" resultType="int">
+    	select max(newsid) from news
+    </select>
+
+   	<!-- 修改新闻 -->
+   	<update id="update" parameterType="com.yqwan.domain.News">
+   		update news
+   		<set>
+   			<if test="indexpicture!=null and indexpicture!=''">
+   				indexpicture=#{indexpicture},
+   			</if>
+   			<if test="title!=null and title!=''">
+   				title=#{title},
+   			</if>
+   			<if test="content!=null and content!=''">
+   				content=#{content},
+   			</if>
+   			<if test="author!=null and author!=''">
+   				author=#{author},
+   			</if>
+   			<if test="origin!=null and origin!=''">
+   				origin=#{origin},
+   			</if>
+   			<if test="date!=null and date!=''">
+   				date=#{date},
+   			</if>
+   			<if test="description!=null and description!=''">
+   				description=#{description},
+   			</if>
+   			<if test="type!=null and type!=''">
+   				type=#{type},
+   			</if>
+   			<if test="gamename!=null and gamename!=''">
+   				gamename=#{gamename},
+   			</if>
+   			<if test="state!=null and state!=''">
+   				state=#{state}
+   			</if>
+   		</set>
+   		where id=#{id}
+   	</update>
+
+   	
+   	 <!-- 修改新闻 主图-->
+   	<update id="updateindexpicture" parameterType="com.yqwan.domain.News">
+   		update news
+   		<set>
+   			<if test="indexpicture!=null and indexpicture!=''">
+   				indexpicture=#{indexpicture}
+   			</if>
+   		</set>
+   		where newsid=#{newsid}
+   	</update>
+   	<!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from news where id=#{id}
+     </delete>
+    
+    <!-- 查询新闻-->
+	<select id="ilistNews" parameterType="String"  resultType="com.yqwan.domain.News">
+		select * from news where type=#{param1} AND state='是' AND gamename=#{param2} order by id desc limit 0,5;
+	</select>
+	<!-- 查询最新新闻-->
+	<select id="ilistAll" parameterType="String"  resultType="com.yqwan.domain.News">
+		select * from news WHERE state='是' AND gamename=#{gamename} order by newsid desc limit 0,5; 
+	</select>
+	
+	<!-- 查询新闻更多-->
+	<select id="ilistMoreNews" parameterType="com.yqwan.domain.News"  resultType="com.yqwan.domain.News">
+		select * from news WHERE type=#{type} AND state='是' AND gamename=#{gamename} order by newsid desc limit #{n},12;
+	</select>
+	<!-- 查询最新新闻更多-->
+	<select id="ilistMoreAll"  resultType="com.yqwan.domain.News">
+		select * from news WHERE state='是' AND gamename=#{param1} order by newsid desc limit #{param2},12;
+	</select>
+	
+	<!-- 查询新闻更多数量-->
+	<select id="ilistMoreNewsNum" parameterType="String"  resultType="com.yqwan.domain.News">
+		select * from news WHERE type=#{param1} AND state='是' AND gamename=#{param2};
+	</select>
+	<!-- 查询最新新闻更多数量-->
+	<select id="ilistMoreAllNum" parameterType="String"  resultType="com.yqwan.domain.News">
+		select * from news WHERE state='是' AND gamename=#{gamename};
+	</select>
+    
+    
+</mapper>

@@ -1,0 +1,258 @@
+@CHARSET "UTF-8";
+
+a:link .secondMenu { background-color:#ffffff; }
+a:active .secondMenu { background-color:#ffffff; }
+a:visited .secondMenu { background-color:#ffffff; }
+a:hover .secondMenu { background-color:#fc817c; }
+
+a:link .secondMenu .secondFont { color:#555555;}
+a:active .secondMenu .secondFont { color:#555555;}
+a:visited .secondMenu .secondFont { color:#555555;}
+a:hover .secondMenu .secondFont { color:#ffffff; }
+
+.div_one_stratum{ width: 100%; overflow:auto; overflow: hidden; margin-bottom:30px; margin: 0; background-color: #f2f3f8; margin-top: -4px; }
+
+.usercenter_navigationDiv_one{width: 967px; overflow:auto; overflow: hidden;}
+
+.usercenter_navigationDiv_two{text-align: left;width: 967px;}
+
+.usercenter_navigationText_01{font-size:16px; color:#666666; display:inline; font-family:Microsoft YaHei;}
+
+.usercenter_navigationText_02{font-family: serif;margin: 0 5px;font-style: normal; font-weight:bold;}
+
+.usercenter_navigationText_03{color:#ca141d; font-family:Microsoft YaHei;}
+
+.navigation_menu_leftDiv{ width: 175px; overflow:auto; overflow: hidden; margin-top: 15px; float: left; }
+
+.menu_One{width: 175px; height: 49px; cursor: pointer; background-color: #ffffff;}
+
+.navigation_menu_leftDiv_01{width: 22px; height: 22px;  float: left; margin-top:12px;}
+
+.pojoImg_01{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	}
+
+.pojoImg_02{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	}
+	
+.pojoImg_03{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	}	
+
+.pojoImg_04{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	}
+	
+.pojoImg_05{
+	width: 22px;
+	height: 22px;
+	float: left;
+	margin-top:12px;
+	background-repeat: no-repeat;
+	}	
+	
+
+
+.navigationFont{width: auto; height: 22px;  float: left; margin-top:14px; font-family: Microsoft YaHei; font-size: 16px; color: #555555;}
+
+.secondLevel_menu_text{ width: 164px; overflow:auto; overflow: hidden; float: right; display: none; }
+
+.secondMenu{width: 164px; height:32px; float: right;}
+
+.secondFont{width: auto;  margin-top:6px; font-family: Microsoft YaHei; font-size: 14px; text-align: left;}
+
+.secondPojo_div{width: 55px; height: 20px;  float: left; margin-top:12px;}
+
+
+/*right*/
+.rightDiv{width: 792px; overflow:auto; overflow: hidden;  float: left; margin-top: 15px; }
+
+.right_basicInformation{width: 770px; height: 177px; background-color: #ffffff; float: right;}
+
+.basic_headPortrait_outer{width: 95px; height: 100px; border:5px solid #e74c3c; margin-top:-20px; background-color:white; float: left; }
+
+.basic_headPortrait_endothecium{width: 95px; height: 100px; background-image: url("../../web_image/user_center/head_portrait.png"); background-repeat: no-repeat;}
+
+.basicDiv{width: 620px; height: 126px;  float: right;  }
+
+.basic_username{width: 620px; font-family: Microsoft YaHei; font-size: 24px; color:#555555; text-align: left;}
+.basic_username_not{width: 620px; height:31px; text-align: left;}
+
+.security{font-family: Microsoft YaHei; font-size: 14px; color: #666666; float: left; margin-top: 6px;}
+.security_exotheciumDiv{width: 100px; height: 10px; background-color: #E6E6E6; float: left; margin-top: 12px; border-radius:5px;}
+.security_insideDiv_01{width: 10px; height: 10px; background-color:yellow; float: left; border-radius:5px;}
+.security_insideDiv_02{width: 100px; height: 10px; background-color:yellow; float: left; border-radius:5px;}
+
+.remaining_text{ font-family: Microsoft YaHei; font-size: 18px; color: #666666; float: left; margin-top: 3px;}
+.remaining_money{font-family:arial; font-size: 26px; color: #e74c3c; float: left; width:auto;}
+.remaining_moneyText{font-family:Microsoft YaHei; font-size: 14px; color: #e74c3c; float: left; margin-top: 7px;}
+
+.top_up_div{float:left; width:85px; height:35px; background-color:#7DB728; font-family:Microsoft YaHei; font-size:16px; color:white; border-radius:20px;}
+.top_up_text{font-family:Microsoft YaHei; font-size:17px; color:white; margin-top: 5px;}
+
+.withdraw_deposit_div{float:left; width:85px; height:35px; background-color:#E74C3C; border-radius:20px;}
+.withdraw_deposit_text{font-family:Microsoft YaHei; font-size:17px; color:white; margin-top: 5px;}
+
+.verify{background-color: #FEF8F8; width: 40px; height: 40px; float: left; cursor: pointer;}
+.phone_verify_img{margin-top: 8px;}
+.user_verify_img{margin-top: 6px;}
+.money_verify_img{margin-top: 6px;}
+.email_verify_img{margin-top: 10px;}
+
+.freeze_money{font-family: Microsoft YaHei; font-size: 14px; color: #666666; float: left; margin-top: 10px;}
+
+.material_div{width: 770px; height: 55px; background-color: #F7E3BA; float: right; border-radius:8px; border: 2px solid #F4B477;}
+.borrowMoneyMessageText{font-family: Microsoft YaHei; font-size: 18px; color: #7db728; margin-top: 14px; float: left;}
+.messageFullText{font-family: Microsoft YaHei; font-size: 14px; color: #555555; margin-top: 18px; float: left;}
+.messageFullDiv{margin-top: 25px; float: left; background-color: #ffffff; width: 150px; height: 6px; border-radius:20px; }
+.messageFullDiv_02{float:left; background-color: #E97731; width: 30px; height: 6px; border-radius:20px; }
+.message_rateOfProgressImg{width: 39px; height: 20px; float: left; margin-top: 17px; background-image: url('../../web_image/user_center/userCenter_pojo.png'); background-repeat: no-repeat;}
+.message_rateOfProgressText{float:left; font-family:Microsoft YaHei; width:30px; height:18px; font-size: 12px; color: white; text-align: center; }
+
+
+.btn_fullDiv{cursor:pointer; width: 86px; height: 34px; float: left; margin-top: 11px; background-color: #3598D8;  border-radius:5px;}
+.btn_fullText{color:white; font-family:Microsoft YaHei; margin-top: 5px;}
+
+.right_accountbasicInformation{width: 770px; overflow:auto; overflow: hidden; background-color: #ffffff; float: right; border: 1px solid #E6E6E6; }
+
+.div_insulate_linellae{width: 700px; height: 1px; background-color: #E6E6E6;}
+
+.manageMoney_account {float: left; color: #ca141d; font-family:Microsoft YaHei; font-size: 14px;}
+.altogether_money{float: left; color: #3598d8; font-family:Microsoft YaHei; font-size: 14px;}
+.money_num{float: left; color: #e74c3c; font-family:arial; font-size: 20px; margin-top: -3px;}
+.manageMoney_column{font-family:Microsoft YaHei; font-size: 14px; color:#666666; float: left;}
+.manageMoney_column_name{width: 70px; height: 20px; text-align:left;  font-family:Microsoft YaHei; font-size: 14px; color:#666666; float: left;}
+.manageMoney_column_num{width: 130px; height: 20px;font-family:Microsoft YaHei; font-size: 14px; color:#666666; float: left;}
+.examine_detail{width: 45px; height: 20px; font-family:Microsoft YaHei; font-size: 14px; color:#e74c3c; float: left; }
+
+.right_financing_recommend{width: 770px; background-color: #ffffff; float: right; border: 1px solid #E6E6E6; }
+
+.manageMoney_recommend {width: 730px; height: 30px; text-align:left; font-family: Microsoft YaHei; font-size: 24px; color: #909090;}
+
+.product_name_div{width: 200px; height: 50px; float: left;}
+.product_btn_div{width: 90px; height: 50px; float: left;}
+.product_text{width: 200px; text-align: left; font-family:Microsoft YaHei; font-size: 18px; color: #ca141d;}
+.product_pojo_01{width: 200px; text-align: left; margin-top: 8px; font-family:Microsoft YaHei; font-size: 14px; color: #666666;}
+.product_pojo_02{width: 200px; text-align: left; margin-top:4px; font-family:Microsoft YaHei;  font-size: 14px; color: #666666;}
+.join_btn{width: 92px; height:31px; background-color: #7DB627; border-radius:20px; margin-top: 7px;}
+.join_text{line-height: 30px;font-family:Microsoft YaHei; font-size: 16px; color: #ffffff;}
+.div_bottom{width: 100%; height: 40px; margin-bottom: -40px;  background-color: #f2f3f8;}
+
+
+
+
+/*一些简单的div块*/
+.pojoDiv01{width: 770px; height: 49px; background-color:#e74c3c;}
+
+.pojoDiv02{width: 25px; height: 112px; margin-top:-20px;  float: left;}
+
+.pojo_div{ width: 22px; height: 20px;  float: left; margin-top:12px; }
+
+.Pojo_div_01{clear:right; width: 175px; height: 2px;}
+
+.Pojo_div_02{width: 164px; float: right;}
+
+.pojo_div_03{width: 620px; height: 40px;}
+
+.pojo_div_04{width: 10px; height: 10px;  float: left; margin-top: 12px;}
+
+.pojo_div_05{width: 185px; height: 40px;  float: right;}
+
+.pojo_div_06{width: 5px; height: 10px;  float: left; margin-top: 12px;}
+
+.pojo_div_07{width: 620px; height: 40px; margin-top: 10px;}
+
+.pojo_div_08{width: 1px; height: 40px; float: left;}
+
+.pojo_div_09{width: 13px; height: 40px; float: left;}
+
+.pojo_div_10{width: 8px; height: 40px; float: left;}
+
+.pojo_div_11{width: 40px; height: 40px; float: left;}
+
+.pojo_div_12{width: 770px; height: 25px; float: right;}
+
+.pojo_div_13{width:70px; height:55px; float: left;}
+
+.pojo_div_14{width:30px; height:55px; float: left;}
+
+.pojo_div_15{width:10px; height:55px; float: left;}
+
+.pojo_div_16{width:120px; height:55px; float: left;}
+
+.pojo_div_17{width: 39px; height: 3px;}
+
+.pojo_div_18{width: 6px; height: 20px; float: left;}
+
+.pojo_div_19{width: 770px; height: 40px;}
+
+.pojo_div_20{width: 85px; height: 40px; float: left;}
+
+.pojo_div_21{font-family: Microsoft YaHei; font-size: 14px; color: #666666; float: left;}
+
+.pojo_div_22{width: 120px; height: 40px; float: left;}
+
+.pojo_div_23{width: 30px; height: 40px; float: left;}
+
+.pojo_div_24{width:180px; font-family: arial; font-size: 22px; color: #666666; float: left;}
+
+.pojo_div_25{font-family: Microsoft YaHei; font-size: 14px; color: #666666;}
+
+.pojo_div_26{float: left;  font-family: arial; font-size: 30px; color: #555555; text-align: left; margin-top: -5px; }
+
+.pojo_div_27{width:160px; font-family: arial; font-size: 22px; color: #666666; float: left;}
+
+.pojo_div_28{width:160px; font-family: arial; font-size: 22px; color: #e74c3c; float: left;}
+
+.pojo_div_29{font-family: Microsoft YaHei; font-size: 14px; color: #e74c3c;}
+
+.pojo_div_30{width: 770px; height: 15px;}
+
+.pojo_div_31{width: 770px; height: 18px;}
+
+.pojo_div_32{width: 770px; height: 13px;}
+
+.pojo_div_33{width: 700px; height: 20px;}
+
+.pojo_div_34{float: left; width: 50px; height: 20px;}
+
+.pojo_div_35{float: left; width: 10px; height: 20px;}
+
+.pojo_div_36{float: left; width: 80px; height: 20px;}
+
+.pojo_div_37{width: 30px; height: 20px; float: left;}
+
+.pojo_div_38{width: 5px; height: 20px; float: left;}
+
+.pojo_div_39{width: 13px; height: 20px; float: left;}
+
+.pojo_div_40{width: 3px; height: 20px; float: left;}
+
+.pojo_div_41{width: 770px; height: 30px;}
+
+.pojo_div_42{width: 700px; height: 70px;}
+
+
+
+
+
+
+
+

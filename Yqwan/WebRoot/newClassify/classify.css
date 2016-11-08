@@ -1,0 +1,133 @@
+body{
+	margin:0px;	
+	font-family:微软雅黑;
+}
+.classifybanner{
+	height:296px;
+	background:url(/Yqwan/classify/banner_f.jpg) center no-repeat;	
+	margin:0 auto;
+	position:relative;
+	top:-85px;
+}
+
+.center{
+	width:1200px;
+	margin:0px auto;
+	margin-top:-85px;
+	background:#fff;
+	color:#333;
+	height:1150px;
+}
+
+.center .placetype{
+	width:1150px;
+	margin:0 auto;
+	height:50px;
+}
+.placetype div{
+	float:left;
+	height:34px;
+	margin-right:40px;
+	margin-top:16px;
+	font-size:20px;
+	cursor:pointer;
+}
+.placetype div:nth-child(1){
+	border-bottom:2px solid #09f;
+	color:#09f;
+}
+
+.centerrole{
+	width:1150px;
+	height:35px;
+	margin:0 auto;
+	margin-top:40px;
+	font-size:20px;
+	color:#ccc;
+}
+.centerrole>span:nth-child(1) a{
+	font-size:20px;
+	color:#333;
+}
+.centerrole>span:nth-child(2) a{
+	font-size:14px;
+	color:#aaa;
+	position:relative;
+	left:1000px;
+}
+.centerrole>span a{
+	text-decoration:none;
+}
+
+.centerrolefour{
+	width:1150px;
+	height:190px;
+	margin:0 auto;
+}
+.centerrolefour_one{
+	width:220px;
+	height:190px;
+	background:#eee;
+	float:left;
+	margin-right:10px;
+}
+.centerrolefour_one_nei{
+	width:200px;
+	height:148px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+	top:8px;
+	text-align:center;
+}
+.centerrolefour_one_nei img:nth-child(1){
+	position:relative;
+	top:2px;
+}
+.centerrolefour_one_nei img:nth-child(2){
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+
+.centerrolefour_one_info{
+	width:200px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	top:8px;
+	line-height:30px;
+	color:#666;
+}
+.centerrolefour_one_info div{
+	float:left;
+}
+.centerrolefour_one_info_name{
+	width:140px;
+	height:30px;
+	overflow:hidden;
+	font-size:14px;
+}
+.centerrolefour_one_info_score{
+	width:30px;
+	overflow:hidden;
+	margin-left:30px;
+	color:#fa362a;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#head_classify{
+	background-color:#1182e5;
+	color:white;
+	text-decoration:none;
+	display:block;
+	width:75px;
+	height:85px;
+}
+.cl-effect-8 a:nth-child(2)::after  {
+	opacity: 1;
+	-webkit-transform: translateY(0px) translateX(0px);
+	-moz-transform: translateY(0px) translateX(0px);
+	transform: translateY(0px) translateX(0px);
+}

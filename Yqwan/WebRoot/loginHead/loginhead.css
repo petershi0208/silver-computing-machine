@@ -1,0 +1,41 @@
+.login_header{
+	font-family:"Microsoft YaHei";
+	font-size:16px;
+	height:85px;
+	width:100%;	
+	verflow:hidden;
+	border-bottom:1px solid #ccc;
+}
+
+.login_head{
+	height:85px;
+	width:1000px;	
+	margin:0 auto;
+	position:relative;
+	z-index:10;
+}
+.login_head img{
+	margin-top:20px;
+}
+.login_headtext{
+	width:150px;
+	height:30px;
+	margin-left:890px;
+	margin-top:-36px;	
+}
+.login_headtext>span{
+	color:#337ab7;
+	cursor:pointer;
+}
+#loginhead{
+	display:none;	
+}
+
+.loginopcity{
+	height:85px;
+	background-color:white;
+	position:relative;
+	top:-85px;
+	opacity:0.76;	
+	z-index:9;
+}

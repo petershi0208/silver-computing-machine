@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.ICdkeyBannerDao">
+	
+	<!-- 查询所有记录 -->
+	<select id="listAll" resultType="com.yqwan.domain.CdkeyBanner">
+         select * from CdkeyBanner order by id desc limit 0,4
+    </select>
+    
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.CdkeyBanner">
+         select * from CdkeyBanner where id=#{id}
+     </select>
+     
+     <!-- 新增 -->
+     <insert id="add" parameterType="com.yqwan.domain.CdkeyBanner">
+     	insert into CdkeyBanner (gamename,picture,date) values(#{gamename},#{picture},#{date})
+     </insert>
+     
+     <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.CdkeyBanner">
+          update CdkeyBanner
+          <set>
+              <if test="gamename!=null and gamename!=''">
+                  gamename=#{gamename},
+              </if>
+              <if test="picture!=null and picture!=''">
+                  picture=#{picture},
+              </if>
+              <if test="date!=null and date!=''">
+                  date=#{date}
+              </if>
+          </set>
+          where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from CdkeyBanner where id=#{id}
+     </delete>
+</mapper>

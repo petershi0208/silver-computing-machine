@@ -1,0 +1,207 @@
+/* Reset system css */
+
+blockquote,body,dd,dir,dl,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,menu,ol,p,pre,ul,xmp {margin:0}
+button,caption,dir,fieldset,input,legend,menu,ol,td,textarea,th,ul {padding:0}
+html{text-size-adjust:none}ul,menu{list-style:none}img{border:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;;vertical-align:baseline;}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}sup,sub{line-height:0}abbr[title],dfn[title]{border-bottom:1px dotted #000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select,label{vertical-align:middle}
+
+/* Reset end */
+
+/* All Css */
+
+html {color: #333; font-size: 12px;}
+body {font-size: 12px;font-family: "Microsoft Yahei";} 
+h1{font-size: 24px;}h2{font-size: 22px;}h3{font-size: 20px;}h4{font-size: 18px;}h5{font-size: 16px;}h6{font-size: 14px;}
+a:link,a:visited {text-decoration:none; cursor:pointer;}
+a:hover,a:active {text-decoration: underline;-webkit-transition:color .15s linear , background-color .3s linear;-moz-transition:color .15s linear , background-color .3s linear;-o-transition:color .15s linear , background-color .3s linear;-ms-transition:color .15s linear , background-color .3s linear;transition:color .15s linear , background-color .3s linear; cursor:pointer;}
+.clear {height:0; width:100%; overflow:hidden; clear:both;}
+.clear8 {height:8px; overflow:hidden; clear:both;}
+.fl{ float:left;}
+.fr{float:right;}
+
+/* All end */
+
+/* 阻止选中内容 */
+.isNoSelect{
+	 -moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
+}
+
+/* 控件最外层 */
+.getScrollbarWrap{
+	overflow:hidden; 
+	width:100%; 
+	height:100%; 
+	position:relative;
+}
+
+/* 控件内容层 滚动 */
+.getScrollbarWrap > .getScrollbarConn{
+	overflow:visible; 
+	height:auto; 
+	position:absolute; 
+	top:0; 
+	left:0; 
+	right:0; 
+	z-index:9111;
+}
+
+/* 控件滚动条布局容器 */
+.getScrollbarWrap > .getScrollbarBar{
+	width:12px; 
+	position:absolute; 
+	top:20px; 
+	bottom:20px; 
+	z-index:9211;
+}
+
+/* 控件滚动条外层*/
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap{
+	position:relative; 
+	height:100%; 
+	width:100%; 
+}
+
+/* 控件滚动条上按钮*/	
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap > .getScrollbarBarTop{
+	position:absolute; 
+	top:-15px; 
+	height:15px; 
+	left:0; 
+	right:0; 
+	overflow:hidden;
+	z-index:9311;
+	background:url(barOptScrollIcon/getScrollbarBarTop.png) center center;
+}
+
+/* 控件滚动条下按钮 */
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarEnd{
+	position:absolute; 
+	bottom:-15px; 
+	height:15px; 
+	left:0; 
+	right:0; 
+	overflow:hidden;
+	z-index:9311;
+	background:url(barOptScrollIcon/getScrollbarBarEnd.png) center center;
+}
+
+/* 控件滚动条滑块外框*/
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain{
+	position:relative; 
+	height:100%;
+	height:100%; 
+	overflow:hidden;
+	background:url(barOptScrollIcon/getScrollbarBarBg.png) repeat-y center center;
+}
+
+
+/* 控件滚动条滑块*/
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	height:50px;
+	overflow:hidden;
+	/*cursor:pointer;
+	background:red;*/
+}
+
+
+/* 滑块内部样式 */
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div{
+	height:100%;
+	widht:100%;
+	/*background:url(barOptScrollIcon/getScrollbarBarBlockTop.png) no-repeat top center; */
+}
+
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div{
+	height:100%;
+	widht:100%;
+	position:relative;
+	/*background:url(barOptScrollIcon/getScrollbarBarBlockEnd.png) no-repeat bottom center;*/
+}
+
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div > div{
+	position:absolute;
+	left:0;
+	right:0;
+	top:7px;
+	bottom:7px;
+	background:url(barOptScrollIcon/getScrollbarBarBlockBg.png) repeat-y bottom center;
+}
+
+.getScrollbarWrap > .getScrollbarBar > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div > div > div{
+	height:100%;
+	widht:100%;
+	background:url(barOptScrollIcon/getScrollbarBarBlockCenter.png) no-repeat center center;
+}
+
+/* 设置透明度背景 */
+
+/* 控件滚动条上按钮*/	
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap > .getScrollbarBarTop{
+	position:absolute; 
+	top:-15px; 
+	height:15px; 
+	left:0; 
+	right:0; 
+	overflow:hidden;
+	z-index:9311;
+	background:url(ScrollIcon/getScrollbarBarTop.png) center center;
+}
+
+/* 控件滚动条下按钮 */
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarEnd{
+	position:absolute; 
+	bottom:-15px; 
+	height:15px; 
+	left:0; 
+	right:0; 
+	overflow:hidden;
+	z-index:9311;
+	background:url(ScrollIcon/getScrollbarBarEnd.png) center center;
+}
+
+/* 控件滚动条滑块外框*/
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarMain{
+	position:relative; 
+	height:100%;
+	height:100%; 
+	overflow:hidden;
+	background:url(ScrollIcon/getScrollbarBarBg.png) repeat-y center center;
+}
+
+/* 滑块内部样式 */
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div{
+	height:100%;
+	widht:100%;
+	/*background:url(ScrollIcon/getScrollbarBarBlockTop.png) no-repeat top center; */
+}
+
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div{
+	height:100%;
+	widht:100%;
+	position:relative;
+	/*background:url(ScrollIcon/getScrollbarBarBlockEnd.png) no-repeat bottom center;*/
+}
+
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div > div{
+	position:absolute;
+	left:0;
+	right:0;
+	top:7px;
+	bottom:7px;
+	background:url(ScrollIcon/getScrollbarBarBlockBg.png) repeat-y bottom center;
+}
+
+.getScrollbarWrap > .getScrollbarBar.barOpt > .getScrollbarBarWrap >.getScrollbarBarMain > .getScrollbarBarBlock > div > div > div > div{
+	height:100%;
+	widht:100%;
+	background:url(ScrollIcon/getScrollbarBarBlockCenter.png) no-repeat center center;
+}
+
+

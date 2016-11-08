@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.payrent.dao.IYearPayDao"> 
+    <!-- 新增 -->
+    <insert id="add" parameterType="com.payrent.domain.YearPay">
+         insert into applyyearpay(house_id,name,telephone,date,state) values(#{house_id},#{name},#{telephone},#{date},#{state})
+    </insert>
+    
+    <!-- 手机号查询-->
+	<select id="findByTelephone" parameterType="String"  resultType="com.payrent.domain.YearPay">
+		select * from applyyearpay where telephone=#{telephone} and state='申请中'
+	</select>
+</mapper>

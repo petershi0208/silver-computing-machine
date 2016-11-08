@@ -1,0 +1,50 @@
+.vertical-center {
+    margin: 0px auto;
+    border: 1px solid #ECE9E9;
+    height: 100%;
+    width: 90%;
+    max-width: 1000px;
+    clear: both;
+    display: block;
+}
+
+.vertical-center div {
+    border: 1px solid #00B7FF;
+    margin-top: 10px;
+}
+/* �Զ����ǩ  */
+todo {
+    color: purple;
+    font-size: 15px;
+}
+/* �Զ����ǩ  */
+caution {
+    font-size: 15px;
+    color: tomato;
+}
+
+
+
+.clears {
+    clear: both;
+}
+
+h3 {
+    color: #00B7FF;
+}
+
+#backTop2 {
+    position: fixed;
+    left: 20px;
+    bottom: 100px;
+}
+
+#backTop3 {
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+}
+h5{
+	color:red;
+}
+

@@ -1,0 +1,14 @@
+﻿@CHARSET "UTF-8";
+/*右侧qq在线客服*/
+#moquu_top,#moquu_wxin,#moquu_wshare{z-index:2;width:60px;height:60px;right:0%;position:fixed;cursor:pointer;_position:absolute;
+_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+#moquu_wxin {top:190px;_margin-top:120px}
+#moquu_wxin a {background:url("../image/financial/cebianlan.png") 0 -0px;right:0;float:left;width:60px;height:60px;}
+#moquu_wxin a:hover {background:url("../image/financial/cebianlan.png") -60px -0px}
+#moquu_wshare {top:256px;_margin-top:186px}
+#moquu_wshare a {background:url("../image/financial/cebianlan.png") 0 -60px;width:60px;height:60px;right:0;float:left;}
+#moquu_wshare a:hover {background:url("../image/financial/cebianlan.png") -60px -60px}
+#moquu_top {top:322px;_margin-top:252px;background:url("../image/financial/cebianlan.png") 0 -121px;}
+#moquu_top:hover {background:url("../image/financial/cebianlan.png") -60px -121px}
+.moquu_wxin,.moquu_wshare {position:relative;z-index:2}
+.moquu_wxin a:hover .moquu_wxinh,.moquu_wshare a:hover .moquu_wshareh {display:block}

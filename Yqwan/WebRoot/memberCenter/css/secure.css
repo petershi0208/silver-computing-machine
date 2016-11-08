@@ -1,0 +1,38 @@
+/* CSS Document */
+
+body{ font-family:"Microsoft YaHei";font-size:12px; margin:0 auto; padding:0 auto; background-color:#CCCCCC;}
+#nav{width:100%; height:85px; margin:0 auto;box-shadow: 2px 2px 2px #ddd; }
+.banner{z-index:-1;  background:url(/Yqwan/index/banner.png) no-repeat center; position:absolute; width:100%; height:551px;}
+#content{width:1009px; height:1600px; margin:0 auto; background-color:#fff; }
+.content_left{width:800px; height:100%; float:left;  margin-left:9px; overflow:hidden;}
+.content{width:800px; height:900px; border:1px #aaa solid; border-top:0px #000 solid;}
+.content .top{width:798px; height:52px; border-bottom:1px #aaa solid; line-height:52px; font-size:16px;}
+.content .top img{margin-left:15px; margin-right:4px;}
+.content table{margin-left:20px;}
+.content .centre{width:800px; height:425px; font-size:15px; border-bottom:1px #aaa solid;}
+.content table .lanse{color:#0066CC;}
+.content .bottom{width:800px; height:490px; font-size:16px;}
+.content .bottom .address input{width:200px;}
+.content_right{width:200px; height:auto;float:left;}
+
+
+
+
+
+/* ��ȫ���� */
+.secure{width:800px; height:auto; border:3px #ddd solid; border-top:0px #000 solid;}
+.secure .centre{width:799px; height:186px; border-top:1px #aaa solid;}
+.secure .centre div{height:80px; width:500px; margin:40px auto;}
+.secure .centre div img{margin-right:160px;}
+.secure .centre div span{padding:3px 6px;background-color:#1182e5;font-size:12px;position:relative;top:5px;color:#FFF;cursor:pointer; border-radius:4px;-ms-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+margin-left:20px; }
+.secure .centre div span a{
+	color:#FFF;text-decoration:none;
+}
+.secure .top{width:798px; height:52px; line-height:52px; font-size:16px;}
+.secure .top img{margin-left:15px; margin-right:4px;}
+/*会员中心安全中心按钮背景图片*/
+.content_left .nav li:nth-child(3){
+	background:#09f;
+	color:#fff;
+}

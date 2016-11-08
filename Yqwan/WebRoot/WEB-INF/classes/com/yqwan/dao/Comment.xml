@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.ICommentDao">
+     <!-- 查询所有记录 -->
+	<select id="listAll" resultType="com.yqwan.domain.Comment">
+         select * from comment where state='是' and gamename!="" order by id desc limit 0,6;
+    </select>
+    
+     <!-- 查询所有记录分页 -->
+	<select id="listAllComment" resultType="com.yqwan.domain.Comment">
+		select c.*,u.headpicture,u.nickname from comment c left join user u on c.userid=u.userid where c.state='是' AND c.gamename= #{gamename} order by c.id desc limit #{n},3;
+    </select>
+    
+     <!-- 查询所有评论条数 -->
+    <select id="listComment" resultType="com.yqwan.domain.Comment">
+         select id from comment where gamename=#{gamename} AND state='是';
+    </select>
+    
+    <!-- 新增 -->
+     <insert id="insert" parameterType="com.yqwan.domain.Comment">
+     	insert into comment (gamename,gameid,userid,content,date,state) values(#{gamename},#{gameid},#{userid},#{content},#{date},#{state})
+     </insert>
+     
+     <!-- 分页条件查询所有记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Comment" >
+         select * from comment
+          <where>
+          <if test="param1!=null and param1!=''">
+          	gamename like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+          order by id desc
+          limit #{param2},#{param3}
+    </select>
+    
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" parameterType="String">
+         select count(*) from comment 
+          <where>
+          <if test="_parameter!=null and _parameter!=''">
+          	gamename like CONCAT('%',#{_parameter},'%') 
+          </if>
+          </where>
+    </select>
+    
+    <!-- 修改审核状态 -->
+	<update id="update" parameterType="int">
+         update comment set state='否' where id=#{id}
+    </update>
+    
+     <!-- 通过ID查询 -->
+    <select id="findById" resultType="com.yqwan.domain.Comment">
+         select * from comment where id=#{id};
+    </select>
+    
+     
+</mapper>

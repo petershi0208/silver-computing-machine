@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IGiftInfoDao">
+	
+	<!-- 分页查询所有记录 -->
+	<select id="paging" resultType="com.yqwan.domain.Giftinfo">
+    	select * from giftinfo
+    	<where>
+	    	<if test="param1!=null and param1!=''">
+	    		giftname like CONCAT('%',#{param1},'%')
+	    	</if>
+    	</where>
+    	  order by id desc
+    	limit #{param2},#{param3}
+    </select>
+    <!-- 查询所有记录 -->
+	<select id="all" resultType="com.yqwan.domain.Giftinfo">
+          select * from giftinfo
+    </select>
+    <!-- 分页查询大家都在抢 -->
+	<select id="qiang" resultType="com.yqwan.domain.Giftinfo">
+          select * from giftinfo limit 20
+    </select>
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" parameterType="String">
+         select count(*) from giftinfo 
+         <where>
+         	<if test="_parameter!=null and _parameter!=''">
+          		giftname like CONCAT('%',#{_parameter},'%') 
+         	 </if>
+         </where>
+    </select>
+    <!-- 按条件查询 -->
+     <select id="findbyid" parameterType="int" resultType="com.yqwan.domain.Giftinfo">
+         select * from giftinfo where id=#{id}
+     </select>
+     
+     <!-- 新增 -->
+      <insert id="add" parameterType="com.yqwan.domain.Giftinfo">
+         insert into giftinfo(giftname,gamename,logo,timelimit,type,content,activationdate,conditions,date) values(#{giftname},#{gamename},#{logo},#{timelimit},#{type},#{content},#{activationdate},#{conditions},#{date})
+     </insert>
+     <!-- 查询前9条数据 -->
+     <select id="topnine" resultType="com.yqwan.domain.Giftinfo" >
+    	select id,giftname,gamename,date from giftinfo order by date desc limit 10
+     </select>
+     <!-- 修改 -->
+     <update id="update" parameterType="com.yqwan.domain.Giftinfo">
+          update giftinfo
+          <set>
+              <if test="giftname!=null and giftname!=''">
+                  giftname=#{giftname},
+              </if>
+              <if test="gamename!=null and gamename!=''">
+                  gamename=#{gamename},
+              </if>
+              <if test="logo!=null and logo!=''">
+                  logo=#{logo},
+              </if>
+              <if test="timelimit!=null">
+                  timelimit=#{timelimit},
+              </if>
+              <if test="type!=null and type!=''">
+                  type=#{type},
+              </if>
+              <if test="content!=null and content!=''">
+                  content=#{content},
+              </if>
+              <if test="activationdate!=null and activationdate!=''">
+                  activationdate=#{activationdate},
+              </if>
+              <if test="conditions!=null and conditions!=''">
+                  conditions=#{conditions}
+              </if>
+          </set>          
+          where id=#{id}
+     </update>
+     
+     <!-- 删除 -->
+     <delete id="delete" parameterType="int">
+         delete from giftinfo where id=#{id}
+     </delete>
+</mapper>

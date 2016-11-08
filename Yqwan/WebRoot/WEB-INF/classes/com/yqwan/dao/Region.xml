@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.IRegionDao">
+	
+	<!-- 查询有无该区登录过-->
+	<select id="findregion" parameterType="String"  resultType="com.yqwan.domain.LatestRegion">
+		select userid,region,serverid from latestregion where userid=#{param1} AND gamename =#{param2} AND serverid=#{param3};
+	</select>
+	
+	<!-- 查询有无最近登录区-->
+	<select id="findLatestRegion" parameterType="String"  resultType="com.yqwan.domain.LatestRegion">
+		select userid,region,serverid from latestregion where userid=#{param1} AND gamename =#{param2} order by date desc limit 0,1;
+	</select>
+	
+    <!-- 修改 -->
+    <update id="updateregion" parameterType="com.yqwan.domain.LatestRegion">
+          update latestregion
+          <set>
+                  date=#{date},
+                  battle=#{battle},
+                  lv=#{lv},
+                  region=#{region},
+             	 serverid=#{serverid}
+          </set>          
+          where userid=#{userid} AND gamename=#{gamename} AND serverid=#{serverid};
+    </update>
+	
+	<!-- 插入数据-->
+      <insert id="insertregion" parameterType="com.yqwan.domain.LatestRegion">
+         insert into latestregion (userid,nickname,date,gamename,region,serverid,battle,lv) values(#{userid},#{nickname},#{date},#{gamename},#{region},#{serverid},#{battle},#{lv})
+     </insert>
+     
+     <!-- 查询注册人数-->
+	<select id="gameregister" resultType="com.yqwan.domain.LatestRegion" parameterType="com.yqwan.domain.LatestRegion">
+    	select COUNT(*) count,gamename,region from latestregion 
+    	<where>1=1
+    		<if test="date!=null and date!=''">
+    			and date_format(date,'%Y-%m')=#{date}
+    		</if>
+    		<if test="gamename!=null and gamename!=''">
+    			 and gamename=#{gamename}
+    		</if>
+    	</where>
+    	group by gamename,region
+    </select>
+	<!-- 分页查询所有记录 -->
+	<select id="paging" resultType="com.yqwan.domain.LatestRegion" >
+         select * from latestregion   
+          <where>
+          <if test="param1!=null and param1!=''">
+          	userid like CONCAT('%',#{param1},'%') 
+          </if>
+          </where>
+          order by date desc
+          limit #{param2},#{param3}
+    </select>
+    <!-- 查询总条数 -->
+	<select id="count" resultType="int" parameterType="String">
+          select count(id) from latestregion
+	          <where>
+	          <if test="_parameter!=null and _parameter!=''">
+	          	userid like CONCAT('%',#{_parameter},'%') 
+	          </if>
+	          </where>
+    </select>
+     
+</mapper>

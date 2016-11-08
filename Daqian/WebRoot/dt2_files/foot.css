@@ -1,0 +1,450 @@
+@CHARSET "UTF-8";
+
+a:link #foot {
+	color: #999;
+}
+
+a:active #foot {
+	color: #999;
+}
+
+a:visited #foot {
+	color: #999;
+}
+
+a:hover #foot {
+	color: #FFF;
+}
+
+a:link #foot_phone {
+	background-image: url(../../web_image/foot/foot_phone_back.png);
+}
+
+a:active #foot_phone {
+	background-image: url(../../web_image/foot/foot_phone_back.png);
+}
+
+a:visited #foot_phone {
+	background-image: url(../../web_image/foot/foot_phone_back.png);
+}
+
+a:hover #foot_phone {
+	background-image: url(../../web_image/foot/foot_phone_white.png);
+}
+
+/*
+a:link #foot_ios {
+	background-image: url(../../web_image/foot/ios_back.png);
+}
+
+a:active #foot_ios {
+	background-image: url(../../web_image/foot/ios_back.png);
+}
+
+a:visited #foot_ios {
+	background-image: url(../../web_image/foot/ios_back.png);
+
+
+a:hover #foot_ios {
+	background-image: url(../../web_image/foot/ios_white.png);
+}
+
+a:link #foot_android {
+	background-image: url(../../web_image/foot/android_back.png);
+}
+ */
+ 
+#foot_yeepay {
+	background-image: url(../../web_image/foot/yeepay.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_01 {
+	background-image: url(../../web_image/foot/caijing.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_02 {
+	background-image: url(../../web_image/foot/cctv.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_03 {
+	background-image: url(../../web_image/foot/icbc.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_04 {
+	background-image: url(../../web_image/foot/shiwusuo.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_05 {
+	background-image: url(../../web_image/foot/abc.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_06 {
+	background-image: url(../../web_image/foot/pingan.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_07 {
+	background-image: url(../../web_image/foot/pufa.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_08 {
+	background-image: url(../../web_image/foot/kejigongsi.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_09 {
+	background-image: url(../../web_image/foot/maixin.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_10 {
+	background-image: url(../../web_image/foot/jianshe.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_11 {
+	background-image: url(../../web_image/foot/zhaoshang.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_12 {
+	background-image: url(../../web_image/foot/liantong.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+#foot_13 {
+	background-image: url(../../web_image/foot/boc.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 5px;
+	width: 170px;
+	height: 60px;
+}
+
+a:hover #foot_yeepay {
+	background-image: url(../../web_image/foot/yeepay.png);
+}
+
+a:visited #foot_yeepay {
+	background-image: url(../../web_image/foot/yeepay.png);
+}
+
+
+/*
+a:active #foot_android {
+	background-image: url(../../web_image/foot/android_back.png);
+}
+
+a:visited #foot_android {
+	background-image: url(../../web_image/foot/android_back.png);
+}
+
+ a:hover #foot_android {
+	background-image: url(../../web_image/foot/android_white.png);
+}
+ */
+.foot_Div_one {
+	margin: 0;
+	width: 967px;
+	height: 315px;
+	background-color: #555;
+}
+
+.foot_Div_tow {
+	width: 1000px;
+	height: 315px;
+}
+
+.foot_Div_left {
+	width: 560px;
+	height: 180px;
+	float: left;
+	text-align: left;
+}
+
+.foot_Font_01 {
+	font-family: Microsoft YaHei;
+	font-size: 18px;
+	margin-right: 34px;
+	height: auto;
+	width: auto;
+	float: left;
+}
+
+.foot_Font_02 {
+	margin-left: 2px;
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	margin-right: 50px;
+	height: auto;
+	width: auto;
+	float: left;
+}
+
+.foot_Font_03 {
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	margin-right: 50px;
+	height: auto;
+	width: auto;
+	float: left;
+}
+
+.foot_iosOrandroid {
+	margin-left: 485px;
+	height: 20px;
+	width: 20px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-top: -20px;
+}
+
+.foot_Weixin {
+	font-family: Microsoft YaHei;
+	font-size: 18px;
+}
+
+.foot_WeixinImg {
+	width: 88px;
+	height: 88px;
+	background-repeat: no-repeat;
+	background-image: url(../dt2_files/2weima.png);
+}
+
+#foot_phone {
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 10px;
+}
+
+.foot_phoneNumber {
+	width: 240px;
+	height: 50px;
+	margin-left: 58px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font: bold;
+}
+
+.foot_time {
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+}
+
+.foot_heatRay {
+	font-family: Microsoft YaHei;
+	font-size: 14px;
+	float: left;
+}
+
+.foot_copyright {
+	width: 680px;
+	height: 90px;
+	float: left;
+	font-size: 14px;
+	margin-top: -20px;
+	font-family: Microsoft YaHei, Arial, Helvetica, sans-serif;
+}
+
+.foot_pojoDiv_01 {
+	width: 100%;
+	height: 40px;
+}
+
+.foot_pojoDiv_02 {
+	width: 100%;
+	background-color: #555;
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+.foot_pojoDiv_03 {
+	width: 1000px;
+	height: 40px;
+}
+
+.foot_pojoDiv_04 {
+	width: 525px;
+	box-shadow: 1px 1px 1px #ccc;
+	height: 2px;
+	background-repeat: no-repeat;
+}
+
+.foot_pojoDiv_05 {
+	width: 120px;
+	height: 180px;
+	margin-top: 2px;
+	float: left;
+	text-align: center;
+}
+
+.foot_pojoDiv_06 {
+	width: 1px;
+	height: 120px;
+	box-shadow: 1px 1px 1px #ccc;
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.foot_pojoDiv_07 {
+	width: 290px;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 0px;
+	float: left;
+}
+
+.foot_yeepay_div {
+	height: 100px;
+	margin-top: 130px;
+}
+
+.foot_pojoDiv_08 {
+	width: 238px;
+	height: 30px;
+	margin-left: 60px;
+}
+
+.foot_pojoDiv_09 {
+	width: 160px;
+	height: 90px;
+	margin-top: -20px;
+	clear: left;
+	float: left;
+}
+
+.foot_pojoDiv_10 {
+	width: 680px;
+	height: 10px;
+}
+
+.foot_pojoDiv_11 {
+	width: 160px;
+	height: 90px;
+	margin-top: -20px;
+	float: left;
+}
+
+
+
+/*
+a:link #foot_ios  #imgs  {
+	margin-left: 36%;
+	background-image: url(../../web_image/foot/ios_white.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 21px;
+	height: 21px;
+}
+
+a:hover #foot_ios  #imgs:before {
+	display: block;
+}
+
+a #foot_ios #imgs:before {
+	background-image: url(../../web_image/head/ios.png);
+	content: "";
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5px;
+	left: -80px;
+	margin-top: 20px;
+	width: 430px;
+	height: 430px;
+	display: none;
+}
+
+
+
+
+
+a:link #foot_android  #imgs  {
+	margin-left: 36%;
+	background-image: url(../../web_image/foot/android_white.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 21px;
+	height: 21px;
+}
+
+a:hover #foot_android  #imgs:before {
+	display: block;
+}
+
+a #foot_android #imgs:before {
+	background-image: url(../../web_image/head/android.png);
+	content: "";
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 5px;
+	left: -80px;
+	margin-top: 20px;
+	width: 430px;
+	height: 430px;
+	display: none;
+};
+}
+*/

@@ -1,0 +1,42 @@
+body{background:url("http://www.199y.com/picture/yqwan/game/smqj/banner.jpg") no-repeat;background-position:center top; font-family: "Microsoft YaHei"; font: 14px "Microsoft YaHei", Arial; background-color:#fff;height:1070px;}
+img{ border:none; border:0; vertical-align:middle;}
+.main{width:1166px;height:860px;margin:200px auto 10px auto;overflow:hidden;}
+.top{width:1166px;height:123px;background:url("http://www.199y.com/picture/yqwan/game/smqj/LOGO.png") center;position: relative; top: 15px;}
+.content{width:1094px;height:733px;border:solid 3px ##2b2219; margin:0 auto; border-radius:0 0 6px 6px;background:url("http://www.199y.com/picture/yqwan/game/smqj/nbg1.png") center;}
+/* 登出 */
+.content .dc{width:720px; height:100px;color:#888;margin:0 auto; font-size:16px; line-height:100px;  display:none;}
+.dc .dcleft{float:left;}
+.dc .dcright{float:right;cursor:pointer;}
+/* 登录注册 */
+.content .dlzc{width:800px; height:100px;color:#888;margin:0 auto; font-size:16px; line-height:100px; font-weight:bold;}
+.dlzc input{border:0px;height:24px;margin:0;padding:0;background:#888;}
+.dlzc .dcleft{}
+.dlzc .dcright{margin-left:50px;}
+.dlzc .dl{margin-left:50px;position:relative; top:2px;  background:url("http://www.199y.com/picture/yqwan/game/smqj/01.png") no-repeat; padding: 14px 60px 14px 36px; color:#000;cursor:pointer;text-shadow: 0 0 10px #e6ff42, 0 0 10px #e6ff42; font-size:14px;}
+.dlzc .dl:hover{background:url("http://www.199y.com/picture/yqwan/game/smqj/02.png") no-repeat;}
+.dlzc .zc{margin-left:20px;font-size:15px;}
+.zc a{color:#888;}
+		
+		
+/* 登录过的 */
+.content .dlg{width:1030px; height:120px;background-color:#141414;margin:0 auto;}
+.dlg .dlgtxt{height:40px;text-align:center; background-size: inherit;line-height:40px;}
+.dlg .wdl{display:none;width:218px;height:43px;margin:0 auto;color:#888;text-align:center;line-height:43px;}
+.dlg .ydl{width:245px;height:80px;background: url("http://www.199y.com/picture/yqwan/game/smqj/zxkf.png") center no-repeat;margin:0 auto; position: relative; top:-10px;text-shadow: 0 0 10px #e6ff42, 0 0 10px #e6ff42;}
+.qm{height:80px;text-align:center;line-height:90px;color:#000;font-size:18px;display:block;text-shadow: 0 0 10px #e6ff42, 0 0 10px #e6ff42;}
+		
+/* 推荐服务器 */
+.content .recommend{width:1030px; height:160px;background-color:#141414;margin:10px auto;}
+.recommend .tuijian{height:60px;text-align: center;background:url("../images/yx4.png") center no-repeat;line-height:60px;}
+.recommend .server{width:auto;height:80px; margin:0 auto;}
+.recommend .server3{width:245px;height:80px; background: url("http://www.199y.com/picture/yqwan/game/smqj/zxkf.png") center no-repeat; background-size: inherit;float:left;margin:0px 29px;}
+		
+/* 所有服务器 */
+.content .allserver{width:1030px; height:290px; background-color:#141414; margin:10px auto;}
+.allserver .tuijian{height:60px;text-align: center;background:url("../images/yx5.png") center no-repeat;line-height:60px;}
+.allserver .server{width:auto;height:165px; margin:0 auto;  overflow-y:auto; white-space:nowrap;}
+.allserver .server3{width:245px;height:80px; background: url("http://www.199y.com/picture/yqwan/game/smqj/zxkf.png") center no-repeat; background-size: inherit;float:left;}
+		
+.h16b{font-size:16px;font-weight:bold;color:#ffd14f;padding:5px 0px;}
+.hot{background:url("../images/re.png");height:19px;width:19px;position:relative; left:202px; top:-47px;}
+.huo{background:url("../images/huo.png");height:29px;width:34px;position:relative; left:192px; top:-53px;}

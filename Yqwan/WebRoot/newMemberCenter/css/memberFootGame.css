@@ -1,0 +1,70 @@
+.recommendgame{
+	width:750px;
+	height:270px;
+	margin:0 auto;
+}
+.recommendgame_text{
+	height:36px;
+	width:750px;
+	color:#09f;
+	font-size:16px;
+	line-height:36px;
+}
+.recommendgame_games{
+	height:220px;
+	width:750px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.recommendgame_games_one{
+	width:170px;
+	height:220px;
+	float:left;
+	margin-right:16px;
+}
+.recommendgame_games_one_img{
+	width:170px;
+	height:125px;
+	overflow:hidden;
+}
+
+.recommendgame_games_one img{
+	-webkit-transition: all 0.5s;
+    -moz-transition: al 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.recommendgame_games_one img:hover{
+	-webkit-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1);
+}
+.recommendgame_games_one:hover{
+	cursor:pointer;
+}
+
+.recommendgame_games_one_gamename{
+	margin:auto;
+	margin-top:5px;
+	width:150px;
+	height:20px;
+	line-height:20px;
+	color:#000;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.recommendgame_games_one_descripe{
+	height:60px;
+	width:150px;
+	margin:auto;
+	color:#ccc;
+	font-size:12px;
+	overflow:hidden;
+	padding-top:7px;
+}
+.recommendgame_games_one_descripe:hover{
+	color:#09f;
+}
+

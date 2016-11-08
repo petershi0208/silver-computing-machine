@@ -1,0 +1,188 @@
+.center_left{
+	width:260px;
+	height:1226px;
+	background:#fff;
+	border:1px solid #ccc;
+	float:left;
+}
+.center_left_img{
+	width:100px;
+	height:100px;
+	border-radius:100px;
+	overflow:hidden;
+	margin:10px auto;
+}
+.center_left_name{
+	width:130px;
+	height:20px;
+	margin:0 auto;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-align:center;
+	
+}
+.center_left_name span{
+	color:#333;
+	font-size:14px;
+}
+.center_left_gb{
+	width:220px;
+	height:20px;
+	margin:10px auto;
+}
+.center_left_gb span{
+	color:#333;
+	display:block;
+	float:left;
+}
+.center_left_gb div{
+	width:100px;
+	color:#f90;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	float:left;
+}
+.center_left_gb span:nth-child(3){
+	float:right;
+	color:#09f;
+	cursor:pointer;
+}
+.center_left_gb span:nth-child(3) a{
+	color:#09f;
+}
+.center_left_gb span:nth-child(3) a:hover{
+	color:#09f;
+}
+
+.center_left_recharge{
+	width:220px;
+	height:35px;
+	border-radius:5px;
+	margin:0 auto;
+	background:#09f;
+	text-align:center;
+	line-height:35px;
+	cursor:pointer;
+}
+.center_left_recharge span{
+	color:white;
+	padding-left:15px;
+	font-size:16px;
+	letter-spacing:10px;	
+}
+.center_left_recharge span a{
+	color:white;
+	letter-spacing:10px;	
+}
+.center_left_recharge span a:hover{
+	text-decoration:none;	
+}
+
+.center_left_list{
+	width:260px;
+	height:250px;
+	border-top:1px solid #ccc;
+	margin-top:20px;
+}
+
+#navcontainer ul 
+{ 
+margin: 0; 
+padding: 0; 
+list-style-type: none; 
+font-family: 微软雅黑; 
+} 
+
+#navcontainer li { 
+	margin: 0; 
+	text-align:center;
+	line-height:40px;
+	width:260px;
+	height:50px;
+} 
+
+#navcontainer a 
+{ 
+display: block; 
+padding: 5px 10px; 
+width:258px;
+height:50px;
+color: #000;
+background-color: #fff; 
+text-decoration: none; 
+border-bottom: 1px solid #ccc; 
+font-size:16px; 
+background-repeat: no-repeat; 
+background-position: 0 0; 
+} 
+#navcontainer a span{
+	padding-left:20px;
+}
+#navcontainer a:hover 
+{ 
+color: #fff; 
+background-color: #09f; 
+text-decoration: none; 
+border-top: 1px solid #333; 
+border-left: 1px solid #333; 
+border-bottom: 1px solid #ccc; 
+border-right: 1px solid #ccc; 
+background-repeat: no-repeat; 
+background-position: 0 0; 
+}
+
+.toprank{
+	float:left;
+	width:260px;
+	height:738px;
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+.toprank_ad{
+	height:198px;
+	width:257px;
+	overflow:hidden;
+	margin-top:2px;
+}
+.toprank_allgame{
+	height:539px;
+	width:260px;
+}
+.toprank_game{
+	height:77px;
+	width:260px;
+	cursor:pointer;
+	border-bottom:1px solid #ccc;
+
+    transition: all 0.5s;
+    transition:all .1s;	
+}
+.toprank_game:hover{
+	box-shadow:0 5px 8px -2px rgba(0,0,0,.6);
+}
+
+.toprank_game_img{
+	position:relative;
+	top:10px;
+	left:15px;
+	float:left;
+}
+.toprank_game span{
+	display:block;
+	width:170px;
+	color:#333;
+	font-size:14px;
+	font-family:微软雅黑;
+	font-weight:bold; 
+	position:relative;
+	left:35px;
+	top:15px;
+	overflow:hidden;
+}
+.toprank_game span:nth-child(3){
+	margin-top:5px;
+	color:#09f;
+	width:150px;
+}

@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+
+.registerMsg_PojoImg_01{float:left; background-image:url('../../web_image/register/register_pojo_01.png'); width: 20px; height: 8px; background-repeat: no-repeat; margin-top: 14px;}
+
+.registerMsg_property_TEXT{float:left; font-family:Microsoft YaHei; font-size: 16px; color: #555555; margin-top: 7px; width: 120px; text-align: left;}
+
+.registerMsg_property_INPUT{height: 28px;  width: 178px; outline:none;  margin-top: 1px; border: 0px; padding:2px 0 0 2px; height:32px; line-height:15px;  margin-right: 2px; color: #a2a2a2; font-size: 13px;}
+
+.registerMsg_property_INPUT02{height: 28px; display:none;  width: 178px; outline:none;  margin-top: 1px; border: 0px; padding:2px 0 0 2px; height:32px; line-height:15px;  margin-right: 2px; color: #000; font-size: 13px;}
+
+.registerMsg_property_HINT{float:left; width: 300px;  text-align:left;  margin-left:20px; height: 25px; margin-top: 10px; font-family: Microsoft YaHei; font-size: 14px; color: red;}
+.registerMsg_property_HINT02{float:left; width: 150px; text-align:left;  height: 25px; margin-top: 5px; font-family: Microsoft YaHei; font-size: 14px; color: red;}
+
+.registerMsg_verificationCode_INPUT{height: 28px;  width: 90px; outline:none;  margin-top: 1px; border: 0px; padding:2px 0 0 2px; height:32px; line-height:15px;  margin-right: 2px; color: #a2a2a2; font-size: 13px;}
+
+
+
+.registerMsg_username{float:left; width: 223px; height: 36px; background-image:url('../../web_image/register/register_username.png'); background-repeat: no-repeat; text-align: right; }
+
+.registerMsg_pwd{float:left; width: 223px; height: 36px; background-image:url('../../web_image/register/register_pwd.png'); background-repeat: no-repeat; text-align: right;}
+
+.registerMsg_email{float:left; width: 223px; height: 36px; background-image:url('../../web_image/register/register_email.png'); background-repeat: no-repeat; text-align: right;}
+
+.registerMsg_phone{float:left; width: 223px; height: 36px; background-image:url('../../web_image/register/register_phone.png'); background-repeat: no-repeat; text-align: right;}
+
+.registerMsg_verificationCode{float:left; width: 100px; height: 35px; border:1px solid #CCC; }
+
+
+
+
+
+.registerMsg_manageMoney_DIV{cursor: pointer; float:left; width: 101px; height: 36px; background-image:url('../../web_image/register/register_btn_gray.png'); background-repeat: no-repeat;  padding-top: 8px;}
+
+.registerMsg_manageMoney_TEXT{font-family: Microsoft YaHei; font-size: 15px; color:#a2a2a2; text-align: center;}
+
+.registerMsg_clause{font-family: Microsoft YaHei; font-size: 12px; color: #666; height: 20px; display: block; padding-top: 5px;}
+
+.registerMsg_clause_TEXT{font-family: Microsoft YaHei; font-size: 12px; color: #3598d8; }
+
+
+
+.registerMsg_registerImg{float:left; width: 139px; height: 35px; background-image:url('../../web_image/register/register_btn.png'); background-repeat: no-repeat; }
+
+.registerMsg_registerInput{font-family: Microsoft YaHei; font-size: 16px; color: white;  width: 139px; height: 35px;  background-color: transparent; cursor:pointer; border: none;}
+
+.registerMsg_manageMoney_btn{display: none;}
+
+
+
+.registerMsg_Pojo_01{width:700px; height: 70px;}
+.registerMsg_Pojo_02{width:700px; height: 500px;}
+.registerMsg_Pojo_03{float:left; height: 10px;}
+.registerMsg_Pojo_04{float:left; width: 20px; height: 8px; margin-top: 14px;}
+.registerMsg_Pojo_05{float:left; width: 280px; height: 36px;  text-align: left;}
+.registerMsg_Pojo_06{width: 15px; height: 15px;margin-top:4px}
+.registerMsg_Pojo_07{width: 200px; height: 30px; float: right; margin-top: -30px; text-align: right; font-family: Microsoft YaHei; color: #555555; font-size: 14px;}
+.registerMsg_Pojo_08{font-family: Microsoft YaHei; color: #3598d8; font-size: 14px;}
+.registerMsg_Pojo_09{width:700px; height: 30px;}
+.registerMsg_Pojo_10{clear:left; float:left; height: 10px; width: 135px;}
+.registerMsg_Pojo_11{width: 700px; height: 50px;}
+.registerMsg_Pojo_12{float:left; font-family: Microsoft YaHei; font-size: 16px; color: #555555; margin-top: 7px; width: 160px; text-align: left;}
+.registerMsg_Pojo_13{width:700px; height: 80px;}
+.registerMsg_Pojo_14{width: 20px; height: 20px; float: left;}
+

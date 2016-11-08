@@ -1,0 +1,275 @@
+.body{font-family:微软雅黑}
+.center{
+	background:#eee;
+	width:1075px;
+	height:auto;
+	margin:0 auto;
+	margin-top:15px;	
+}
+.center_right{
+	background:#fff;
+	height:1226px;
+	margin-left:275px;
+	border:1px solid #ccc;
+	width:800px;
+}
+.center_right_info{
+	width:750px;
+	height:40px;
+	margin:0 auto;
+	color:#09f;
+	font-size:14px;
+	line-height:40px;
+}
+
+.cente_right_detail{
+	height:550px;
+	width:750px;
+	margin:0 auto;
+}
+.cente_right_detail_line{
+	height:50px;
+	width:750px;
+	margin:20px auto;
+	
+}
+.cente_right_detail_line div:nth-child(1){
+	color:#333;
+	font-size:14px;
+}
+.cente_right_detail_line_bg{
+	width:640px;
+	height:10px;
+	background:#ccc;
+	margin-top:5px;
+	float:left;
+}
+.cente_right_detail_line_bg div{
+	width:140px;
+	height:10px;
+	background:#f90;	
+}
+.cente_right_detail_line span:nth-child(3){
+	padding-left:10px;
+	font-size:14px;
+}
+.cente_right_detail_line span:nth-child(4){
+	color:#f90;
+	font-size:14px;
+}
+
+.cente_right_detail_info{
+	height:460px;
+	width:750px;
+}
+
+.cente_right_detail_info_one{
+	height:90px;
+	width:750px;
+	border-bottom:1px solid #ccc;
+}
+.cente_right_detail_info_one_img{
+	width:45px;
+	height:45px;
+	position:relative;
+	top:22.5px;;
+	float:left;
+}
+.cente_right_detail_info_one_text{
+	width:450px;
+	height:45px;
+	position:relative;
+	top:22.5px;
+	left:30px;
+	float:left;
+}
+.cente_right_detail_info_one_text span{
+	display:block;
+	height:20px;
+	margin-top:-2px;
+	color:#333;
+}
+.cente_right_detail_info_one_text span:nth-child(2){
+	color:#aaa;
+	margin-top:5px;
+}
+
+.cente_right_detail_info_one_state{
+	width:100px;
+	height:45px;
+	position:relative;
+	top:22.5px;
+	float:left;
+	color:#09f;
+}
+
+.cente_right_detail_info_one_button{
+	width:120px;
+	height:35px;
+	position:relative;
+	top:25px;
+	left:25px;
+	background:#09f;	
+	float:left;
+	text-align:center;
+	line-height:35px;
+	border-radius:5px;
+	font-size:14px;
+	color:white;
+	cursor:pointer;
+}
+
+.telephone_box{
+	display:none;
+	height:280px;
+	width:100%;
+	background:#fff;
+}
+.telephonebind_box{
+	display:none;
+	height:280px;
+	width:100%;
+	background:#fff;
+}
+.telephone_box_jiebang{
+	width:100%;
+	height:25px;
+	color:#333;
+	padding-left:10px;
+	line-height:25px;
+	background:#eee;
+	font-size:14px;
+}
+
+.telephone_box_tishi{
+	width:90%;
+	height:30px;
+	font-size:14px;
+	color:#09f;
+	margin:0 auto;
+	margin-top:10px;
+}
+.telephone_box_shoujihao{
+	width:300px;
+	height:60px;
+	margin:0 auto;
+	position:relative;
+	top:25px;
+}
+.imgcode{height:30px;top:0}
+.telephone_box_shoujihao input:nth-child(2){
+	width:120px;
+}
+.phone_code{
+	width:90px;
+	height:30px;
+	background:#09f;
+	color:#fff;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+	position:relative;
+	border:none;
+	border-radius:5px;;
+}
+
+.success_box{
+	height:280px;
+	width:100%;
+	background:#fff;
+}
+
+.success_box_chenggong{
+	width:150px;
+	height:40px;
+	margin:auto;
+	margin-top:100px;
+}
+
+.realname_box{
+	display:none;
+	width:100%;
+	background:#fff;
+}
+.realname_box table{
+	margin-left:10px;
+}
+.realname_box table tr td{
+	height:50px;
+	padding-top:20px;
+	color:#333;
+}
+.realname_box_queding{
+	width:80px;
+	height:30px;
+	background:#09f;
+	color:white;
+	border-radius:5px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	margin:5px auto;
+	letter-spacing:5px;
+	cursor:pointer;
+}
+
+.realname_box_not{
+	display:none;
+	width:100%;
+	background:#fff;
+}
+.realname_box_not table{
+	margin-left:10px;
+}
+.realname_box_not table tr td{
+	height:50px;
+	padding-top:20px;
+	color:#333;
+}
+.realname_box_not table input{
+	width:150px;
+}
+
+.pwdproblem_box{
+	display:none;
+	width:100%;
+	background:#fff;
+}
+.pwdproblem_box table{
+	margin-left:10px;
+}
+.pwdproblem_box table tr td{
+	height:50px;
+	padding-top:20px;
+	color:#333;
+}
+.pwdproblem_box table input{
+	width:250px;
+	border:none;
+}
+
+.pwdproblem_box_not{
+	display:none;
+	width:100%;
+	background:#fff;
+}
+.pwdproblem_box_not table{
+	margin-left:10px;
+}
+.pwdproblem_box_not table tr td{
+	height:50px;
+	padding-top:20px;
+	color:#333;
+}
+.pwdproblem_box_not table input{
+	width:150px;
+}
+
+
+.center_right_recommendgame{
+	width:800px;
+	height:270px;
+	margin-top:345px;
+}
+
+

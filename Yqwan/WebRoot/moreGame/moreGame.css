@@ -1,0 +1,181 @@
+body{
+	margin:0px;
+}
+.headborder{
+	border-bottom:1px solid #999;	
+}
+.center{
+	margin:0px auto;
+	margin-top:-16px;
+	width:1200px;
+	height:1000px;
+	background:#fff;
+}
+.center>p{
+	padding-top:20px;
+	padding-left:40px;
+}
+.centerp span{
+	font-family:微软雅黑;
+	color:#333;
+}
+.centerp span a{
+	text-decoration:none;
+	color:#333;
+}
+.centerpic{
+	height:810px;
+	width:1000px;
+	margin:0 auto;
+}
+.rightgameone{
+	border:2px solid #ccc;
+	border-radius:9px;
+	float:left;
+	margin-right:16px;
+	margin-bottom:15px;
+	width:240px;
+	height:108px;
+}
+.rightgameonepic{
+	margin:0;
+	position:relative;
+	left:5px;
+	top:5px;	
+}
+.rightgameonetype{
+	position:relative;
+	left:104px;
+	top:-58px;
+}
+.rightgameonebtn{
+	cursor:pointer;
+	position:relative;
+	top:9px;
+	left:20px;	
+}
+.rightgameonename{
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+	width:90px;
+	display:block;
+	font-size:14px;	
+	font-family:微软雅黑;
+	color:#1182e5;
+	font-weight:bold;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+.rightgameoneg{
+	display:block;
+	font-size:12px;	
+	font-family:微软雅黑;
+	color:#666;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+.rightgameonedetail{
+	overflow: hidden;
+  	text-overflow: ellipsis;
+	display:block;
+	width:120px;
+	height:34px;
+	font-size:12px;	
+	font-family:微软雅黑;
+	color:#666;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+
+.centerrolefour{
+	width:1150px;
+	height:190px;
+	margin:0 auto;
+}
+.centerrolefour_one{
+	width:220px;
+	height:190px;
+	background:#eee;
+	float:left;
+	margin-right:30px;
+	margin-top:20px;
+}
+.centerrolefour_one_nei{
+	width:200px;
+	height:148px;
+	background:#fff;
+	margin:0 auto;
+	position:relative;
+	top:8px;
+	text-align:center;
+}
+.centerrolefour_one_nei img:nth-child(1){
+	position:relative;
+	top:2px;
+}
+.centerrolefour_one_nei img:nth-child(2){
+	position:absolute;
+	top:2px;
+	right:2px;
+}
+
+.centerrolefour_one_info{
+	width:200px;
+	height:30px;
+	margin:0 auto;
+	position:relative;
+	top:8px;
+	line-height:30px;
+	color:#666;
+}
+.centerrolefour_one_info div{
+	float:left;
+}
+.centerrolefour_one_info_name{
+	width:140px;
+	height:30px;
+	overflow:hidden;
+	font-size:14px;
+}
+.centerrolefour_one_info_score{
+	width:30px;
+	overflow:hidden;
+	margin-left:30px;
+	color:#fa362a;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#head_index{
+	background-color:#0b568f;
+	color:white;
+	text-decoration:none;
+	display:block;
+	width:75px;
+	height:85px;
+}
+.morebg{
+	height:296px;
+	margin-top:-85px;
+	background:url(../images/fenleiyebannerbackground.jpg) center no-repeat;
+}
+
+
+
+/*鼠标悬停效果*/
+.rightgameone{transition:all .1s; background-color:#fcfcfc;}
+.rightgameone:hover{
+	box-shadow:0 5px 8px -2px rgba(0,0,0,.6); background-color:#FFF;
+}
+
+
+.fanye{width:1200px;height:170px;}
+.fanye span{font-size:5px;width:26px; cursor:pointer; height:26px;display:block; float:left; border:1px #aaa solid; border-radius:3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-align:center; line-height:26px; margin-left:12px;}
+.fanye span:hover{color:#fff; background-color:#337ab7;}
+.fanye .zuo img,.you img{margin-top:6px;}
+.nice{width:360px; height:30px; margin:60px auto;}

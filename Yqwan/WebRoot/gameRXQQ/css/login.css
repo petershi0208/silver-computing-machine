@@ -1,0 +1,57 @@
+body{background:url("../images/ztbg.png") no-repeat center top;background-color:#000;font-family: "Microsoft YaHei";margin:0;padding:0;}
+img{ border:none; border:0; vertical-align:middle;}
+input{border:0px;margin:0;padding:0;font-family: "Microsoft YaHei";}
+.main{width:1100px;height:480px;margin:270px auto 0px auto;overflow:hidden;}
+.h40{width:940px;height:40px;}
+.mainleft{float:left;height:436px;width:500px;background:url("../images/nbpga.jpg");}
+.mainright{float:right;height:436px;width:585px;background:url("../images/guangtu.png") no-repeat;}
+.login{width:239px;height:49px;background:url("../images/dlyx.png") no-repeat;margin:0 auto;margin-left:110px;cursor:pointer;}
+/*未登录*/
+.wlg{}
+.lgtxt{width:500px;height:100px;line-height:100px;text-align:center;font-size:36px;color:#621d03;background:url("../images/dlzt.png") center no-repeat;}
+.wlg .ac{height:72px;font-size:20px;color:#6c6c6c;margin-left:50px;}
+.wlg .pw{height:72px;font-size:20px;color:#6c6c6c;margin-left:50px;}
+.wlg .yz{height:72px;font-size:20px;color:#6c6c6c;margin-left:50px;}
+.wlg .yz .yztxt{float:right;margin-right:50px;height:34px;width:106px;}
+.wlg .ac input{width:320px;height:35px;padding-left:10px;font-size:16px;color:#fff;background:#6c6c6c;}
+.wlg .pw input{width:320px;height:35px;padding-left:10px;font-size:16px;color:#fff;background:#6c6c6c;}
+.wlg .yz input{width:200px;height:35px;padding-left:10px;font-size:16px;color:#fff;background:#6c6c6c;}
+.wlg .rg{float:right;color:#6c6c6c;font-weight:bold;font-size:18px;margin-right:50px;margin-top:20px;}
+.wlg .rg:hover{text-decoration:underline;}
+/* 已登录 */
+.ylg{display:none;}
+.ylg table{margin-left:100px;margin-bottom:10px;}
+.z22{font-size:20px;color:#6c6c6c;height:70px;}
+.z23{font-size:20px;color:rgb(53,118,195)}
+.e316{font-size:16px;color:#3e3e3e;font-weight:bold;}
+.gd a{color:#621d03;}
+ 
+.wdl{}
+
+.mainright_ad{
+	width:585px;
+	height:55px;
+	position:relative;
+	top:381px;
+}
+.mainright_ad_tubiao{
+	width:155px;
+	height:55px;
+	margin:auto 1px;
+	background:url("../images/zx.png") 25px center no-repeat;
+	line-height:55px;
+	text-indent: 70px;
+	color:#fff;
+	text-shadow: 1px 1px 1px #000;
+	font-size:17px;
+	float:left;
+}
+.mainright_ad_text{
+	height:55px;
+	width:400px;
+	line-height:55px;
+	color:#fff;
+	margin-left:160px;
+	text-shadow: 1px 1px 1px #000;
+	font-size:17px;
+}

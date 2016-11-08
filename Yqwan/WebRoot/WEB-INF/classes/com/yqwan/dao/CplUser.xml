@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="com.yqwan.dao.ICplUserDao">
+	 <!-- 用户注册 -->
+      <insert id="insertcpluser" parameterType="com.yqwan.domain.CplUser">
+         insert into cpluser (tid,uid,openuid,adsense,spreadcode,backmsg) values(#{tid},#{uid},#{openuid},#{adsense},#{spreadcode},#{backmsg})
+     </insert>
+     
+     <!-- 按用户名查询 -->
+     <select id="findYrtByUserid" parameterType="String" resultType="com.yqwan.domain.CplUser">
+         select cpl.*,region.* from (select * from cpluser) cpl 
+         LEFT OUTER JOIN (select * from latestregion where gamename='像素骑士团') region ON cpl.uid = region.userid      
+         where openuid=#{openuserid} ORDER BY date desc limit 0,1
+     </select>
+    
+</mapper>

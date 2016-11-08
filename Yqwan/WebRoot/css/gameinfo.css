@@ -1,0 +1,291 @@
+/* CSS Document */
+
+body{ font-family:'\5FAE\8F6F\96C5\9ED1'; font-size:12px; margin:0 auto; padding:0 auto; color:#3e3e3e; background:url("../images/gameinfos/banner.png") no-repeat center top;}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+img{ border:none; border:0; vertical-align:middle;}
+h1, h2, h3, h4, h5, h6{font-weight:normal; font-size:100%;}
+button,input,select,textarea{ font:12px/1.5  Arial, "Microsoft YaHei", Helvetica,  Verdana, sans-serif; word-wrap:break-word; color:#565756;}
+input,select,textarea{vertical-align:middle; *font-size:100%; resize: none;}
+input{ margin:0;outline:none; padding:0;}
+input::-ms-clear{display:none;}
+ul,li{ list-style:none; margin:0; padding:0;}
+.dh{color:#777;}
+.blue{color:#337ab7;}
+.left{float:left;}
+.right{float:right;}
+
+#nav{width:100%; margin:0 auto;box-shadow: 2px 2px 2px #ddd;}
+
+#content{width:1250px; height:auto; margin:-20px auto 0 auto;padding:0;}
+#content>img{border:1px solid #999;}
+#content .nav{width:1250px; height:50px; line-height:50px; font-size:14px;}
+#content .nav img{margin-top:-9px;}
+#content .infosw{width:1250px; height:auto; margin-top:20px; background-color:#ddd; border:1px #fff solid;}
+#content .infosw .infos{width:1200px; height:350px; margin-top:20px; background-color:#aaa; border:2px #fff solid;}
+
+.startgame{width:1200px;height:540px;background-color:#aaa; border:2px #fff solid;margin:0 auto;display:none;}
+.startgame .frame{width:640px;margin:30px auto;}
+
+.infos_top{width:998px; height:285px;}
+.infos_top .topleft{margin-left:24px; margin-top:10px;  float:left;width:434px; height:303px; overflow:hidden; margin-right:30px;}
+.infos_top .top_left{width:464px; height:303px;}
+.infos_top .top_right{width:510px; float:left;}
+.title_info{height:30px;}
+.title_info span{border:1px solid #EEE;padding:5px;margin-right:15px;background-color:#333;color:#FFF;}
+.title_info div{width: 30px;height: 30px;display: block;float: left;background: url(../images/gameinfos/post_share.png) -33px -399px;opacity: 0.7; margin-left: 1px;margin-top: 2;}
+.pf{height:95px; width:95px; background-color:#fff; margin-top:-20px; float:left;}
+.score{height:60px; width:95px;background-color:#0bb0ff;}
+.fs{font-size:36px; color:#fff; text-align:center; display:block; margin-top:5px; }
+.xx{text-align:center; display:block; margin-top:10px;}
+.title { margin: 5px 0px 22px 0px;font-size: 30px; font-weight: bold;}
+.text{width:690px; height:127px; margin-top:10px; line-height:24px;overflow:auto;}
+
+.infos_bottom{width:1200px; height:80px; margin:0 auto;}
+.bottom_left{float:left; margin-top:10px;}
+.bottom_right{float:left;}
+.bottom_left div{cursor:pointer; float:left;}
+.bottom_left ul li{float:left;}
+.bottom_left .next_btn1{margin-top:8px;position:relative;top:-5px;} 
+.bottom_left .prev_btn1{margin-top:8px;position:relative;top:-5px;} 
+
+.ksyx{width:480px; text-align:center; margin-top:10px; cursor:pointer;}
+.ksyx a{color:#FFF;}
+.ksyx div{background:#09f;border-radius:6px; height:38px; width:136px; text-align:center; line-height:38px; font-size:20px; color:#FFFFFF;}
+.bottom_right ul{margin-left:10px; margin-top:30px; height:45px;}
+.bottom_right ul li{float:left; margin-right:30px;}
+.bottom_right ul li a{display:block; width:93px; height:40px; border:1px #CCCCCC solid; text-align:center; line-height:38px; color:#666666; }
+.bottom_right ul li a img{margin-right:15px;}
+.bottom_right p{margin-left:5px; margin-top:15px;}
+
+.bq{position:relative; left:5px;}
+.corr{width:700px; height:70px; float:left;}
+.corr_title{font-size:16px;}
+.corr ul{float:left; margin-top:10px;}
+.corr ul li{float:left; margin:0px 7px; width:103px; height:70px;}
+.corr ul li a{display:block; color:#333333; cursor:pointer;}
+.corr em{float:left; margin:15px 8px; cursor:pointer;font-size:30px;}
+.corr ul li a span{margin-top:15px; font-size:14px;}
+/* 评分 */
+.kyk{float:right;height:110px;width:300px; font-weight:bold;}
+.kyk1{height:26px;line-height:30px; float:right;margin-right:4px;}
+.kyk1 img{cursor:pointer;}
+.kyk2{height:30px;line-height:30px;margin-top:10px;margin-left:2px;float:right;}
+.xx5{cursor:pointer;position:relative;top:-3px;}
+.pf12{font-size:30px;font-weight:bold;color:#09f;}
+
+/* 评论区  */
+.contr{width:1250px;height:100%;background-color:#FFF;margin-top:-35px;}
+.contrleft{width:940px;height:auto;float:left; margin-top:20px;}
+.contrright{width:300px;height:auto;float:right;margin-right:5px;margin-top:20px;}
+.notice{widht:300px;height:250px;}
+.nottxt{width:300px;height:31px;border-bottom:1px solid #e2e2e2;font-size:20px;}
+.xia{border-bottom:#1182e5 3px solid;}
+.notcon{width:300px;height:210px;font-size:14px;}
+.notcon div{width:300px;height:20px;}
+.recommend{widht:300px;height:250px;}
+.rectxt{widht:300px;height:31px;border-bottom:1px solid #e2e2e2;font-size:20px;}
+.reccon{widht:300px;overflow:hidden;}
+.recco{widht:300px;min-height:50px;}
+.recco div{float:left;width:30px;height:30px;opacity:0.7;margin:8px;cursor:pointer;}
+.recco div img:nth-child(1){opacity:1} 
+.avc{display:block;background: url(../images/gameinfos/post_share.png) -33px -399px;}
+.reccotxt{width:1000px;min-height:150px;position:relative;}
+.reccotxt div{width:300px; height:200px; float:left;}
+.zjb{width:300px;height:20px;}
+.zjb span{float:right;font-size:14px;}
+
+
+
+.play{width:940px; height:272px;}
+.play p{ margin-left:20px;}
+.play_title{font-size:16px; margin-bottom:15px; margin-left:20px;}
+.operate{color:#777; font-size:14px; margin-bottom:15px; margin-left:20px;}
+.opera{color:#777; font-size:14px; margin-top:20px;}
+.play ul{width:888px; height:40px; border-bottom:1px #ccc dashed; margin-left:20px;}
+.play ul li{float:left; font-size:12px; margin-right:20px;height:31px;}
+.play ul li img{margin-right:20px;}
+
+.review{width:940px;height:auto}
+.discuss{width:888px; height:160px; border:1px #CCCCCC solid; background-color:#fbfbfb; margin-left:20px;}
+.plhdq{margin:8px 35px; font-size:14px;}
+.bq{margin:20px 35px; font-size:14px; float:left;}
+.bq img{margin-right:15px; margin-top:-5px;}
+.shuru{width:836px;height:78px; margin:0 26px; font-size:14px; color:#777; line-height:1.5; padding:10px 15px;}
+.huifu{display:none;}
+.hf{width:954px;height:60px; font-size:14px; color:#777; line-height:1.1; padding:8px; position:relative; left:20px;}
+.fabiao{background-color:#37a4dd; position:relative; left:-10px; top:10px; height:30px; width:80px;float:right; text-align:center; line-height:30px;border-radius:3px; -ms-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+.fbpl{width:80px; height:30px; background:#1182e5; line-height:30px; text-align:center; float:right; margin-top:8px; margin-right:24px; font-size:16px; color:#fff; cursor:pointer;}
+.pingluntuxing{margin-top:10px; margin-left:20px;}
+.tjsl{width:888px; height:25px; font-size:14px;}
+.tjsl span{float:right; margin-right:10px;}
+
+.pl{width:900px; height:auto; border-bottom:1px #CCCCCC dashed;}
+.nk{width:900px; height:auto; margin:20px;}
+.nk tbody tr:nth-child(2) td span{position:relative;top:10px;}
+.tx{width:80px; vertical-align: top;}
+table{font-size:14px; color:#333333;}
+.shij{margin-left:40px;}
+.dzhf{float:right; margin-right:10px;}
+.dianz{margin-top:-5px; margin-right:15px;}
+.huif{margin:0 15px;}
+
+.ban1{position:relative;margin:0 auto;height:275px;}
+.num1{ height:70px;width:410px; overflow:hidden;  position:relative;float:left; }
+.min_pic1{width:600px;}
+
+.num1 ul{ position:absolute; left:0; top:-10px; height:70px; margin-left:-85px; width:1300px; }
+.num1 ul li{ width:72px; height:70px; margin-right:5px; padding:3px; float:left;font-size:12px;}
+.num1 ul li.on{border:2px solid #337ab7; padding:0;}
+
+.ban{position:relative;margin:40px auto 0 auto;}
+.ban2{ position:relative; overflow:hidden;}
+.ban2 ul{ position:absolute; left:0; top:0;}
+.ban2 ul li{ width:500px; height:500px;}
+.prev{ float:left; cursor:pointer;}
+.num{ height:95px;overflow:hidden; width:368px; position:relative;float:left;top:-3px;}
+.min_pic{ padding-top:10px; width:440px;position:relative;top:0px;left:-1px;background-color:#333;}
+.num ul{ position:absolute; left:0;}
+.num ul li{ width:122px; height:86px; padding:3px;}
+.num ul li.on{border:2px solid #FFF; padding:0;}
+
+.prev1 {
+	position: absolute;
+	top: 160px;
+	left: 10px;
+	width: 28px;
+	height: 51px;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.next1 {
+	position: absolute;
+	top: 160px;
+	right: 10px;
+	width: 28px;
+	height: 51px;
+	z-index: 9;
+	cursor: pointer;
+}
+
+.mhc {
+	background: #000;
+	width: 100%;
+	height:100%;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(Opacity = 50);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 998;
+}
+
+.pop_up {
+	width: 520px;
+	height: 363px;
+	background: #fff;
+	position: absolute;
+	-position: absolute;
+	left: 50%;
+	top: 260px;
+	margin-left: -255px;
+	display: none;
+	z-index: 999;
+}
+
+.pop_up_xx {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 10px;
+	right: -10;
+	cursor: pointer;
+	z-index:1009;
+	font-size:20px;color:#FFF;
+}
+
+.pop_up2 {
+	width: 520px;
+	height: 363px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pop_up2 {
+	width: 520px;
+	height: 363px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+.pop_up2 ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.pop_up2 ul li {
+	width: 520px;
+	height: 363px;
+	float: left;
+}
+
+.fanye{width:1000px;height:50px; font-size:12px;}
+.fanye span{width:26px; cursor:pointer; height:26px;display:block; float:left; border:1px #aaa solid; border-radius:3px; -ms-border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-align:center; line-height:26px; margin-left:12px;}
+.fanye span:hover{color:#fff; background-color:#337ab7;}
+.fanye .zuo img,.you img{margin-top:6px;}
+.nice{width:360px; height:30px; margin:60px auto;}
+
+.infobanner{
+	height:296px;
+	margin-top:-85px;
+	background:url("../images/gameinfos/banner.png") no-repeat center;
+}
+
+.download{
+	background:#1182e5;
+	width:100px;
+	height:30px;
+	margin:0 auto;
+	margin-top:20px;
+	color:white;
+	text-align:center;
+	line-height:27px;
+	border-radius:5px;
+	
+	-webkit-transition: all 0s;
+    -moz-transition: al 0s;
+    -ms-transition: all 0s;
+    -o-transition: all 0s;
+}
+.download:hover{
+	cursor:pointer;
+	-webkit-transform: scale(1.1, 1.1);
+	 -moz-transform: scale(1.1, 1.1);
+	  -ms-transform: scale(1.1, 1.1); 
+	  -o-transform: scale(1.1, 1.1);
+	   transform: scale(1.1, 1.1);
+}
+
+.footauto{
+	background-color:#fff;
+}
+
+/*下载游戏弹出框*/
+.fixbo{width:100%; height:100%; background-color:#000; position:fixed; top:0;left:0; z-index:998; display:none;opacity:0.3; filter:alpha(opacity=30);-moz-opacity:0.3;-khtml-opacity: 0.3	; }
+.fix{width:380px;height:220px;background-color:#fafafa; position:fixed; left:50%; top:50%; z-index:999; margin:-110px 0px 0px -190px;visibility:hidden;}
+.fixtop{width:380px;height:40px;background-color:#09f;font-size:16px; color:#FFF; font-weight:bold; line-height:40px;}
+.fixtop span{margin-left:10px;}
+.fixtop img{float:right;margin:10px; cursor:pointer;}
+.fixcon{}
+.fixcon .haoma .input{margin-left:10px;}
+.fixcon .haoma{width:300px;height:35px;background-color:#eee;line-height:35px;font-size:13px; margin:0 auto;}
+.fixcon .haoma .copy{width:40px; height:25px; margin-top:5px; margin-right:10px; display:block; line-height:25px; text-align:center; background-color:#fafafa; cursor:pointer; float:right;}
+.line{margin-bottom:20px;}
+.copy-tips{position:fixed;z-index:999;bottom:50%;left:50%;margin:0 0 -20px -80px;background-color:rgba(0, 0, 0, 0.2);filter:progid:DXImageTransform.Microsoft.Gradient(startColorstr=#30000000, endColorstr=#30000000);padding:6px;}
+.copy-tips-wrap{padding:10px 20px;text-align:center;border:1px solid #F4D9A6;background-color:#FFFDEE;font-size:14px;}
+
+

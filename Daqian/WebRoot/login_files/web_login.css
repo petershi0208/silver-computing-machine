@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+.login_userLogin{width: 448px; color: #555555; font-family: Microsoft YaHei; font-size: 23px; text-align: left;}
+
+.login_username_DIV{width: 448px; height: 65px;}
+
+.login_user_TEXT{width:60px;  text-align:left; font-family: Microsoft YaHei; color: #555555; font-size: 15px; float: left; margin-top: 5px;}
+
+.login_username_Img{float:left; width: 223px; height: 36px; background-image:url(register_username.png); background-repeat: no-repeat; text-align: right;}
+
+.login_pwd_Img{float:left; width: 223px; height: 36px; background-image: url(register_pwd.png); background-repeat: no-repeat; text-align: right; }
+
+.login_user_INPUT{ width: 180px; height:32px; outline:none;  margin-top: 1px;   padding:2px 0 0 2px;  line-height:15px;  margin-right: 2px; color: #000; font-size: 14px;}
+:-ms-input-placeholder { color:#A9A9A9; }
+
+.login_user_HINT{float:left; width:auto;  text-align:left;  margin-left:20px; height: 25px; margin-top: 10px; font-family: Microsoft YaHei; font-size: 14px; color: red;}
+
+#remember_checkbox{cursor: pointer; width: 16px; height: 16px; float: left;}
+
+.rememberUname{font-family: Microsoft YaHei; color: #555555; font-size: 14px; display:block; width:auto; height:20px; float: left; }
+
+.forgetPwd{font-family: Microsoft YaHei; color: #3598d8; font-size: 14px; display: block;  float: right;}
+
+
+#promptlyLogin{width: 139px; height: 35px; float: left; cursor: pointer; background-image: url('../../web_image/login/login_Img_blue.png'); background-repeat: no-repeat;}
+
+.login_registerImg{width: 139px; height: 35px; background-image: url('../../web_image/login/login_Img_red.png'); background-repeat: no-repeat;}
+
+.login_rotateDiv{width: 260px; height: 190px;}
+
+.login_leftImg{width: 20px; height: 30px; float: left; margin-top: 40px; cursor: pointer; background-image: url('../../web_image/login/login_left.png'); background-repeat: no-repeat;}
+.login_rightImg{width: 20px; height: 30px; float: right;  margin-top: 40px; cursor: pointer; background-image: url('../../web_image/login/login_right.png'); background-repeat: no-repeat;}
+
+.login_rotateImg_01{width: 200px; height: 190px; float: left;}
+.login_rotateImg_02{width: 200px; height: 190px; float: left; display: none;}
+
+.login_rotateFont_01{font-family: Microsoft YaHei; font-size: 16px;}
+.login_rotateFont_02{font-family: Microsoft YaHei; font-size: 13px; color:#666666; width: 160px; height: 40px; text-align: left;}
+
+.login_rotateFont_02 a{color: #3598d8;}
+
+
+.rotateDiv_01{width: 77px; height: 76px; background-image: url('../../web_image/login/login_pojoImg_1.png'); background-repeat: no-repeat; margin-top: 13px;}
+.rotateDiv_02{width: 77px; height: 76px; background-image: url('../../web_image/login/login_pojoImg_2.png'); background-repeat: no-repeat; margin-top: 13px;}
+.rotateDiv_03{width: 77px; height: 76px; background-image: url('../../web_image/login/login_pojoImg_3.png'); background-repeat: no-repeat; margin-top: 13px;}
+.rotateDiv_04{width: 77px; height: 76px; background-image: url('../../web_image/login/login_pojoImg_4.png'); background-repeat: no-repeat; margin-top: 13px;}
+
+
+
+
+.login_pojoDiv_01{width: 790px; height: 350px; background-color: #fff; margin-top: -15px;}
+
+.login_pojoDiv_02{width: 448px; height: 350px;  float: left; margin-left:-50px}
+
+.login_pojoDiv_03{width: 448px; height: 50px;}
+
+.login_pojoDiv_04{height:20px; width:5px; float: left;}
+
+.login_pojoDiv_05{width: 448px; height: 60px;}
+
+.login_pojoDiv_06{width: 448px; height: 50px;}
+
+.login_pojoDiv_07{height:20px; width:60px; float: left;}
+
+.login_pojoDiv_08{float:left; width: 223px; height: 36px; text-align: left;}
+
+.login_pojoDiv_09{width: 110px; height: 70px; background-color: white; float: left;}
+
+.login_pojoDiv_10{width: 139px; height: 6px; }
+
+.login_pojoDiv_11{font-family: Microsoft YaHei; color: #fff; font-size: 16px;}
+
+.login_pojoDiv_12{width: 448px; overflow:auto; overflow:hidden;  margin-top:45px; text-align: left;}
+.login_pojoDiv_12 a{font-family: Microsoft YaHei; color: #555555; font-size: 14px; cursor: pointer;}
+
+.login_pojoDiv_13{height: 280px; width: 1px; background-color: #e8e8e8; float: left; margin-top: 32px;}
+
+.login_pojoDiv_14{width: 340px; height: 350px;  float: left;}
+
+.login_pojoDiv_15{width: 80px; height: 350px;  float: left;}
+
+.login_pojoDiv_16{width: 260px; height: 350px;  float: left;}
+
+.login_pojoDiv_17{width: 260px; height: 30px;}
+
+.login_pojoDiv_18{width: 260px; height: 30px;  font-family: Microsoft YaHei; color: #555555; font-size: 16px;}
+
+.login_pojoDiv_19{width: 260px; height: 40px;}
+
+.login_pojoDiv_20{width: 10px; height: 190px; float: left;}
+
+.login_pojoDiv_21{width: 200px; height: 20px;}
+
+.login_pojoDiv_22{width: 200px; height: 76px;}

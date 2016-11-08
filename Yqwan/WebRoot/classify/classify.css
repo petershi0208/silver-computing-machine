@@ -1,0 +1,172 @@
+body{
+	margin:0px;	
+	
+}
+.classifybanner{
+	height:296px;
+	background:url(/Yqwan/classify/banner_f.jpg) center no-repeat;	
+	margin:0 auto;
+	position:relative;
+	top:-85px;
+}
+
+.center{
+	width:1000px;
+	margin:0px auto;
+	margin-bottom:100px;	
+}
+
+.centerpic img{
+	cursor:pointer;
+	margin:0 60px;
+	margin-top:-50px;
+	position:relative;
+	left:200px;	
+}
+.centertext>span{
+	cursor:pointer;
+	margin:0 30px;
+	font-family:微软雅黑;	
+	position:relative;
+	left:235px;	
+	top:20px;
+}
+.centertext span:nth-child(3){
+	left:233px;
+}
+.centertext span:nth-child(5){
+	left:231px;
+}
+
+.centertexts{
+	color:#666;
+}
+
+
+.centerrole{
+	margin-top:30px;
+	margin-left:5px;	
+}
+.centerroleone{
+	margin-top:60px;	
+}
+
+.centerrole>span{
+	font-size:16px;
+	font-family:微软雅黑;	
+}
+.centerrole>span a{
+	text-decoration:none;
+	color:#000;
+}
+
+.centerrolefour{
+	width:1050px;
+	height:98px;
+	margin-top:30px;
+}
+.centerrole span:nth-child(3){
+	height:32px;
+	width:66px;
+	position:relative;
+	left:860px;
+	cursor:pointer;
+}
+.centerrole span:nth-child(3) a{
+	text-decoration:none;
+	color:#000;
+}
+
+.rightgameone{
+	border:2px solid #ccc;
+	border-radius:9px;
+	float:left;
+	margin-right:16px;
+	margin-bottom:15px;
+	width:240px;	
+	height:108px;
+}
+.rightgameonepic{
+	margin:0;
+	position:relative;
+	left:5px;
+	top:5px;	
+}
+.rightgameonetype{
+	position:relative;
+	left:104px;
+	top:-58px;
+}
+.rightgameonebtn{
+	cursor:pointer;
+	position:relative;
+	top:9px;
+	left:20px;	
+}
+.rightgameonename{
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+	width:90px;
+	display:block;
+	font-size:14px;	
+	font-family:微软雅黑;
+	color:#1182e5;
+	font-weight:bold;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+.rightgameoneg{
+	display:block;
+	font-size:12px;	
+	font-family:微软雅黑;
+	color:#666;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+.rightgameonedetail{
+	overflow: hidden;
+  	text-overflow: ellipsis;
+	display:block;
+	width:120px;
+	height:34px;
+	font-size:12px;	
+	font-family:微软雅黑;
+	color:#666;
+	position:relative;
+	left:120px;
+	top:-85px;
+}
+
+/*鼠标悬停效果*/
+.rightgameone{transition:all .1s; background-color:#fcfcfc;}
+.rightgameone:hover{
+	box-shadow:0 5px 8px -2px rgba(0,0,0,.6); background-color:#FFF;
+}
+.centerpic img{
+-webkit-transition: all 0.5s;
+    -moz-transition: al 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.centerpic img:hover{
+	-webkit-transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -o-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1);
+}
+
+
+#head_classify{
+	background-color:#1182e5;
+	color:white;
+	text-decoration:none;
+	display:block;
+	width:75px;
+	height:85px;
+}
+.cl-effect-8 a:nth-child(2)::after  {
+	opacity: 1;
+	-webkit-transform: translateY(0px) translateX(0px);
+	-moz-transform: translateY(0px) translateX(0px);
+	transform: translateY(0px) translateX(0px);
+}

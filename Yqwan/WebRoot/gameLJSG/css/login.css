@@ -1,0 +1,141 @@
+/* CSS Document */
+@charset "utf-8";
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+body{font-family: "微软雅黑"; font-size:12px; background:url(../images/serverimage/bannerdeng.png); color:#000000;word-wrap:break-word;behavior:url(../csshover.htc);}
+button,input,select,textarea{ font:12px/1.5  Arial, "宋体", Helvetica,  Verdana, sans-serif; word-wrap:break-word; color:#565756;}
+ul,li{ list-style:none; margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-weight:normal; font-size:100%;} 
+img{ border:none; border:0; vertical-align:middle;}
+a{ text-decoration:none; outline:none;}
+p{ margin:0; padding:0;}
+input,select,textarea{vertical-align:middle; *font-size:100%;}
+input{ margin:0;outline:none; padding:0;}
+input::-ms-clear{display:none;}
+.clearfix:after{
+     content:".";        
+     display:block;        
+     height:0;        
+     clear:both;        
+     visibility:hidden;
+}
+
+.clearfix{*zoom:1}
+.head{margin:0 auto; height:64px; width: auto; background-color:#FFFFFF;}
+.newstitle div{width:366px; font-size:13px; height:18px;}
+
+body{background:url(http://www.199y.com/picture/yqwan/game/ljsg/banner001.jpg) center 0px no-repeat #000;}
+
+table{font-size:14px; color:#8b8987; position:relative; left: 20px;}
+table a{color:#ffc34b;}
+#ua2,#ua3,#ua4,#ua5{display: none;}
+
+
+.navright{width:135px; height:364px; position:absolute; left:50%; top:132px; margin-left:414px; background-color:#1e100d;}
+.navright ul{width:135px;height:330px; margin:15px auto;}
+.navright ul li{width:135px; height:55px; cursor:pointer;}
+.navright ul li i{color:#FFF; width:60px; height:55px; float:left; display:block;}
+.navright ul li:nth-child(1) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO1.png) center no-repeat;}
+.navright ul li:nth-child(2) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO2.png) center no-repeat;}
+.navright ul li:nth-child(3) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO3_47.png) center no-repeat;}
+.navright ul li:nth-child(4) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO4.png) center no-repeat;}
+.navright ul li:nth-child(5) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO5.png) center no-repeat;}
+.navright ul li:nth-child(6) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/BIAO6.png) center no-repeat;}
+.navright ul li a{color:#8b8987; width:60px; height:55px; float:left; display:block; font-size:14px; line-height:55px;}
+.navright ul li:hover a{color:#FFF;}
+
+/* main */
+
+.main{width:1100px; height:1000px; margin:167px auto 0 auto;}
+/* main1 */
+.main > div:nth-child(1){width:1100px; height:670px;}
+/* left */
+.maleft{width:272px; height:670px; float:left;}
+/*左侧上面的按钮版块*/
+.main_left > .btns{padding:3px 0 2px; background-color:#3c2118; border-radius:5px;width: 272px; height: 308px;}
+.main_left > .btns > a{display: block;margin: 5px auto;width: 272px;height: 56px;}
+.main_left > .btns > a span{position:relative;left:168px;top:63px;color:#5c3920;font-size:15px;font-family:微软雅黑;font-weight:bold}
+.main_left > .btns > a.btn_start{background: url(http://www.199y.com/picture/yqwan/game/ljsg/KAIANNIU1.png) no-repeat center;width: 272px;height: 110px;margin-top: 5px;}
+.main_left > .btns > a.btn_reg{background: url("../game_index/reg.png") no-repeat;}
+.main_left > .btns > a.btn_recharge{background: url("../game_index/recharge.png") no-repeat;cursor:pointer;}
+.main_left > .btns > div{margin: 5px auto;width: 272px;height: 76px;}
+.main_left > .btns > div > div{width: 250px;height: 30px;margin: 5px 0;padding: 2px 0;*padding: 4px 0 2px 0;}
+.main_left > .btns > div > div > span{display:inline-block;border: none; width: 60px;height: 30px;font-size: 14px; color: #6c6c6c;font-weight: bold; margin-left:10px;}
+.main_left > .btns > div > div > input{display:inline-block;width: 170px;height: 28px;padding-left: 2px; background-color:#e7d5b1; border-radius:3px; border:none;}
+.main_left > .btns > .loginMag{height: 80px; margin:0 auto;}
+.main_left > .btns > div.button_login {height: 50px;}
+.main_left > .btns > div.button_login > input{width: 84px;height: 28px;background:url(http://www.199y.com/picture/yqwan/game/ljsg/an1.png) no-repeat; border:none; float: left; margin-left: 72px; cursor: pointer;}
+.main_left > .btns > div.button_login > a{width: 101px;height: 35px;line-height:35px; color: #6c6c6c;font-size: 15px; display:inline-block; float: left; padding-left: 15px;}
+.main_left > .btns > .loginMag > div{width: 300px; margin: 0 auto 10px auto; margin-left:4px;}
+.main_left > .btns > .loginMag > div > a{width: 30%;height: 43px;float: left; cursor: pointer;}
+.main_left > .btns > .loginMag > div > a:nth-child(1){display: inline-block; background: url(http://www.199y.com/picture/yqwan/game/ljsg/an2.png) no-repeat; }
+.main_left > .btns > .loginMag > div > a:nth-child(2){display: inline-block; background: url(http://www.199y.com/picture/yqwan/game/ljsg/an3.png) no-repeat; }
+.main_left > .btns > .loginMag > div > a:nth-child(3){display: inline-block; background: url(http://www.199y.com/picture/yqwan/game/ljsg/an4.png) no-repeat; }
+
+/*.main_left > .btns > div.loginBefore{display: none;}*/
+.main_left > .btns > div.loginAfter{display: none;}
+.main_left > .btns > div.loginAfter{padding: 0 10px 12px;width: 252px;}
+.main_left > .btns > div.loginAfter > span{display: block;height:32px;line-height: 32px;border-radius: 5px;background: #564F3B;text-align: center;margin: 2px 0;}
+.main_left > .btns > div.loginAfter > a{float: right;cursor: pointer;}
+
+
+/*左侧下面的客服版块*/
+.main_left > .service{border:2px solid #3c2118;border-radius:5px; margin: 10px 0; width:268px; height:343px; background-color:#5e4a3f;}
+.main_left > .service > div{width:250px;height:320px;margin:13px auto; background-color:#3c2118;}
+.main_left > .service > div > div:nth-child(1){height:30px; width: 90%; margin:0 auto; line-height:30px; font-size: 16px; text-align: center; border-bottom:2px solid #777; color:#fafafa;}
+.main_left > .service > div > div:nth-child(2){height:160px; width: 88%; margin:0 auto; line-height:26px; font-size: 12px;color:#8b8987;}
+.main_left > .service > div > div:nth-child(3){height:130px; width: 80%; margin:0 auto; font-size: 14px; text-align: center;}
+.main_left > .service > div > div:nth-child(3) > div{height:33px; width: 202px; margin-bottom: 10px; line-height: 40px;}
+.main_left > .service > div > div:nth-child(3) > div:nth-child(1){background: url(http://www.199y.com/picture/yqwan/game/ljsg/DIANHUA.png) no-repeat;}
+.main_left > .service > div > div:nth-child(3) > div:nth-child(2){background: url(http://www.199y.com/picture/yqwan/game/ljsg/dianhuafu.png) no-repeat; color:#eb6100;font-weight: bold; font-size: 15px;}
+.main_left > .service > div > div:nth-child(3) > div:nth-child(3){background: url(http://www.199y.com/picture/yqwan/game/ljsg/qqqun.png) no-repeat; color:#eb6100;font-weight: bold; font-size: 15px;}
+.main_left > .service > div > div:nth-child(3) > div > span{padding-left: 15px;}
+
+
+.maright{width:828px; height:670px; float:left;}
+
+.system{width:461px; height:384px; background:url(http://www.199y.com/picture/yqwan/game/ljsg/meinv.png); float:left;}
+.system p{font-size:18px; color:#8b8987; line-height:40px;}
+.system p img{margin:0 8px 0 13px; margin-top:-3px; height:32px; width:23px;}
+.system ul{width:450px; height:130px; margin-left:13px;}
+.system ul li{display:inline-block; width:78px; height:130px; background-color:#040404; margin-right:6px; cursor:pointer;}
+.system ul li:nth-child(1){display:inline-block; width:78px; height:130px; background-color:#8e1014; margin-right:6px;}
+.system ul li:nth-child(1) div{color:#FFF;}
+.system ul li i{width:78px; height:72px; display:block;}
+.system ul li div{width:46px; height:32px; margin:6px auto; font-size:14px; color:#8b8987; line-height:14px;}
+.system ul li:nth-child(1) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/dengtu2.png) center no-repeat;}
+.system ul li:nth-child(2) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/dengtu3.png) center no-repeat;}
+.system ul li:nth-child(3) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/dengtu4.png) center no-repeat;}
+.system ul li:nth-child(4) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/dengtu5.png) center no-repeat;}
+.system ul li:nth-child(5) i{background:url(http://www.199y.com/picture/yqwan/game/ljsg/dengtu6.png) center no-repeat;}
+
+
+.synmore{width:440px; height:180px; margin-left:13px; margin-top:18px;}
+.synmore > div img{display:block; float:left; margin-top:3px;}
+.synmore > div{display:none;}
+.synmore > div:nth-child(1){display:block;}
+.synmore > div > div{width:196px; height:180px; float:left; margin-left:10px;}
+.synmore > div > div span{font-size:14px; color:#8b8987; display:block; padding-bottom:10px;}
+.synmore > div > div a{width:84px; height:28px; display:block; border:none; background:url(http://www.199y.com/picture/yqwan/game/ljsg/an5.png) no-repeat; margin-left:115px; margin-top:3px;}
+
+.newthree{width:367px; height:384px; float:left; overflow:hidden;}
+.newthree a{display:block; width:367px; height:128px;}
+.newthree a:nth-child(1){background:url(http://www.199y.com/picture/yqwan/game/ljsg/xiao01.png) no-repeat; cursor:pointer;}
+.newthree a:nth-child(2){background:url(http://www.199y.com/picture/yqwan/game/ljsg/xiao02.png) no-repeat;cursor:pointer;}
+.newthree a:nth-child(3){background:url(http://www.199y.com/picture/yqwan/game/ljsg/xiao03.png) no-repeat;cursor:pointer;}
+.newthree a span{float:right; margin-top:100px; color:#ffc34b; padding-right:40px; background:url(http://www.199y.com/picture/yqwan/game/ljsg/xiaoan.png) 70px 3px no-repeat; font-size:15px;}
+.newthree a:nth-child(3) span{background-position:100px 3px;}
+.newthree a{text-decoration:inherit;}
+/* main2 */
+.main .mainbom{width:1100px; height:264px;}
+.mainbom .loop{width:733px; height:264px; float:left;}
+.mainbom .news{width:366px; height:265px; float:left; background-color: #5b473c; overflow:hidden;}
+.mainbom .news .newstop{width:366px; height:32px;}
+.mainbom .news .newstop a{width:56px; height:30px; float:left; line-height:32px; font-size:14px; color:#FFF; text-align:center;}
+.mainbom .news .newstop a:nth-child(1){margin-left:5px;}
+.mainbom .news .newstop a.act{color:#ffc34b;border-bottom:2px solid #ffc34b;}
+
+.mainbom .news .newstitle{width:366px; height:233px; background-color:#5b473c;}
+.mainbom .news .newstitle:nth-child(1) a{padding-top:10px;}
+.mainbom .news .newstitle a{width:310px; height:23px; display:block; line-height:23px; color:#FFFFFF; float:left;}
+.mainbom .news .newstitle a:hover{color:#ffc34b;}
+.mainbom .news .newstitle span{float:right; font-size:14px; color:#CCCCCC; padding-right:3px;}

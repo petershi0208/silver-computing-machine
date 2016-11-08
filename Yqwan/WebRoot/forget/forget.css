@@ -1,0 +1,277 @@
+.center{
+	width:600px;
+	height:750px;
+	margin:0 auto;	
+}
+.center_logo{
+	margin:0 auto;
+	margin-top:50px;
+	width:506px;
+	height:43px;
+	background:url(../regist/wanhcnegyi.png) no-repeat;	
+}
+.center_logo ul{
+	list-style:none;
+		
+}
+.center_logo ul li{
+	float:left;
+	color:#000;
+	font-size:14px;	
+	position:relative;
+	top:60px;
+	font-family:微软雅黑;
+}
+.center_logo ul li:nth-child(1){
+	margin-left:-5px;
+}
+.center_logo ul li:nth-child(2){
+	margin-left:165px;
+}
+.center_logo ul li:nth-child(3){
+	margin-left:190px;
+}
+
+
+.center_user{
+	margin:0 auto;
+	width:530px;
+	height:35px;
+	margin-top:90px;
+	margin-left:90px;
+	font-family:微软雅黑;
+}
+.center_user span{
+	position:relative;
+	top:3px;
+	color:#000;
+	font-size:16px;	
+}
+.center_user input{
+	 margin-left:10px;
+	 width:290px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+	 font-family:微软雅黑;
+}
+.center_user span:nth-child(3) {
+	font-size:13px;
+	color:red;
+	font-family:微软雅黑;	
+}
+.center_user span:nth-child(4) {
+	font-size:13px;
+	color:red;
+	font-family:微软雅黑;	
+}
+
+.center_user2{
+	margin-top:30px;
+	margin-left:87px;
+}
+.center_user2 input{
+	 margin-left:10px;
+	 width:180px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+.center_user2 img{
+	border:2px solid #ccc;
+	height:33px;
+	width:100px;
+	margin-left:8px;	
+}
+.center_bottom{
+	width:300px;
+	height:150px;	
+	margin:0 auto;
+}
+.center_bottom input{
+	width:293px;
+	height:38px;
+	background-color:#1182e5;
+	color:#fff;
+	border:none;
+	font-size:14px;	
+	margin-top:32px;
+	font-family:微软雅黑;
+}
+
+/*忘记密码第二步*/
+.two_center_logo{
+	margin:0 auto;
+	margin-top:50px;
+	width:506px;
+	height:43px;
+	background:url(../regist/wancheng2.png) no-repeat;	
+}
+.two_center_logo ul{
+	list-style:none;
+		
+}
+.two_center_logo ul li{
+	float:left;
+	color:#000;
+	font-size:14px;	
+	position:relative;
+	top:60px;
+	font-family:微软雅黑;
+}
+.two_center_logo ul li:nth-child(1){
+	margin-left:-5px;
+}
+.two_center_logo ul li:nth-child(2){
+	margin-left:175px;
+}
+.two_center_logo ul li:nth-child(3){
+	margin-left:190px;
+}
+
+.two_center_user{
+	margin:0 auto;
+	width:530px;
+	height:35px;
+	margin-top:30px;
+	margin-left:90px;
+}
+.two_center_user span{
+	position:relative;
+	top:3px;
+	color:#000;
+	font-size:16px;	
+}
+.two_center_user input:nth-child(2){
+	 margin-left:10px;
+	 width:180px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+}
+.two_center_user input:nth-child(3){
+	width:100px;	
+	height:33px;
+	font-size:12px;
+	margin-left:5px;
+}
+.two_center_user span:nth-child(4){
+	font-size:13px;
+	color:red;	
+}
+
+.imgcode{
+	margin-top:90px;
+	margin-left:59px;
+}
+.two_center_bottom{
+	width:300px;
+	height:150px;	
+	margin:0 auto;
+	margin-top:10px;
+}
+.two_center_bottom input{
+	width:293px;
+	height:38px;
+	background-color:#09f;
+	color:#fff;
+	border:none;
+	font-size:14px;	
+	margin-top:32px;
+	font-family:微软雅黑;
+}
+
+.center_user_two{
+	margin:0 auto;
+	width:530px;
+	height:35px;
+	margin-top:30px;
+	margin-left:58px;
+	font-family:微软雅黑;
+}
+.center_user_two span{
+	position:relative;
+	top:3px;
+	color:#000;
+	font-size:16px;	
+}
+.center_user_two input{
+	 margin-left:10px;
+	 width:290px;
+	 height:33px;
+	 font-size:14px;	
+	 padding-left:10px;
+	 font-family:微软雅黑;
+}
+.center_user_two span:nth-child(3) {
+	font-size:13px;
+	color:red;
+	font-family:微软雅黑;	
+}
+/*重置密码第三步*/
+.three_center_logo{
+	margin:0 auto;
+	margin-top:50px;
+	width:506px;
+	height:43px;
+	background:url(../regist/wanchengsan.png) no-repeat;	
+}
+.three_center_logo ul{
+	list-style:none;
+		
+}
+.three_center_logo ul li{
+	float:left;
+	color:#000;
+	font-size:14px;	
+	position:relative;
+	top:60px;
+	font-family:微软雅黑;
+}
+.three_center_logo ul li:nth-child(1){
+	margin-left:-5px;
+}
+.three_center_logo ul li:nth-child(2){
+	margin-left:175px;
+}
+.three_center_logo ul li:nth-child(3){
+	margin-left:190px;
+}
+.three_center_text{
+	margin:0 auto;
+	width:500px;
+	height:200px;
+	margin-top:92px;
+	margin-left:90px;
+}
+.three_center_text img{
+	margin-left:130px;
+}
+.three_center_text>span{
+	display:block;
+	font-size:14px;
+	color:#666;
+	margin-left:180px;
+}
+.three_center_text span:nth-child(2){
+	margin-top:-30px;	
+}
+
+.three_center_text>span:nth-child(3){
+	margin-top:50px;	
+	margin-left:260px;
+}
+.three_center_text>span:nth-child(3) span:nth-child(1){
+	color:#e88739;	
+}
+a:hover{
+	text-decoration:none;	
+}
+.forgetbanner{
+	height:296px;
+	background:url(/Yqwan/images/fenleiyebannerbackground.jpg) center no-repeat;	
+	margin:0 auto;
+	position:relative;
+	margin-top:-85px;
+	z-index:-1;
+}
