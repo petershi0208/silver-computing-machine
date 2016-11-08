@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="YHdata"
+  id="myeclipse.1320809967140"
+  context-root="/YHdata"
+  j2ee-spec="5.0"
+  archive="YHdata.war">
+  <attributes>
+    <attribute name="webrootdir" value="/src/main/webapp" />
+  </attributes>
+</project-module>
+
